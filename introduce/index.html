@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Zaco Labs</title>
+<meta name="description" content="Zaco Labs — a software studio crafting small but solid products." />
+<meta name="theme-color" content="#0a0a0a" />
+<link rel="alternate" hreflang="ko" href="kr/" />
+<link rel="alternate" hreflang="en" href="en/" />
+<link rel="alternate" hreflang="ja" href="jp/" />
+<link rel="alternate" hreflang="x-default" href="en/" />
+<script>
+    (function () {
+        var lang = (navigator.language || navigator.userLanguage || "en").toLowerCase();
+        var dest = "en/";
+        if (lang.indexOf("ko") === 0) dest = "kr/";
+        else if (lang.indexOf("ja") === 0) dest = "jp/";
+        location.replace(dest);
+    })();
+</script>
+<meta http-equiv="refresh" content="0; url=en/" />
+<style>
+    html, body { margin: 0; height: 100%; background: #0a0a0a; color: #8a8a92;
+        font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif; }
+    .box { min-height: 100%; display: flex; flex-direction: column; align-items: center;
+        justify-content: center; gap: 14px; text-align: center; padding: 24px; }
+    .box a { color: #f4f4f5; text-decoration: none; margin: 0 6px; }
+    .box a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+    <div class="box">
+        <p>Redirecting to your language…</p>
+        <p>
+            <a href="kr/">한국어</a> ·
+            <a href="en/">English</a> ·
+            <a href="jp/">日本語</a>
+        </p>
+    </div>
+</body>
+</html>

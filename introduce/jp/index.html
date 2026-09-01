@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="google-site-verification" content="j4UymJXi-PpVcq8t-553W-iBpZxQchNTUFjvLdqMrXU" />
+<title>Zaco Labs</title>
+<meta name="description" content="Zaco Labs — 小さくても確かなプロダクトをつくるソフトウェアスタジオ。" />
+<meta name="theme-color" content="#0a0a0a" />
+<meta property="og:title" content="Zaco Labs" />
+<meta property="og:description" content="小さくても確かなプロダクトをつくるソフトウェアスタジオ。" />
+<meta property="og:type" content="website" />
+<link rel="alternate" hreflang="ko" href="../kr/" />
+<link rel="alternate" hreflang="en" href="../en/" />
+<link rel="alternate" hreflang="ja" href="../jp/" />
+<style>
+    :root {
+        --bg: #0a0a0a;
+        --bg-soft: #111113;
+        --line: #232326;
+        --fg: #f4f4f5;
+        --muted: #8a8a92;
+        --muted-2: #6a6a72;
+        --card: #131316;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", "Meiryo", sans-serif;
+        background: var(--bg);
+        color: var(--fg);
+        line-height: 1.65;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        overflow-x: hidden;
+    }
+    a { color: inherit; text-decoration: none; }
+
+    /* soft top glow */
+    .glow {
+        position: fixed;
+        top: -40vh; left: 50%;
+        width: 120vh; height: 120vh;
+        transform: translateX(-50%);
+        background: radial-gradient(circle at center, rgba(255,255,255,0.06), rgba(255,255,255,0) 60%);
+        pointer-events: none;
+        z-index: 0;
+    }
+
+    main {
+        position: relative;
+        z-index: 1;
+        flex: 1;
+        width: 100%;
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 88px 24px 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .mark {
+        width: 128px; height: 128px;
+        animation: rise 0.9s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+    }
+    .mark img {
+        width: 100%; height: 100%;
+        display: block;
+    }
+
+    .wordmark {
+        margin-top: 28px;
+        font-size: clamp(34px, 8vw, 48px);
+        font-weight: 700;
+        letter-spacing: -0.02em;
+        animation: rise 0.9s cubic-bezier(0.2, 0.7, 0.2, 1) 0.08s both;
+    }
+    .tagline {
+        margin-top: 14px;
+        font-size: clamp(12px, 3.7vw, 18px);
+        color: var(--muted);
+        white-space: nowrap;
+        animation: rise 0.9s cubic-bezier(0.2, 0.7, 0.2, 1) 0.16s both;
+    }
+
+    .divider {
+        width: 40px; height: 1px;
+        background: var(--line);
+        margin: 40px 0;
+        animation: rise 0.9s cubic-bezier(0.2, 0.7, 0.2, 1) 0.24s both;
+    }
+
+    .about {
+        font-size: 15.5px;
+        color: var(--muted);
+        animation: rise 0.9s cubic-bezier(0.2, 0.7, 0.2, 1) 0.24s both;
+    }
+
+    .products {
+        margin-top: 44px;
+        width: 100%;
+        max-width: 420px;
+        animation: rise 0.9s cubic-bezier(0.2, 0.7, 0.2, 1) 0.32s both;
+    }
+    .products h2 {
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: var(--muted-2);
+        margin-bottom: 14px;
+    }
+    .app-head {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        margin-bottom: 20px;
+    }
+    .app-head .ico {
+        flex: 0 0 auto;
+        width: 44px; height: 44px;
+        border-radius: 12px;
+        overflow: hidden;
+        background: #1c1c20;
+    }
+    .app-head .ico img { width: 100%; height: 100%; display: block; object-fit: cover; }
+    .app-head .app-meta { text-align: left; }
+    .app-head .nm { display: block; font-size: 16px; font-weight: 600; color: var(--fg); }
+    .app-head .ds { display: block; font-size: 13px; color: var(--muted-2); }
+
+    .stores {
+        display: flex;
+        gap: 12px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 11px;
+        min-width: 176px;
+        padding: 11px 18px;
+        background: #000;
+        border: 1px solid #3a3a3c;
+        border-radius: 13px;
+        color: #fff;
+        transition: border-color 0.2s ease, transform 0.2s ease;
+    }
+    a.badge:hover { border-color: #6a6a6e; transform: translateY(-2px); }
+    .badge-ico { width: 23px; height: 23px; flex: 0 0 auto; }
+    .badge-txt { display: flex; flex-direction: column; line-height: 1.12; text-align: left; }
+    .badge-txt small { font-size: 10px; letter-spacing: 0.04em; text-transform: uppercase; color: #c7c7cc; }
+    .badge-txt strong { font-size: 17px; font-weight: 600; letter-spacing: 0.01em; }
+    .badge.disabled { opacity: 0.42; cursor: default; }
+
+    footer {
+        position: relative;
+        z-index: 1;
+        border-top: 1px solid var(--line);
+        padding: 28px 24px 40px;
+        text-align: center;
+        color: var(--muted-2);
+        font-size: 13px;
+    }
+    footer a { color: var(--muted); }
+    footer a:hover { color: var(--fg); }
+    footer .row { margin-top: 6px; }
+    footer .lang { margin-top: 14px; font-size: 12.5px; }
+    footer .lang a { color: var(--muted-2); margin: 0 3px; }
+    footer .lang a.on { color: var(--fg); }
+    footer .lang a:hover { color: var(--fg); }
+
+    @keyframes rise {
+        from { opacity: 0; transform: translateY(14px); }
+        to   { opacity: 1; transform: translateY(0); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+        * { animation: none !important; }
+    }
+
+    /* ── mobile ────────────────────────────────── */
+    @media (max-width: 600px) {
+        main { padding: 64px 20px 32px; }
+        .mark { width: 104px; height: 104px; }
+        .wordmark { margin-top: 22px; }
+        .divider { margin: 32px 0; }
+        .about { font-size: 14.5px; }
+        .products { margin-top: 36px; }
+        .stores { flex-direction: column; align-items: center; }
+        .badge { width: 100%; max-width: 260px; justify-content: center; }
+    }
+    @media (max-width: 360px) {
+        .mark { width: 92px; height: 92px; }
+        .wordmark { font-size: 30px; }
+    }
+</style>
+</head>
+<body>
+<div class="glow"></div>
+
+<main>
+    <div class="mark">
+        <!-- Zaco Labs CI (waky-android resources/ci_512.png) -->
+        <img src="../zacolabs-assets/logo.png?v=20260723" alt="Zaco Labs ロゴ" width="128" height="128" />
+    </div>
+
+    <h1 class="wordmark">Zaco Labs</h1>
+    <p class="tagline">小さくても確かなプロダクトをつくるソフトウェアスタジオ</p>
+
+    <div class="divider"></div>
+
+    <p class="about">
+        Zaco Labs は、日常の小さな不便を減らすモバイルアプリをつくります。<br />
+        複雑さを取り除き、毎日使いたくなる道具を目指します。
+    </p>
+
+    <section class="products">
+        <h2>Products</h2>
+        <div class="app-head">
+            <span class="ico"><img src="../zacolabs-assets/waky.png" alt="Waky アプリアイコン" width="44" height="44" /></span>
+            <span class="app-meta">
+                <span class="nm">Waky</span>
+                <span class="ds">しっかり起こしてくれる AI アラーム</span>
+            </span>
+        </div>
+        <div class="stores">
+            <a class="badge" href="https://play.google.com/store/apps/details?id=com.waky.android" target="_blank" rel="noopener">
+                <svg class="badge-ico" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M22.018 13.298l-3.919 2.218-3.515-3.493 3.543-3.521 3.891 2.202a1.49 1.49 0 0 1 0 2.594zM1.337.924a1.486 1.486 0 0 0-.112.568v21.017c0 .217.045.419.124.6l11.155-11.087L1.337.924zm12.208 10.065l3.258-3.238L3.45.195a1.466 1.466 0 0 0-.946-.179l11.041 10.973zm0 2.067l-11 10.933c.298.036.612-.016.906-.183l13.324-7.54-3.23-3.21z"/></svg>
+                <span class="badge-txt"><small>GET IT ON</small><strong>Google Play</strong></span>
+            </a>
+            <a class="badge" href="https://apps.apple.com/app/id6797402938" target="_blank" rel="noopener">
+                <svg class="badge-ico" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701"/></svg>
+                <span class="badge-txt"><small>Download on the</small><strong>App Store</strong></span>
+            </a>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="row"><a href="mailto:zaco.labs@gmail.com">zaco.labs@gmail.com</a></div>
+    <div class="row">© <span id="year">2026</span> Zaco Labs. All rights reserved.</div>
+    <div class="row lang">
+        <a href="../kr/">한국어</a> ·
+        <a href="../en/">English</a> ·
+        <a href="../jp/" class="on">日本語</a>
+    </div>
+</footer>
+
+<script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

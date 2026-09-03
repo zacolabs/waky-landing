@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zacolabs.github.io/waky-landing/sitemap.xml

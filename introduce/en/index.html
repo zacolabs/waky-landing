@@ -67,21 +67,21 @@
       "position": 1,
       "name": "Set the alarm time",
       "text": "Choose when to get up, exactly like the alarm you already use.",
-      "image": "https://zacolabs.github.io/waky-landing/introduce/zacolabs-assets/illustration/step-1.svg"
+      "image": "https://zacolabs.github.io/waky-landing/introduce/zacolabs-assets/illustration/step-1.webp"
     },
     {
       "@type": "HowToStep",
       "position": 2,
       "name": "Choose a voice and a line",
       "text": "Pick a voice from the AI alarm list, or type your own line to create a new one.",
-      "image": "https://zacolabs.github.io/waky-landing/introduce/zacolabs-assets/illustration/step-2.svg"
+      "image": "https://zacolabs.github.io/waky-landing/introduce/zacolabs-assets/illustration/step-2.webp"
     },
     {
       "@type": "HowToStep",
       "position": 3,
       "name": "Wake up to that voice",
       "text": "In the morning, instead of a ringtone, your chosen voice reads your chosen words.",
-      "image": "https://zacolabs.github.io/waky-landing/introduce/zacolabs-assets/illustration/step-3.svg"
+      "image": "https://zacolabs.github.io/waky-landing/introduce/zacolabs-assets/illustration/step-3.webp"
     }
   ]
 }
@@ -281,8 +281,10 @@
     .steps { list-style:none; counter-reset:step; display:grid;
         grid-template-columns:repeat(3,1fr); gap:26px; margin-top:44px; }
     .steps li { background:var(--surface); border:1px solid var(--line);
-        border-radius:var(--radius); padding:26px 24px 28px; text-align:center; }
-    .steps img { width:132px; height:132px; margin:0 auto 14px; }
+        border-radius:var(--radius); text-align:center; overflow:hidden; }
+    .steps img { width:100%; height:auto; aspect-ratio:1/1; object-fit:cover;
+        display:block; border-bottom:1px solid var(--line); }
+    .step-body { padding:20px 22px 26px; }
     .steps h3 { font-size:16.5px; font-weight:700; letter-spacing:-.015em; }
     .steps h3::before { counter-increment:step; content:counter(step);
         display:block; width:26px; height:26px; margin:0 auto 10px; border-radius:999px;
@@ -324,14 +326,24 @@
         .hero { grid-template-columns:1fr; gap:34px; padding:52px 0 56px; }
         .hero-art img { margin:0 auto; max-width:460px; }
         .feature-wrap { grid-template-columns:1fr; gap:40px; }
+        /* 1단으로 접히면 장식 패널이 화면 밖으로 나가므로 좌우 여백을 없앤다 */
+        .shot::before { left:0; right:0; }
         .shot img { max-width:262px; }
-        .steps { grid-template-columns:1fr; gap:16px; }
-        .steps img { width:112px; height:112px; }
+        /* 1단에서는 그림이 과하게 커지므로 가로 배치로 바꾼다 */
+        .steps { grid-template-columns:1fr; gap:14px; }
+        .steps li { display:flex; align-items:center; text-align:left; }
+        .steps img { width:132px; flex:none; border-bottom:none;
+            border-right:1px solid var(--line); }
+        .steps h3 { display:flex; align-items:center; gap:10px; }
+        .steps h3::before { margin:0; }
+        .step-body { padding:18px 20px; }
     }
     @media (max-width:560px) {
         .wrap { padding:0 18px; }
         section { padding:54px 0; }
         .stores { gap:10px; }
+        .steps img { width:108px; }
+        .step-body { padding:14px 16px; }
         .badge { flex:1 1 100%; justify-content:center; }
         .lede { font-size:16.5px; }
     }
@@ -409,19 +421,25 @@
             <p class="section-lede">From first launch to a working alarm takes about a minute.</p>
             <ol class="steps">
                 <li>
-                    <img src="../zacolabs-assets/illustration/step-1.svg" alt="Illustration of an alarm clock" width="132" height="132" loading="lazy" />
-                    <h3>Set the alarm time</h3>
-                    <p>Choose when to get up, exactly like the alarm you already use.</p>
+                    <img src="../zacolabs-assets/illustration/step-1.webp" alt="Illustration of a person lying in bed at night setting an alarm on their phone" width="800" height="800" loading="lazy" />
+                    <div class="step-body">
+                        <h3>Set the alarm time</h3>
+                        <p>Choose when to get up, exactly like the alarm you already use.</p>
+                    </div>
                 </li>
                 <li>
-                    <img src="../zacolabs-assets/illustration/step-2.svg" alt="Illustration of choosing an alarm sound on a phone" width="132" height="132" loading="lazy" />
-                    <h3>Choose a voice and a line</h3>
-                    <p>Pick a voice from the AI alarm list, or type your own line to create a new one.</p>
+                    <img src="../zacolabs-assets/illustration/step-2.webp" alt="Illustration of a person sitting on the bed previewing alarm voices on their phone" width="800" height="800" loading="lazy" />
+                    <div class="step-body">
+                        <h3>Choose a voice and a line</h3>
+                        <p>Pick a voice from the AI alarm list, or type your own line to create a new one.</p>
+                    </div>
                 </li>
                 <li>
-                    <img src="../zacolabs-assets/illustration/step-3.svg" alt="Illustration of a person stretching awake" width="132" height="132" loading="lazy" />
-                    <h3>Wake up to that voice</h3>
-                    <p>In the morning, instead of a ringtone, your chosen voice reads your chosen words.</p>
+                    <img src="../zacolabs-assets/illustration/step-3.webp" alt="Illustration of a person stretching awake in the morning sunlight" width="800" height="800" loading="lazy" />
+                    <div class="step-body">
+                        <h3>Wake up to that voice</h3>
+                        <p>In the morning, instead of a ringtone, your chosen voice reads your chosen words.</p>
+                    </div>
                 </li>
             </ol>
         </section>

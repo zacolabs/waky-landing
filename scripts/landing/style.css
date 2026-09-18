@@ -1,0 +1,150 @@
+
+    :root {
+        --bg:#FAF5EC; --surface:#FFFDF8; --surface-2:#F4EBDA;
+        --ink:#2B2B2E; --muted:#6F6455; --muted-2:#8A7B63; --line:#E7DCC8;
+        --amber:#F5A623; --amber-deep:#B87A0C; --coral:#EE7A5F; --blue:#6E93AE;
+        --radius:18px;
+    }
+    * { box-sizing:border-box; margin:0; padding:0; }
+    html { -webkit-text-size-adjust:100%; scroll-behavior:smooth; }
+    body {
+        font-family:{{FONT}};
+        background:var(--bg); color:var(--ink); line-height:1.7;
+        -webkit-font-smoothing:antialiased; overflow-x:hidden;
+    }
+    a { color:inherit; text-decoration:none; }
+    img { max-width:100%; height:auto; display:block; }
+    .wrap { width:100%; max-width:1060px; margin:0 auto; padding:0 24px; }
+
+    /* 헤더 */
+    header.site { border-bottom:1px solid var(--line); background:rgba(250,245,236,.9);
+        backdrop-filter:saturate(180%) blur(8px); position:sticky; top:0; z-index:20; }
+    header.site .wrap { display:flex; align-items:center; justify-content:space-between; height:64px; }
+    .brand { display:flex; align-items:center; gap:10px; font-weight:700; font-size:17px; letter-spacing:-.01em; }
+    .brand img { width:30px; height:30px; border-radius:8px; }
+    .langs { display:flex; gap:4px; font-size:13px; }
+    .langs a { padding:5px 10px; border-radius:999px; color:var(--muted-2); }
+    .langs a:hover { background:var(--surface-2); color:var(--ink); }
+    .langs a.on { background:var(--ink); color:var(--bg); }
+
+    /* 히어로 */
+    .hero { display:grid; grid-template-columns:1fr 1.02fr; gap:48px; align-items:center;
+        padding:76px 0 72px; }
+    .eyebrow { font-size:13px; font-weight:600; letter-spacing:.08em; text-transform:uppercase;
+        color:var(--amber-deep); margin-bottom:14px; }
+    h1 { font-size:clamp(34px,5.2vw,54px); line-height:1.22; letter-spacing:-.03em; font-weight:800; }
+    .lede { margin-top:20px; font-size:17.5px; color:var(--muted); max-width:34em; }
+    .note { margin-top:16px; font-size:13.5px; color:var(--muted-2); }
+    .hero-art img { width:100%; max-width:520px; margin-left:auto; border-radius:12px; }
+
+    /* 스토어 배지 */
+    .stores { display:flex; flex-wrap:wrap; gap:12px; margin-top:30px; }
+    .badge { display:inline-flex; align-items:center; gap:11px; padding:11px 20px;
+        border-radius:14px; background:var(--ink); color:#FFFDF8;
+        transition:transform .15s ease, box-shadow .15s ease; }
+    .badge:hover { transform:translateY(-2px); box-shadow:0 8px 22px rgba(43,43,46,.22); }
+    .badge-ico { width:22px; height:22px; flex:none; }
+    .badge-txt { display:flex; flex-direction:column; line-height:1.15; text-align:left; }
+    .badge-txt small { font-size:10px; opacity:.72; letter-spacing:.04em; }
+    .badge-txt strong { font-size:15.5px; font-weight:600; letter-spacing:-.01em; }
+
+    /* 섹션 공통 */
+    section { padding:72px 0; }
+    section + section { border-top:1px solid var(--line); }
+    h2 { font-size:clamp(25px,3.4vw,34px); line-height:1.3; letter-spacing:-.025em; font-weight:800; }
+    .section-lede { margin-top:14px; font-size:16.5px; color:var(--muted); max-width:36em; }
+
+    /* 기능 */
+    .feature-wrap { display:grid; grid-template-columns:1.15fr .85fr; gap:52px;
+        align-items:start; margin-top:44px; }
+    .feature-list { list-style:none; display:grid; gap:14px; }
+    .feature-list li { background:var(--surface); border:1px solid var(--line);
+        border-radius:var(--radius); padding:22px 24px; }
+    .feature-list h3 { font-size:17px; font-weight:700; letter-spacing:-.015em;
+        display:flex; align-items:center; gap:10px; }
+    .feature-list h3::before { content:""; width:9px; height:9px; border-radius:3px;
+        background:var(--coral); flex:none; }
+    .feature-list li:nth-child(2) h3::before { background:var(--amber); }
+    .feature-list li:nth-child(3) h3::before { background:var(--blue); }
+    .feature-list li:nth-child(4) h3::before { background:var(--ink); }
+    .feature-list p { margin-top:8px; font-size:15px; color:var(--muted); }
+    .shot { position:relative; }
+    .shot::before { content:""; position:absolute; inset:-6% -10% 12% -10%;
+        background:var(--surface-2); border-radius:32px; z-index:0; }
+    .shot img { position:relative; z-index:1; width:100%; max-width:300px; margin:0 auto;
+        filter:drop-shadow(0 18px 34px rgba(43,43,46,.2)); }
+    .shot figcaption { position:relative; z-index:1; margin-top:18px; text-align:center;
+        font-size:13px; color:var(--muted-2); }
+
+    /* 사용법 */
+    .steps { list-style:none; counter-reset:step; display:grid;
+        grid-template-columns:repeat(3,1fr); gap:26px; margin-top:44px; }
+    .steps li { background:var(--surface); border:1px solid var(--line);
+        border-radius:var(--radius); text-align:center; overflow:hidden; }
+    .steps img { width:100%; height:auto; aspect-ratio:1/1; object-fit:cover;
+        display:block; border-bottom:1px solid var(--line); }
+    .step-body { padding:20px 22px 26px; }
+    .steps h3 { font-size:16.5px; font-weight:700; letter-spacing:-.015em; }
+    /* 숫자 정렬을 상속 text-align 과 line-height 에 맡기지 않는다 */
+    .steps h3::before { counter-increment:step; content:counter(step);
+        display:flex; align-items:center; justify-content:center; flex:none;
+        width:26px; height:26px; margin:0 auto 10px; border-radius:999px;
+        background:var(--amber); color:#3A2A05; font-size:13px; font-weight:800;
+        line-height:1; }
+    .steps p { margin-top:8px; font-size:14.5px; color:var(--muted); }
+
+    /* FAQ */
+    .faq-list { margin-top:34px; border-top:1px solid var(--line); }
+    .faq-list details { border-bottom:1px solid var(--line); }
+    .faq-list summary { cursor:pointer; list-style:none; padding:20px 44px 20px 0;
+        position:relative; font-size:16.5px; font-weight:600; letter-spacing:-.015em; }
+    .faq-list summary::-webkit-details-marker { display:none; }
+    .faq-list summary::after { content:""; position:absolute; right:8px; top:50%;
+        width:10px; height:10px; margin-top:-6px; border-right:2px solid var(--muted-2);
+        border-bottom:2px solid var(--muted-2); transform:rotate(45deg);
+        transition:transform .2s ease; }
+    .faq-list details[open] summary::after { transform:rotate(-135deg); margin-top:-2px; }
+    .faq-list summary:hover { color:var(--amber-deep); }
+    .faq-list .answer { padding:0 44px 22px 0; font-size:15.5px; color:var(--muted); }
+
+    /* 하단 CTA */
+    .cta { text-align:center; background:var(--surface-2); border-top:1px solid var(--line); }
+    .cta p { margin-top:14px; font-size:16.5px; color:var(--muted); }
+    .cta .stores { justify-content:center; }
+
+    /* 푸터 */
+    footer.site { padding:44px 0 56px; text-align:center; font-size:13.5px; color:var(--muted-2);
+        border-top:1px solid var(--line); }
+    footer.site a { color:var(--muted); text-decoration:underline; text-underline-offset:3px; }
+    footer.site a:hover { color:var(--ink); }
+    footer.site .row + .row { margin-top:8px; }
+    footer.site .langs { justify-content:center; margin-top:18px; }
+
+    @media (prefers-reduced-motion:reduce) { * { transition:none !important; }
+        html { scroll-behavior:auto; } }
+
+    @media (max-width:900px) {
+        .hero { grid-template-columns:1fr; gap:34px; padding:52px 0 56px; }
+        .hero-art img { margin:0 auto; max-width:460px; }
+        .feature-wrap { grid-template-columns:1fr; gap:40px; }
+        /* 1단으로 접히면 장식 패널이 화면 밖으로 나가므로 좌우 여백을 없앤다 */
+        .shot::before { left:0; right:0; }
+        .shot img { max-width:262px; }
+        /* 1단에서는 그림이 과하게 커지므로 가로 배치로 바꾼다 */
+        .steps { grid-template-columns:1fr; gap:14px; }
+        .steps li { display:flex; align-items:center; text-align:left; }
+        .steps img { width:132px; flex:none; border-bottom:none;
+            border-right:1px solid var(--line); }
+        .steps h3 { display:flex; align-items:center; gap:10px; }
+        .steps h3::before { margin:0; }
+        .step-body { padding:18px 20px; }
+    }
+    @media (max-width:560px) {
+        .wrap { padding:0 18px; }
+        section { padding:54px 0; }
+        .stores { gap:10px; }
+        .steps img { width:108px; }
+        .step-body { padding:14px 16px; }
+        .badge { flex:1 1 100%; justify-content:center; }
+        .lede { font-size:16.5px; }
+    }

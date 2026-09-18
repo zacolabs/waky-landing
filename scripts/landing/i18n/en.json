@@ -1,0 +1,117 @@
+{
+  "code": "en",
+  "label": "English",
+  "hreflang": "en",
+  "html_lang": "en",
+  "dir": "ltr",
+  "about": "en",
+  "og_locale": "en_US",
+  "font": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+  "og_image": "en",
+  "hero_image": "wake-en.webp",
+  "shot_image": "app-en.webp",
+  "currency": "USD",
+  "title": "Waky — Your Own AI Alarm Voice | Alarm App That Wakes You",
+  "description": "Numb to the same ringtone every morning? Waky wakes you with AI voices — voice actors, narration, animation and more — reading any line you type. Free on iOS and Android.",
+  "og_title": "Waky — Your Own AI Alarm Voice",
+  "og_description": "An alarm app where AI voices wake you with the words you choose.",
+  "app_description": "An alarm app where AI voices wake you with the words you choose.",
+  "eyebrow": "Zaco Labs",
+  "h1": "Your own AI alarm voice",
+  "lede": "Your body learns to sleep through the same ringtone. Waky is an alarm app where a range of AI voices — voice actors, narration, animation — read out the line you wrote.",
+  "note": "iOS · Android · Free to download",
+  "hero_alt": "Illustration of a person startled awake by a beeping alarm clock, sitting up in bed",
+  "features_title": "What makes Waky different",
+  "features_lede": "Instead of making the alarm louder, we made it harder to ignore.",
+  "features": [
+    {
+      "title": "Pick the voice you want",
+      "text": "Female, male, voice actor, narration, animation, dramatic. Browse by category, listen, and star the ones you like."
+    },
+    {
+      "title": "Write your own line",
+      "text": "Type something like “Big presentation today — get up,” and an AI voice reads it back. An alarm written for your morning."
+    },
+    {
+      "title": "Listen before you set it",
+      "text": "Hit play in the list and hear it first. No unpleasant surprises the next morning."
+    },
+    {
+      "title": "Harder to tune out",
+      "text": "A fixed ringtone gets filtered out by your brain within days. A different voice saying a different line does not."
+    }
+  ],
+  "shot_alt": "The AI alarm sound list screen in the Waky app",
+  "shot_caption": "The AI alarm sound list — browse by category, star your favorites.",
+  "howto_title": "Three steps to set it up",
+  "howto_lede": "From first launch to a working alarm takes about a minute.",
+  "steps": [
+    {
+      "title": "Set the alarm time",
+      "text": "Choose when to get up, exactly like the alarm you already use.",
+      "alt": "Illustration of a person lying in bed at night setting an alarm on their phone"
+    },
+    {
+      "title": "Choose a voice and a line",
+      "text": "Pick a voice from the AI alarm list, or type your own line to create a new one.",
+      "alt": "Illustration of a person sitting on the bed previewing alarm voices on their phone"
+    },
+    {
+      "title": "Wake up to that voice",
+      "text": "In the morning, instead of a ringtone, your chosen voice reads your chosen words.",
+      "alt": "Illustration of a person stretching awake in the morning sunlight"
+    }
+  ],
+  "faq_title": "Frequently asked questions",
+  "faq_lede": "Anything else, just send us an email.",
+  "faqs": [
+    {
+      "q": "What can I do if I've gotten used to my alarm and sleep through it?",
+      "a": "When you hear the same sound every morning, your brain learns to treat it as background rather than something worth waking for. Turning the volume up on a sound you have already tuned out rarely helps; changing the sound itself does. A human voice saying actual words is harder to let slide than a plain beep, because you have to process what is being said. Waky lets you pick from a range of AI voices and swap between them whenever one starts to lose its effect."
+    },
+    {
+      "q": "Why do I sleep through several alarms in a row?",
+      "a": "Once dismissing an alarm becomes routine, you do it almost without waking — often with no memory of it afterwards. Stacking more alarms also breaks your last stretch of sleep into short fragments, which tends to leave you feeling worse when you finally get up. One alarm you actually register usually works better than five you can dismiss on autopilot."
+    },
+    {
+      "q": "Is there an alarm app that wakes you with an AI voice?",
+      "a": "Yes — Waky does exactly that. Instead of a mechanical ringtone, AI voices across categories like voice actor, narration, animation and dramatic read out your alarm. You can browse by category, preview each one before setting it, and star the voices you want to keep. It is free on both iOS and Android."
+    },
+    {
+      "q": "How is an AI alarm different from a normal one?",
+      "a": "A normal alarm replays a fixed tone. There is nothing to understand in it, so within days it becomes background noise you can sleep through. An AI alarm speaks a sentence, so your brain has to process language, and changing the voice or the wording means a different sound each morning. It works by changing the kind of sound rather than making it louder."
+    },
+    {
+      "q": "Can I make an alarm that says something I wrote?",
+      "a": "In Waky you can type any line and an AI voice will read it back as your alarm sound. Put in whatever fits the day — “big presentation this morning,” or something you want to hear from yourself — and that is what plays when the alarm goes off. You can preview it before you save it."
+    },
+    {
+      "q": "Besides the alarm, what else helps with waking up?",
+      "a": "Going to bed at a consistent time and getting bright light soon after you wake are the usual recommendations. Those habits take a while to settle in, though, so it is practical to pair them with an alarm you reliably notice in the meantime. An alarm will not replace a sleep routine, but it can hold the line while one is forming."
+    },
+    {
+      "q": "What kinds of AI voices are there?",
+      "a": "They are grouped into categories such as female, male, voice actor, narration, animation, dramatic and social media. Tap a category at the top of the list to narrow it to the tone you want."
+    },
+    {
+      "q": "Can I create my own alarm sound?",
+      "a": "Yes. Tap the text-entry option, write the line you want, and an AI voice will read it back as an alarm sound."
+    },
+    {
+      "q": "Can I preview an alarm sound?",
+      "a": "Tap the play button in the list to hear it right away, before you set it as your alarm."
+    },
+    {
+      "q": "Can I save the ones I like?",
+      "a": "Tap the star to add a sound to your favorites, then use the favorites tab to see only the voices you have saved."
+    },
+    {
+      "q": "How do I get in touch?",
+      "a": "Email zaco.labs@gmail.com. It goes straight to Zaco Labs, the team behind Waky."
+    }
+  ],
+  "cta_title": "Wake up to a different voice tomorrow",
+  "cta_text": "Waky is free on iOS and Android.",
+  "about_link": "About Zaco Labs",
+  "rights": "All rights reserved."
+}

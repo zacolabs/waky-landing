@@ -26,12 +26,22 @@ Zaco Labs 소개 페이지도 같은 저장소에서 서비스한다.
 
 ## 페이지를 고칠 때
 
-3개 언어 페이지는 **하나의 템플릿에서 생성**해 구조가 동일하다.
-문구만 고칠 때는 각 `index.html` 을 직접 수정해도 되지만,
-구조를 바꿀 때는 세 파일에 같은 변경을 반영해야 한다.
+`introduce/<언어>/index.html` 은 **생성 결과물이다. 직접 고치지 않는다.**
 
-FAQ·사용법을 늘리면 페이지 안의 `FAQPage`·`HowTo` JSON-LD 도 같이 늘려야
-검색·생성형 엔진에 그대로 반영된다.
+```
+scripts/landing/i18n/<언어>.json   문구 (제목·본문·기능·사용법·FAQ·alt·메타)
+scripts/landing/style.css          공통 CSS ({{FONT}} 자리에 언어별 폰트)
+scripts/landing/build.py           템플릿 + 빌드
+```
+
+문구를 고치면 JSON 을 수정하고 다시 생성한다.
+
+```
+python3 scripts/landing/build.py
+```
+
+FAQ·사용법 문구는 페이지 본문과 `FAQPage`·`HowTo` JSON-LD 에 함께 들어가므로
+JSON 한 곳만 고치면 둘 다 반영된다.
 
 ## 스토어 링크
 

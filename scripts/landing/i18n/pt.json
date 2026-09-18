@@ -11,14 +11,14 @@
   "hero_image": "wake-en.webp",
   "shot_image": "app-en.webp",
   "currency": "USD",
-  "title": "Waky — Sua própria voz de alarme com IA | O app de alarme que acorda de verdade",
+  "title": "Waky — Seu despertador com voz de IA | O despertador que acorda de verdade",
   "description": "O mesmo toque de sempre não te acorda mais? O Waky te acorda com vozes de IA — dubladores, narração, animação e mais — lendo qualquer frase que você digitar. Grátis para iOS e Android.",
-  "og_title": "Waky — Sua própria voz de alarme com IA",
-  "og_description": "Um app de alarme em que vozes de IA te acordam com as palavras que você escolher.",
-  "app_description": "Um app de alarme em que vozes de IA te acordam com as palavras que você escolher.",
+  "og_title": "Waky — Seu despertador com voz de IA",
+  "og_description": "Um app despertador em que vozes de IA te acordam com as palavras que você escolher.",
+  "app_description": "Um app despertador em que vozes de IA te acordam com as palavras que você escolher.",
   "eyebrow": "Zaco Labs",
-  "h1": "Sua própria voz de alarme com IA",
-  "lede": "Seu corpo aprende a continuar dormindo com o mesmo toque de sempre. O Waky é um app de alarme em que várias vozes de IA — dubladores, narração, animação — leem em voz alta a frase que você escreveu.",
+  "h1": "Seu despertador com voz de IA",
+  "lede": "Seu corpo aprende a continuar dormindo com o mesmo toque de sempre. O Waky é um app despertador em que várias vozes de IA — dubladores, narração, animação — leem em voz alta a frase que você escreveu.",
   "note": "iOS · Android · Download grátis",
   "hero_alt": "Ilustração de uma pessoa acordando assustada com um despertador tocando e sentando na cama",
   "features_title": "O que faz o Waky ser diferente",
@@ -54,7 +54,7 @@
     {
       "title": "Escolha uma voz e uma frase",
       "text": "Pegue uma voz da lista de alarmes com IA ou digite sua própria frase para criar um novo.",
-      "alt": "Ilustração de uma pessoa sentada na cama ouvindo vozes de alarme no celular"
+      "alt": "Ilustração de uma pessoa sentada na cama ouvindo vozes de despertador no celular"
     },
     {
       "title": "Acorde com essa voz",
@@ -74,12 +74,12 @@
       "a": "Quando desligar o alarme vira rotina, você faz isso quase sem acordar — muitas vezes sem nem lembrar depois. Colocar mais alarmes também quebra o finalzinho do seu sono em pedaços curtos, o que costuma fazer você levantar se sentindo pior. Um alarme que você realmente percebe costuma funcionar melhor do que cinco que você desliga no automático."
     },
     {
-      "q": "Existe um app de alarme que acorda com voz de IA?",
+      "q": "Existe um app despertador que acorda com voz de IA?",
       "a": "Sim, o Waky faz exatamente isso. Em vez de um toque mecânico, vozes de IA de categorias como dublador, narração, animação e dramática leem o seu alarme. Você pode navegar por categoria, ouvir cada uma antes de configurar e marcar com estrela as vozes que quiser guardar. É grátis para iOS e Android."
     },
     {
-      "q": "Qual a diferença entre um alarme com IA e um alarme comum?",
-      "a": "Um alarme comum repete um tom fixo. Não há nada para entender nele, então em poucos dias ele vira um ruído de fundo com o qual você continua dormindo. Um alarme com IA fala uma frase, então o cérebro precisa processar linguagem, e ao trocar a voz ou o texto, cada manhã soa diferente. Ele funciona mudando o tipo de som, não aumentando o volume."
+      "q": "Qual a diferença entre um despertador com IA e um despertador comum?",
+      "a": "Um despertador comum repete um tom fixo. Não há nada para entender nele, então em poucos dias ele vira um ruído de fundo com o qual você continua dormindo. Um despertador com IA fala uma frase, então o cérebro precisa processar linguagem, e ao trocar a voz ou o texto, cada manhã soa diferente. Ele funciona mudando o tipo de som, não aumentando o volume."
     },
     {
       "q": "Posso criar um alarme que diga algo que eu escrevi?",

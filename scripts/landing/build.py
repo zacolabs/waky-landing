@@ -79,12 +79,54 @@ def badges():
             </div>'''
 
 
+def lang_link(d, cur_attr):
+    return (f'<a href="../{d["code"]}/" lang="{d["html_lang"]}" hreflang="{d["hreflang"]}"'
+            f' data-lang="{d["code"]}"{cur_attr}>{e(d["label"])}</a>')
+
+
 def langnav(cur, langs):
-    links = []
-    for d in langs:
-        on = ' class="on"' if d["code"] == cur else ""
-        links.append(f'<a href="../{d["code"]}/"{on}>{e(d["label"])}</a>')
-    return '<nav class="langs">' + "\n            ".join(links) + "</nav>"
+    """푸터: 모든 언어를 일반 링크로 나열 (크롤러가 따라갈 수 있게)."""
+    links = [lang_link(d, ' class="on"' if d["code"] == cur else "") for d in langs]
+    return '<nav class="langs" aria-label="Language">' + "\n            ".join(links) + "</nav>"
+
+
+GLOBE = ('<svg class="globe" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" '
+         'aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.7 3.8 5.7 3.8 9'
+         's-1.3 6.3-3.8 9c-2.5-2.7-3.8-5.7-3.8-9S9.5 5.7 12 3z"/></svg>')
+
+
+def lang_menu(cur, langs):
+    """헤더: 현재 언어를 보여 주는 드롭다운."""
+    here = next(d for d in langs if d["code"] == cur)
+    items = "\n".join(
+        "                <li>" + lang_link(d, ' aria-current="page"' if d["code"] == cur else "") + "</li>"
+        for d in langs)
+    return f'''<details class="lang-menu">
+            <summary aria-label="Language">{GLOBE}<span>{e(here["label"])}</span></summary>
+            <ul>
+{items}
+            </ul>
+        </details>'''
+
+
+PAGE_SCRIPT = """<script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    (function () {
+        // 직접 고른 언어는 기억해 두고, 진입 주소(/introduce/)의 자동 이동에서 우선한다.
+        document.querySelectorAll('a[data-lang]').forEach(function (a) {
+            a.addEventListener('click', function () {
+                try { localStorage.setItem('waky-lang', a.getAttribute('data-lang')); } catch (err) {}
+            });
+        });
+        var menu = document.querySelector('.lang-menu');
+        document.addEventListener('click', function (ev) {
+            if (menu.open && !menu.contains(ev.target)) menu.open = false;
+        });
+        document.addEventListener('keydown', function (ev) {
+            if (ev.key === 'Escape') menu.open = false;
+        });
+    })();
+</script>"""
 
 
 def ld(obj):
@@ -156,7 +198,6 @@ def build(d, langs, css):
     hw, hh = webp_size(os.path.join(ASSETS, "illustration", d["hero_image"]))
     sw, sh = webp_size(os.path.join(ASSETS, "screenshot", d["shot_image"]))
     dir_attr = ' dir="rtl"' if d["dir"] == "rtl" else ""
-    nav = langnav(code, langs)
 
     return f'''<!DOCTYPE html>
 <html lang="{d["html_lang"]}"{dir_attr}>
@@ -195,7 +236,7 @@ def build(d, langs, css):
             <img src="../zacolabs-assets/app_icon.png" alt="" width="30" height="30" />
             <span>Waky</span>
         </a>
-        {nav}
+        {lang_menu(code, langs)}
     </div>
 </header>
 
@@ -259,13 +300,11 @@ def build(d, langs, css):
         <div class="row"><a href="../../about/{d.get("about", "en")}/">{e(d["about_link"])}</a></div>
         <div class="row"><a href="mailto:zaco.labs@gmail.com">zaco.labs@gmail.com</a></div>
         <div class="row">© <span id="year">2026</span> Zaco Labs. {e(d["rights"])}</div>
-        {nav}
+        {langnav(code, langs)}
     </div>
 </footer>
 
-<script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-</script>
+{PAGE_SCRIPT}
 </body>
 </html>
 '''

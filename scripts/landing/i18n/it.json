@@ -1,0 +1,117 @@
+{
+  "code": "it",
+  "label": "Italiano",
+  "hreflang": "it",
+  "html_lang": "it",
+  "dir": "ltr",
+  "about": "en",
+  "og_locale": "it_IT",
+  "font": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+  "og_image": "en",
+  "hero_image": "wake-en.webp",
+  "shot_image": "app-en.webp",
+  "currency": "USD",
+  "title": "Waky — La tua voce sveglia con l’IA | L’app sveglia che ti sveglia davvero",
+  "description": "La solita suoneria non ti sveglia più? Waky ti sveglia con voci IA — doppiatori, narrazione, animazione e altro — che leggono qualsiasi frase tu scriva. Gratis su iOS e Android.",
+  "og_title": "Waky — La tua voce sveglia con l’IA",
+  "og_description": "Un’app sveglia in cui voci IA ti svegliano con le parole che scegli tu.",
+  "app_description": "Un’app sveglia in cui voci IA ti svegliano con le parole che scegli tu.",
+  "eyebrow": "Zaco Labs",
+  "h1": "La tua voce sveglia con l’IA",
+  "lede": "Il tuo corpo impara a continuare a dormire con la solita suoneria. Waky è un’app sveglia in cui diverse voci IA — doppiatori, narrazione, animazione — leggono ad alta voce la frase che hai scritto.",
+  "note": "iOS · Android · Download gratuito",
+  "hero_alt": "Illustrazione di una persona svegliata di soprassalto da una sveglia che suona, seduta sul letto",
+  "features_title": "Cosa rende Waky diversa",
+  "features_lede": "Invece di rendere la sveglia più forte, l’abbiamo resa più difficile da ignorare.",
+  "features": [
+    {
+      "title": "Scegli la voce che vuoi",
+      "text": "Femminile, maschile, doppiatore, narrazione, animazione, drammatica. Sfoglia per categoria, ascolta e aggiungi una stella a quelle che ti piacciono."
+    },
+    {
+      "title": "Scrivi la tua frase",
+      "text": "Scrivi qualcosa come «Oggi c’è la presentazione, alzati!» e una voce IA te la legge. Una sveglia scritta per la tua mattina."
+    },
+    {
+      "title": "Ascoltala prima di impostarla",
+      "text": "Premi play nell’elenco e ascoltala prima. Nessuna brutta sorpresa la mattina dopo."
+    },
+    {
+      "title": "Più difficile da ignorare",
+      "text": "Il cervello filtra una suoneria fissa in pochi giorni. Una voce diversa che dice una frase diversa, no."
+    }
+  ],
+  "shot_alt": "Schermata dell’elenco dei suoni sveglia IA nell’app Waky",
+  "shot_caption": "L’elenco dei suoni sveglia IA: sfoglia per categoria e salva i preferiti con la stella.",
+  "howto_title": "Tre passaggi per impostarla",
+  "howto_lede": "Dalla prima apertura alla sveglia pronta passa circa un minuto.",
+  "steps": [
+    {
+      "title": "Imposta l’orario della sveglia",
+      "text": "Scegli a che ora alzarti, proprio come con la sveglia che usi già.",
+      "alt": "Illustrazione di una persona sdraiata a letto di notte che imposta una sveglia sul telefono"
+    },
+    {
+      "title": "Scegli una voce e una frase",
+      "text": "Prendi una voce dall’elenco delle sveglie IA oppure scrivi la tua frase per crearne una nuova.",
+      "alt": "Illustrazione di una persona seduta sul letto che ascolta le voci della sveglia sul telefono"
+    },
+    {
+      "title": "Svegliati con quella voce",
+      "text": "Al mattino, invece di una suoneria, la voce che hai scelto legge le parole che hai scelto.",
+      "alt": "Illustrazione di una persona che si stiracchia al risveglio nella luce del mattino"
+    }
+  ],
+  "faq_title": "Domande frequenti",
+  "faq_lede": "Per qualsiasi altra domanda, scrivici un’e-mail.",
+  "faqs": [
+    {
+      "q": "Cosa posso fare se mi sono abituato alla sveglia e non la sento più?",
+      "a": "Quando senti lo stesso suono ogni mattina, il cervello impara a trattarlo come rumore di fondo invece che come segnale per svegliarsi. Alzare il volume di un suono che già ignori serve di rado; cambiare il suono stesso, sì. Una voce umana che pronuncia parole vere è più difficile da lasciar scorrere di un semplice bip, perché devi capire cosa sta dicendo. Waky ti permette di scegliere tra molte voci IA e di cambiarle quando una comincia a perdere efficacia."
+    },
+    {
+      "q": "Perché continuo a dormire anche con più sveglie?",
+      "a": "Quando spegnere la sveglia diventa un’abitudine, lo fai quasi senza svegliarti, spesso senza ricordartelo dopo. Mettere più sveglie spezza anche l’ultima parte del sonno in frammenti brevi, e questo di solito ti fa alzare più stanco. Una sola sveglia che noti davvero funziona in genere meglio di cinque che spegni con il pilota automatico."
+    },
+    {
+      "q": "Esiste un’app sveglia che ti sveglia con una voce IA?",
+      "a": "Sì, Waky fa proprio questo. Invece di una suoneria meccanica, voci IA di categorie come doppiatore, narrazione, animazione o drammatica leggono la tua sveglia. Puoi sfogliare per categoria, ascoltare ogni voce prima di impostarla e aggiungere una stella a quelle che vuoi tenere. È gratis su iOS e Android."
+    },
+    {
+      "q": "Che differenza c’è tra una sveglia IA e una normale?",
+      "a": "Una sveglia normale ripete un tono fisso. Non c’è nulla da capire, quindi in pochi giorni diventa un rumore di fondo con cui continui a dormire. Una sveglia IA pronuncia una frase, quindi il cervello deve elaborare il linguaggio, e cambiando voce o testo ogni mattina il suono è diverso. Funziona cambiando il tipo di suono, non alzando il volume."
+    },
+    {
+      "q": "Posso creare una sveglia che dice una frase scritta da me?",
+      "a": "In Waky puoi scrivere qualsiasi frase e una voce IA la leggerà come suono della sveglia. Metti ciò che si adatta alla giornata — «stamattina ho una presentazione importante» o qualcosa che vuoi sentirti dire — ed è quello che sentirai quando suona la sveglia. Puoi ascoltarla prima di salvarla."
+    },
+    {
+      "q": "Oltre alla sveglia, cos’altro aiuta a svegliarsi?",
+      "a": "I consigli più comuni sono andare a letto sempre alla stessa ora ed esporsi a una luce intensa subito dopo il risveglio. Queste abitudini richiedono però tempo, quindi nel frattempo conviene abbinarle a una sveglia che noti con sicurezza. Una sveglia non sostituisce una routine del sonno, ma tiene duro mentre la costruisci."
+    },
+    {
+      "q": "Che tipi di voci IA ci sono?",
+      "a": "Sono raggruppate in categorie come femminile, maschile, doppiatore, narrazione, animazione, drammatica e social media. Tocca una categoria in cima all’elenco per vedere solo il tono che cerchi."
+    },
+    {
+      "q": "Posso creare il mio suono della sveglia?",
+      "a": "Sì. Tocca l’opzione di inserimento testo, scrivi la frase che vuoi e una voce IA la leggerà come suono della sveglia."
+    },
+    {
+      "q": "Posso ascoltare un suono prima di sceglierlo?",
+      "a": "Tocca il pulsante play nell’elenco per sentirlo subito, prima di impostarlo come sveglia."
+    },
+    {
+      "q": "Posso salvare quelli che mi piacciono?",
+      "a": "Tocca la stella per aggiungere un suono ai preferiti, poi usa la scheda dei preferiti per vedere solo le voci salvate."
+    },
+    {
+      "q": "Come posso contattarvi?",
+      "a": "Scrivi a zaco.labs@gmail.com. Il messaggio arriva direttamente a Zaco Labs, il team dietro Waky."
+    }
+  ],
+  "cta_title": "Domani mattina svegliati con un’altra voce",
+  "cta_text": "Waky è gratis su iOS e Android.",
+  "about_link": "Informazioni su Zaco Labs",
+  "rights": "Tutti i diritti riservati."
+}

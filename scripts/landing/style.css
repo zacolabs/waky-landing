@@ -36,7 +36,8 @@
     .lang-menu summary:hover { background:var(--surface-2); }
     .lang-menu .globe { width:15px; height:15px; flex:none; }
     .lang-menu summary::after { content:""; width:6px; height:6px; margin-top:-3px;
-        border-inline-end:1.5px solid currentColor; border-bottom:1.5px solid currentColor;
+        /* 회전시켜 만든 ⌄ 모양이라 방향과 무관 — RTL 에서 뒤집히면 안 된다 */
+        border-right:1.5px solid currentColor; border-bottom:1.5px solid currentColor;
         transform:rotate(45deg); }
     .lang-menu ul { list-style:none; position:absolute; top:calc(100% + 8px); inset-inline-end:0;
         z-index:30; display:grid; grid-template-columns:repeat(2, minmax(0, 1fr)); gap:2px;

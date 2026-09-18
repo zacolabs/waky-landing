@@ -1,0 +1,117 @@
+{
+  "code": "fr",
+  "label": "Français",
+  "hreflang": "fr",
+  "html_lang": "fr",
+  "dir": "ltr",
+  "about": "en",
+  "og_locale": "fr_FR",
+  "font": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+  "og_image": "en",
+  "hero_image": "wake-en.webp",
+  "shot_image": "app-en.webp",
+  "currency": "USD",
+  "title": "Waky — Votre propre voix de réveil par IA | L’appli réveil qui vous réveille vraiment",
+  "description": "La même sonnerie chaque matin ne vous réveille plus ? Waky vous réveille avec des voix IA — comédiens de doublage, narration, animation et plus — qui lisent la phrase de votre choix. Gratuit sur iOS et Android.",
+  "og_title": "Waky — Votre propre voix de réveil par IA",
+  "og_description": "Une appli réveil où des voix IA vous réveillent avec les mots que vous choisissez.",
+  "app_description": "Une appli réveil où des voix IA vous réveillent avec les mots que vous choisissez.",
+  "eyebrow": "Zaco Labs",
+  "h1": "Votre propre voix de réveil par IA",
+  "lede": "Votre corps finit par dormir malgré la même sonnerie. Waky est une appli réveil dans laquelle différentes voix IA — comédiens de doublage, narration, animation — lisent à voix haute la phrase que vous avez écrite.",
+  "note": "iOS · Android · Téléchargement gratuit",
+  "hero_alt": "Illustration d’une personne réveillée en sursaut par un réveil qui sonne, assise dans son lit",
+  "features_title": "Ce qui rend Waky différent",
+  "features_lede": "Plutôt que de rendre le réveil plus fort, nous l’avons rendu plus difficile à ignorer.",
+  "features": [
+    {
+      "title": "Choisissez la voix qui vous plaît",
+      "text": "Féminine, masculine, comédien de doublage, narration, animation, dramatique. Parcourez par catégorie, écoutez et ajoutez une étoile à celles que vous aimez."
+    },
+    {
+      "title": "Écrivez votre propre phrase",
+      "text": "Tapez par exemple « Grosse présentation aujourd’hui, debout ! » et une voix IA vous la lit. Un réveil écrit pour votre matin."
+    },
+    {
+      "title": "Écoutez avant de régler",
+      "text": "Appuyez sur lecture dans la liste pour l’entendre d’abord. Pas de mauvaise surprise le lendemain matin."
+    },
+    {
+      "title": "Plus difficile à ignorer",
+      "text": "Votre cerveau filtre une sonnerie fixe en quelques jours. Une autre voix qui dit une autre phrase, non."
+    }
+  ],
+  "shot_alt": "Écran de la liste des sons de réveil IA dans l’appli Waky",
+  "shot_caption": "La liste des sons de réveil IA : parcourez par catégorie, mettez vos favoris en étoile.",
+  "howto_title": "Trois étapes pour le configurer",
+  "howto_lede": "De la première ouverture à un réveil prêt, comptez environ une minute.",
+  "steps": [
+    {
+      "title": "Réglez l’heure du réveil",
+      "text": "Choisissez l’heure de lever, exactement comme avec votre réveil habituel.",
+      "alt": "Illustration d’une personne allongée le soir qui règle un réveil sur son téléphone"
+    },
+    {
+      "title": "Choisissez une voix et une phrase",
+      "text": "Prenez une voix dans la liste des réveils IA, ou tapez votre propre phrase pour en créer une nouvelle.",
+      "alt": "Illustration d’une personne assise sur le lit qui écoute des voix de réveil sur son téléphone"
+    },
+    {
+      "title": "Réveillez-vous avec cette voix",
+      "text": "Le matin, au lieu d’une sonnerie, la voix que vous avez choisie lit les mots que vous avez choisis.",
+      "alt": "Illustration d’une personne qui s’étire au réveil dans la lumière du matin"
+    }
+  ],
+  "faq_title": "Questions fréquentes",
+  "faq_lede": "Pour toute autre question, écrivez-nous simplement un e-mail.",
+  "faqs": [
+    {
+      "q": "Que faire si je me suis habitué à mon réveil et que je ne l’entends plus ?",
+      "a": "Quand vous entendez le même son chaque matin, votre cerveau apprend à le traiter comme un bruit de fond plutôt que comme un signal de réveil. Monter le volume d’un son que vous ignorez déjà sert rarement ; changer le son lui-même, si. Une voix humaine qui prononce de vrais mots est plus difficile à laisser passer qu’un simple bip, parce qu’il faut comprendre ce qui est dit. Waky vous permet de choisir parmi de nombreuses voix IA et d’en changer dès que l’une commence à perdre son effet."
+    },
+    {
+      "q": "Pourquoi je continue à dormir malgré plusieurs réveils ?",
+      "a": "Une fois qu’éteindre le réveil devient une habitude, vous le faites presque sans vous réveiller, souvent sans même vous en souvenir. Multiplier les réveils découpe aussi votre dernière phase de sommeil en petits morceaux, ce qui vous laisse généralement plus fatigué au moment de vous lever. Un seul réveil que vous remarquez vraiment fonctionne souvent mieux que cinq que vous coupez en pilote automatique."
+    },
+    {
+      "q": "Existe-t-il une appli réveil qui réveille avec une voix IA ?",
+      "a": "Oui, c’est exactement ce que fait Waky. Au lieu d’une sonnerie mécanique, des voix IA de catégories comme comédien de doublage, narration, animation ou dramatique lisent votre réveil. Vous pouvez parcourir par catégorie, écouter chaque voix avant de la régler et mettre en étoile celles que vous voulez garder. C’est gratuit sur iOS et Android."
+    },
+    {
+      "q": "Quelle différence entre un réveil IA et un réveil classique ?",
+      "a": "Un réveil classique répète une tonalité fixe. Il n’y a rien à comprendre, donc en quelques jours elle devient un bruit de fond qui ne vous réveille plus. Un réveil IA prononce une phrase : votre cerveau doit traiter du langage, et en changeant la voix ou le texte, le son est différent chaque matin. Le principe est de changer la nature du son, pas de monter le volume."
+    },
+    {
+      "q": "Puis-je créer un réveil qui dit une phrase que j’ai écrite ?",
+      "a": "Dans Waky, vous pouvez taper n’importe quelle phrase et une voix IA la lira comme son de réveil. Mettez ce qui correspond à votre journée — « grosse présentation ce matin » ou quelque chose que vous avez envie de vous dire — et c’est ce qui sera diffusé quand le réveil sonnera. Vous pouvez l’écouter avant de l’enregistrer."
+    },
+    {
+      "q": "À part le réveil, qu’est-ce qui aide à se lever ?",
+      "a": "Les conseils habituels sont de se coucher à heure fixe et de s’exposer à une lumière vive peu après le réveil. Ces habitudes prennent du temps à s’installer ; en attendant, il est utile de les associer à un réveil que vous remarquez à coup sûr. Un réveil ne remplace pas une bonne routine de sommeil, mais il tient bon pendant qu’elle se met en place."
+    },
+    {
+      "q": "Quels types de voix IA y a-t-il ?",
+      "a": "Elles sont regroupées en catégories : féminine, masculine, comédien de doublage, narration, animation, dramatique et réseaux sociaux. Touchez une catégorie en haut de la liste pour n’afficher que le ton qui vous intéresse."
+    },
+    {
+      "q": "Puis-je créer mon propre son de réveil ?",
+      "a": "Oui. Touchez l’option de saisie de texte, écrivez la phrase souhaitée et une voix IA la lira comme son de réveil."
+    },
+    {
+      "q": "Puis-je écouter un son de réveil avant de le choisir ?",
+      "a": "Touchez le bouton lecture dans la liste pour l’entendre immédiatement, avant de le définir comme réveil."
+    },
+    {
+      "q": "Puis-je enregistrer ceux que j’aime ?",
+      "a": "Touchez l’étoile pour ajouter un son à vos favoris, puis utilisez l’onglet favoris pour ne voir que les voix enregistrées."
+    },
+    {
+      "q": "Comment vous contacter ?",
+      "a": "Écrivez à zaco.labs@gmail.com. Le message arrive directement chez Zaco Labs, l’équipe derrière Waky."
+    }
+  ],
+  "cta_title": "Demain matin, réveillez-vous avec une autre voix",
+  "cta_text": "Waky est gratuit sur iOS et Android.",
+  "about_link": "À propos de Zaco Labs",
+  "rights": "Tous droits réservés."
+}

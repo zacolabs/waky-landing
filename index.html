@@ -5,8 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="google-site-verification" content="3JNaFd6fvPNBA7NMsjDxFkAvM1aAESN3FrJCD46fIfc" />
 <meta name="msvalidate.01" content="CCC1C7BAFF2250CE75A2C3318980D759" />
-<title>Zaco Labs</title>
-<meta name="theme-color" content="#0a0a0a" />
+<title>Waky</title>
+<meta name="theme-color" content="#FAF5EC" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Zaco Labs" />
 <meta property="og:title" content="Waky — 나만의 AI 알람음" />
@@ -17,17 +17,88 @@
 <meta property="og:image:height" content="630" />
 <meta property="og:image:alt" content="Waky — 나만의 AI 알람음" />
 <meta name="twitter:card" content="summary_large_image" />
-<script>location.replace("introduce/");</script>
-<meta http-equiv="refresh" content="0; url=introduce/" />
+<link rel="alternate" hreflang="ko" href="https://zacolabs.github.io/waky-landing/introduce/kr/" />
+<link rel="alternate" hreflang="en" href="https://zacolabs.github.io/waky-landing/introduce/en/" />
+<link rel="alternate" hreflang="ja" href="https://zacolabs.github.io/waky-landing/introduce/jp/" />
+<link rel="alternate" hreflang="zh-Hans" href="https://zacolabs.github.io/waky-landing/introduce/zh-hans/" />
+<link rel="alternate" hreflang="zh-Hant" href="https://zacolabs.github.io/waky-landing/introduce/zh-hant/" />
+<link rel="alternate" hreflang="es" href="https://zacolabs.github.io/waky-landing/introduce/es/" />
+<link rel="alternate" hreflang="fr" href="https://zacolabs.github.io/waky-landing/introduce/fr/" />
+<link rel="alternate" hreflang="de" href="https://zacolabs.github.io/waky-landing/introduce/de/" />
+<link rel="alternate" hreflang="it" href="https://zacolabs.github.io/waky-landing/introduce/it/" />
+<link rel="alternate" hreflang="pt" href="https://zacolabs.github.io/waky-landing/introduce/pt/" />
+<link rel="alternate" hreflang="nl" href="https://zacolabs.github.io/waky-landing/introduce/nl/" />
+<link rel="alternate" hreflang="da" href="https://zacolabs.github.io/waky-landing/introduce/da/" />
+<link rel="alternate" hreflang="pl" href="https://zacolabs.github.io/waky-landing/introduce/pl/" />
+<link rel="alternate" hreflang="ru" href="https://zacolabs.github.io/waky-landing/introduce/ru/" />
+<link rel="alternate" hreflang="ar" href="https://zacolabs.github.io/waky-landing/introduce/ar/" />
+<link rel="alternate" hreflang="id" href="https://zacolabs.github.io/waky-landing/introduce/id/" />
+<link rel="alternate" hreflang="vi" href="https://zacolabs.github.io/waky-landing/introduce/vi/" />
+<link rel="alternate" hreflang="fil" href="https://zacolabs.github.io/waky-landing/introduce/fil/" />
+<link rel="alternate" hreflang="x-default" href="https://zacolabs.github.io/waky-landing/introduce/en/" />
+<script>
+    (function () {
+        var CODES = ["kr", "en", "jp", "zh-hans", "zh-hant", "es", "fr", "de", "it", "pt", "nl", "da", "pl", "ru", "ar", "id", "vi", "fil"];
+        function pick(tag) {
+            tag = String(tag || "").toLowerCase().replace(/_/g, "-");
+            if (!tag) return null;
+            if (CODES.indexOf(tag) !== -1) return tag;
+            var p = tag.split("-")[0];
+            if (p === "zh") return /hant|-tw|-hk|-mo/.test(tag) ? "zh-hant" : "zh-hans";
+            if (p === "ko") return "kr";
+            if (p === "ja") return "jp";
+            if (p === "tl") return "fil";
+            if (p === "in") return "id";  // 구형 안드로이드 로케일
+            return CODES.indexOf(p) !== -1 ? p : null;
+        }
+        var params = new URLSearchParams(location.search);
+        var prefs = [params.get("lang")];
+        try { prefs.push(localStorage.getItem("waky-lang")); } catch (err) {}
+        prefs = prefs.concat(navigator.languages || [navigator.language || navigator.userLanguage]);
+        var dest = "en";
+        for (var i = 0; i < prefs.length; i++) {
+            var c = pick(prefs[i]);
+            if (c) { dest = c; break; }
+        }
+        params.delete("lang");
+        var qs = params.toString();
+        location.replace("introduce/" + dest + "/" + (qs ? "?" + qs : "") + location.hash);
+    })();
+</script>
+<noscript><meta http-equiv="refresh" content="0; url=introduce/en/" /></noscript>
 <style>
-    html, body { margin: 0; height: 100%; background: #0a0a0a; color: #8a8a92;
-        font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif; }
-    .box { min-height: 100%; display: flex; align-items: center; justify-content: center; padding: 24px; }
-    .box a { color: #f4f4f5; text-decoration: none; }
+    html, body { margin: 0; min-height: 100%; background: #FAF5EC; color: #6F6455;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    .box { min-height: 100vh; display: flex; flex-direction: column; align-items: center;
+        justify-content: center; gap: 14px; text-align: center; padding: 24px; box-sizing: border-box; }
+    .box nav { max-width: 560px; line-height: 2.1; font-size: 14px; }
+    .box a { color: #2B2B2E; text-decoration: none; margin: 0 7px; white-space: nowrap; }
     .box a:hover { text-decoration: underline; }
 </style>
 </head>
 <body>
-    <div class="box"><p><a href="introduce/">Zaco Labs →</a></p></div>
+    <div class="box">
+        <p>Waky</p>
+        <nav aria-label="Language">
+            <a href="introduce/kr/" lang="ko" hreflang="ko">한국어</a>
+            <a href="introduce/en/" lang="en" hreflang="en">English</a>
+            <a href="introduce/jp/" lang="ja" hreflang="ja">日本語</a>
+            <a href="introduce/zh-hans/" lang="zh-Hans" hreflang="zh-Hans">简体中文</a>
+            <a href="introduce/zh-hant/" lang="zh-Hant" hreflang="zh-Hant">繁體中文</a>
+            <a href="introduce/es/" lang="es" hreflang="es">Español</a>
+            <a href="introduce/fr/" lang="fr" hreflang="fr">Français</a>
+            <a href="introduce/de/" lang="de" hreflang="de">Deutsch</a>
+            <a href="introduce/it/" lang="it" hreflang="it">Italiano</a>
+            <a href="introduce/pt/" lang="pt-BR" hreflang="pt">Português</a>
+            <a href="introduce/nl/" lang="nl" hreflang="nl">Nederlands</a>
+            <a href="introduce/da/" lang="da" hreflang="da">Dansk</a>
+            <a href="introduce/pl/" lang="pl" hreflang="pl">Polski</a>
+            <a href="introduce/ru/" lang="ru" hreflang="ru">Русский</a>
+            <a href="introduce/ar/" lang="ar" hreflang="ar">العربية</a>
+            <a href="introduce/id/" lang="id" hreflang="id">Bahasa Indonesia</a>
+            <a href="introduce/vi/" lang="vi" hreflang="vi">Tiếng Việt</a>
+            <a href="introduce/fil/" lang="fil" hreflang="fil">Filipino</a>
+        </nav>
+    </div>
 </body>
 </html>

@@ -1,0 +1,117 @@
+{
+  "code": "de",
+  "label": "Deutsch",
+  "hreflang": "de",
+  "html_lang": "de",
+  "dir": "ltr",
+  "about": "en",
+  "og_locale": "de_DE",
+  "font": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+  "og_image": "en",
+  "hero_image": "wake-en.webp",
+  "shot_image": "app-en.webp",
+  "currency": "USD",
+  "title": "Waky — Deine eigene KI-Weckstimme | Die Wecker-App, die dich wirklich weckt",
+  "description": "Der immer gleiche Klingelton weckt dich nicht mehr? Waky weckt dich mit KI-Stimmen – Synchronsprecher, Erzähler, Animation und mehr –, die jeden Satz vorlesen, den du eintippst. Kostenlos für iOS und Android.",
+  "og_title": "Waky — Deine eigene KI-Weckstimme",
+  "og_description": "Eine Wecker-App, in der dich KI-Stimmen mit den Worten wecken, die du auswählst.",
+  "app_description": "Eine Wecker-App, in der dich KI-Stimmen mit den Worten wecken, die du auswählst.",
+  "eyebrow": "Zaco Labs",
+  "h1": "Deine eigene KI-Weckstimme",
+  "lede": "Dein Körper lernt, beim immer gleichen Klingelton weiterzuschlafen. Waky ist eine Wecker-App, in der verschiedene KI-Stimmen – Synchronsprecher, Erzähler, Animation – den Satz vorlesen, den du geschrieben hast.",
+  "note": "iOS · Android · Kostenlos herunterladen",
+  "hero_alt": "Illustration einer Person, die vom piepsenden Wecker aufgeschreckt wird und sich im Bett aufsetzt",
+  "features_title": "Was Waky anders macht",
+  "features_lede": "Statt den Wecker lauter zu machen, haben wir ihn schwerer zu ignorieren gemacht.",
+  "features": [
+    {
+      "title": "Wähle die Stimme, die du willst",
+      "text": "Weiblich, männlich, Synchronsprecher, Erzähler, Animation, dramatisch. Stöbere nach Kategorie, hör rein und markiere deine Favoriten mit einem Stern."
+    },
+    {
+      "title": "Schreib deinen eigenen Satz",
+      "text": "Tipp zum Beispiel „Heute ist die große Präsentation – aufstehen!“ und eine KI-Stimme liest ihn vor. Ein Wecker, geschrieben für deinen Morgen."
+    },
+    {
+      "title": "Anhören, bevor du ihn stellst",
+      "text": "Tippe in der Liste auf Abspielen und hör ihn dir zuerst an. Keine bösen Überraschungen am nächsten Morgen."
+    },
+    {
+      "title": "Schwerer zu überhören",
+      "text": "Einen festen Klingelton blendet dein Gehirn nach wenigen Tagen aus. Eine andere Stimme mit einem anderen Satz nicht."
+    }
+  ],
+  "shot_alt": "Bildschirm mit der Liste der KI-Wecktöne in der Waky-App",
+  "shot_caption": "Die Liste der KI-Wecktöne – nach Kategorie stöbern, Favoriten mit Stern speichern.",
+  "howto_title": "In drei Schritten eingerichtet",
+  "howto_lede": "Vom ersten Öffnen bis zum fertigen Wecker dauert es etwa eine Minute.",
+  "steps": [
+    {
+      "title": "Weckzeit einstellen",
+      "text": "Leg fest, wann du aufstehen willst – genau wie bei deinem bisherigen Wecker.",
+      "alt": "Illustration einer Person, die nachts im Bett liegt und auf dem Handy einen Wecker stellt"
+    },
+    {
+      "title": "Stimme und Satz wählen",
+      "text": "Such dir eine Stimme aus der Liste der KI-Wecker aus oder tipp einen eigenen Satz ein, um einen neuen zu erstellen.",
+      "alt": "Illustration einer Person, die auf der Bettkante sitzt und sich Weckstimmen auf dem Handy anhört"
+    },
+    {
+      "title": "Mit dieser Stimme aufwachen",
+      "text": "Morgens liest statt eines Klingeltons deine gewählte Stimme deine gewählten Worte vor.",
+      "alt": "Illustration einer Person, die sich im Morgenlicht streckt und aufwacht"
+    }
+  ],
+  "faq_title": "Häufige Fragen",
+  "faq_lede": "Bei allen anderen Fragen schreib uns einfach eine E-Mail.",
+  "faqs": [
+    {
+      "q": "Was kann ich tun, wenn ich mich an meinen Wecker gewöhnt habe und ihn verschlafe?",
+      "a": "Wenn du jeden Morgen dasselbe Geräusch hörst, lernt dein Gehirn, es als Hintergrund zu behandeln statt als Signal zum Aufwachen. Einen Ton lauter zu stellen, den du ohnehin schon ausblendest, hilft selten – das Geräusch selbst zu ändern schon. Eine menschliche Stimme, die echte Worte sagt, lässt sich schwerer überhören als ein einfaches Piepen, weil du verarbeiten musst, was gesagt wird. Mit Waky wählst du aus vielen KI-Stimmen und wechselst, sobald eine an Wirkung verliert."
+    },
+    {
+      "q": "Warum verschlafe ich trotz mehrerer Wecker?",
+      "a": "Sobald das Ausschalten des Weckers zur Routine wird, passiert es fast ohne Aufwachen – oft ohne jede Erinnerung daran. Mehr Wecker zerteilen außerdem deine letzte Schlafphase in kurze Stücke, sodass du dich beim endgültigen Aufstehen meist schlechter fühlst. Ein Wecker, den du wirklich wahrnimmst, wirkt meist besser als fünf, die du im Halbschlaf wegdrückst."
+    },
+    {
+      "q": "Gibt es eine Wecker-App, die mit einer KI-Stimme weckt?",
+      "a": "Ja – genau das macht Waky. Statt eines mechanischen Klingeltons lesen KI-Stimmen aus Kategorien wie Synchronsprecher, Erzähler, Animation oder dramatisch deinen Wecker vor. Du kannst nach Kategorie stöbern, jede Stimme vorher anhören und die, die du behalten willst, mit einem Stern markieren. Die App ist kostenlos für iOS und Android."
+    },
+    {
+      "q": "Worin unterscheidet sich ein KI-Wecker von einem normalen?",
+      "a": "Ein normaler Wecker spielt immer denselben Ton ab. Darin gibt es nichts zu verstehen, also wird er nach wenigen Tagen zu einem Hintergrundgeräusch, bei dem du weiterschläfst. Ein KI-Wecker spricht einen Satz, dein Gehirn muss also Sprache verarbeiten – und wenn du Stimme oder Text änderst, klingt jeder Morgen anders. Er setzt auf eine andere Art von Geräusch statt auf mehr Lautstärke."
+    },
+    {
+      "q": "Kann ich einen Wecker erstellen, der etwas sagt, das ich geschrieben habe?",
+      "a": "In Waky kannst du einen beliebigen Satz eintippen, und eine KI-Stimme liest ihn als Weckton vor. Schreib, was zu deinem Tag passt – „heute Vormittag große Präsentation“ oder etwas, das du dir selbst sagen möchtest –, und genau das hörst du, wenn der Wecker klingelt. Du kannst ihn vor dem Speichern anhören."
+    },
+    {
+      "q": "Was hilft außer dem Wecker noch beim Aufwachen?",
+      "a": "Die üblichen Empfehlungen sind, zu einer festen Zeit ins Bett zu gehen und kurz nach dem Aufwachen helles Licht abzubekommen. Solche Gewohnheiten brauchen allerdings Zeit, deshalb ist es sinnvoll, sie in der Zwischenzeit mit einem Wecker zu kombinieren, den du zuverlässig wahrnimmst. Ein Wecker ersetzt keinen Schlafrhythmus, aber er hält die Stellung, bis sich einer eingespielt hat."
+    },
+    {
+      "q": "Welche Arten von KI-Stimmen gibt es?",
+      "a": "Sie sind in Kategorien wie weiblich, männlich, Synchronsprecher, Erzähler, Animation, dramatisch und Social Media sortiert. Tippe oben in der Liste auf eine Kategorie, um nur den gewünschten Ton zu sehen."
+    },
+    {
+      "q": "Kann ich meinen eigenen Weckton erstellen?",
+      "a": "Ja. Tippe auf die Texteingabe, schreib den gewünschten Satz, und eine KI-Stimme liest ihn als Weckton vor."
+    },
+    {
+      "q": "Kann ich einen Weckton vorher anhören?",
+      "a": "Tippe in der Liste auf die Abspieltaste, um ihn sofort zu hören – bevor du ihn als Wecker einstellst."
+    },
+    {
+      "q": "Kann ich meine Lieblingstöne speichern?",
+      "a": "Tippe auf den Stern, um einen Ton zu deinen Favoriten hinzuzufügen, und öffne dann den Favoriten-Tab, um nur die gespeicherten Stimmen zu sehen."
+    },
+    {
+      "q": "Wie kann ich euch erreichen?",
+      "a": "Schreib an zaco.labs@gmail.com. Die Nachricht geht direkt an Zaco Labs, das Team hinter Waky."
+    }
+  ],
+  "cta_title": "Wach morgen mit einer anderen Stimme auf",
+  "cta_text": "Waky ist kostenlos für iOS und Android.",
+  "about_link": "Über Zaco Labs",
+  "rights": "Alle Rechte vorbehalten."
+}

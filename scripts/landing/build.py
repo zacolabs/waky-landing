@@ -9,6 +9,7 @@ i18n/<code>.json 의 문구로 introduce/<code>/index.html 을 만든다.
 import html
 import json
 import os
+import datetime
 import struct
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -17,7 +18,8 @@ BASE = "https://zacolabs.github.io/waky-landing"
 ASSETS = os.path.join(ROOT, "introduce", "zacolabs-assets")
 
 # 언어 순서 — hreflang·언어 선택기·사이트맵이 모두 이 순서를 따른다.
-ORDER = ["kr", "en", "jp"]
+ORDER = ["kr", "en", "jp", "zh-hans", "zh-hant", "es", "fr", "de", "it", "pt",
+         "nl", "da", "pl", "ru", "ar", "id", "vi", "fil"]
 DEFAULT = "en"  # x-default
 
 PLAY = "https://play.google.com/store/apps/details?id=com.waky.android"
@@ -310,16 +312,140 @@ def build(d, langs, css):
 '''
 
 
+# ── 진입 주소 ───────────────────────────────────────────────────────
+# / 와 /introduce/ 는 콘텐츠 없이 기기 언어에 맞는 페이지로 보낸다.
+# 우선순위: ?lang= → 직접 고른 언어(localStorage) → 기기 선호 언어 목록 → en
+REDIRECT_JS = """<script>
+    (function () {
+        var CODES = %(codes)s;
+        function pick(tag) {
+            tag = String(tag || "").toLowerCase().replace(/_/g, "-");
+            if (!tag) return null;
+            if (CODES.indexOf(tag) !== -1) return tag;
+            var p = tag.split("-")[0];
+            if (p === "zh") return /hant|-tw|-hk|-mo/.test(tag) ? "zh-hant" : "zh-hans";
+            if (p === "ko") return "kr";
+            if (p === "ja") return "jp";
+            if (p === "tl") return "fil";
+            if (p === "in") return "id";  // 구형 안드로이드 로케일
+            return CODES.indexOf(p) !== -1 ? p : null;
+        }
+        var params = new URLSearchParams(location.search);
+        var prefs = [params.get("lang")];
+        try { prefs.push(localStorage.getItem("waky-lang")); } catch (err) {}
+        prefs = prefs.concat(navigator.languages || [navigator.language || navigator.userLanguage]);
+        var dest = "%(default)s";
+        for (var i = 0; i < prefs.length; i++) {
+            var c = pick(prefs[i]);
+            if (c) { dest = c; break; }
+        }
+        params.delete("lang");
+        var qs = params.toString();
+        location.replace("%(prefix)s" + dest + "/" + (qs ? "?" + qs : "") + location.hash);
+    })();
+</script>
+<noscript><meta http-equiv="refresh" content="0; url=%(prefix)s%(default)s/" /></noscript>"""
+
+ENTRY_CSS = """<style>
+    html, body { margin: 0; min-height: 100%; background: #FAF5EC; color: #6F6455;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    .box { min-height: 100vh; display: flex; flex-direction: column; align-items: center;
+        justify-content: center; gap: 14px; text-align: center; padding: 24px; box-sizing: border-box; }
+    .box nav { max-width: 560px; line-height: 2.1; font-size: 14px; }
+    .box a { color: #2B2B2E; text-decoration: none; margin: 0 7px; white-space: nowrap; }
+    .box a:hover { text-decoration: underline; }
+</style>"""
+
+# 공유 미리보기는 기존과 같게 둔다 (주 공유 대상이 한국어).
+ENTRY_OG = """<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Zaco Labs" />
+<meta property="og:title" content="Waky — 나만의 AI 알람음" />
+<meta property="og:description" content="다양한 AI 목소리가 원하는 문구로 깨워 주는 알람 앱." />
+<meta property="og:url" content="%(base)s/introduce/" />
+<meta property="og:image" content="%(base)s/introduce/zacolabs-assets/og-image-kr-1200x630.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="Waky — 나만의 AI 알람음" />
+<meta name="twitter:card" content="summary_large_image" />"""
+
+
+def entry_page(prefix, langs):
+    """prefix: 이 페이지 기준 언어 폴더 경로 ('' 또는 'introduce/')."""
+    alts = "\n".join(
+        f'<link rel="alternate" hreflang="{x["hreflang"]}" href="{url(x["code"])}" />' for x in langs)
+    alts += f'\n<link rel="alternate" hreflang="x-default" href="{url(DEFAULT)}" />'
+    links = "\n            ".join(
+        f'<a href="{prefix}{x["code"]}/" lang="{x["html_lang"]}" hreflang="{x["hreflang"]}">{e(x["label"])}</a>'
+        for x in langs)
+    js = REDIRECT_JS % {"codes": json.dumps(ORDER), "default": DEFAULT, "prefix": prefix}
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+{VERIFY[0]}
+{VERIFY_BING}
+<title>Waky</title>
+<meta name="theme-color" content="#FAF5EC" />
+{ENTRY_OG % {"base": BASE}}
+{alts}
+{js}
+{ENTRY_CSS}
+</head>
+<body>
+    <div class="box">
+        <p>Waky</p>
+        <nav aria-label="Language">
+            {links}
+        </nav>
+    </div>
+</body>
+</html>
+"""
+
+
+ABOUT = [("kr", "ko"), ("en", "en"), ("jp", "ja")]
+
+
+def sitemap(langs):
+    today = datetime.date.today().isoformat()
+
+    def block(loc, alts, priority):
+        lines = "".join(f'\n    <xhtml:link rel="alternate" hreflang="{h}" href="{u}"/>' for h, u in alts)
+        return f"""  <url>
+    <loc>{loc}</loc>
+    <lastmod>{today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>{priority}</priority>{lines}
+  </url>"""
+
+    intro_alts = [(x["hreflang"], url(x["code"])) for x in langs] + [("x-default", url(DEFAULT))]
+    about_alts = [(h, f"{BASE}/about/{c}/") for c, h in ABOUT] + [("x-default", f"{BASE}/about/en/")]
+    urls = [block(url(x["code"]), intro_alts, "1.0") for x in langs]
+    urls += [block(f"{BASE}/about/{c}/", about_alts, "0.5") for c, _ in ABOUT]
+    return ('<?xml version="1.0" encoding="UTF-8"?>\n'
+            '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"\n'
+            '        xmlns:xhtml="http://www.w3.org/1999/xhtml">\n'
+            + "\n".join(urls) + "\n</urlset>\n")
+
+
+def write(rel, text):
+    out = os.path.join(ROOT, rel)
+    os.makedirs(os.path.dirname(out), exist_ok=True)
+    with open(out, "w", encoding="utf-8") as f:
+        f.write(text)
+    print("wrote", rel)
+
+
 def main():
     with open(os.path.join(HERE, "style.css"), encoding="utf-8") as f:
         css = f.read()
     langs = [load(c) for c in ORDER]
     for d in langs:
-        out = os.path.join(ROOT, "introduce", d["code"], "index.html")
-        os.makedirs(os.path.dirname(out), exist_ok=True)
-        with open(out, "w", encoding="utf-8") as f:
-            f.write(build(d, langs, css))
-        print("wrote", os.path.relpath(out, ROOT))
+        write(f"introduce/{d['code']}/index.html", build(d, langs, css))
+    write("introduce/index.html", entry_page("", langs))
+    write("index.html", entry_page("introduce/", langs))
+    write("sitemap.xml", sitemap(langs))
 
 
 if __name__ == "__main__":

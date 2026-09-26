@@ -11,38 +11,38 @@
   "hero_image": "wake-en.webp",
   "shot_image": "app-en.webp",
   "currency": "USD",
-  "title": "Waky — Din egen AI-vækkestemme | Vækkeur-appen der faktisk vækker dig",
-  "description": "Vågner du ikke længere af den samme ringetone? Waky vækker dig med AI-stemmer — stemmeskuespillere, fortælling, animation og mere — der læser den sætning op, du skriver. Gratis til iOS og Android.",
-  "og_title": "Waky — Din egen AI-vækkestemme",
-  "og_description": "En vækkeur-app, hvor AI-stemmer vækker dig med de ord, du selv vælger.",
-  "app_description": "En vækkeur-app, hvor AI-stemmer vækker dig med de ord, du selv vælger.",
+  "title": "Waky — Vækkeur & Rutiner | Missionsalarmen, der får dig op",
+  "description": "Slukker du alarmen og falder i søvn igen? Waky stopper først, når du har klaret en mission, vækker dig med din egen optagede stemme og hjælper dig med at skabe morgenvaner. Gratis på iOS og Android.",
+  "og_title": "Waky — Missionsalarmen, der virkelig vækker dig",
+  "og_description": "En alarm, der først stopper efter en mission, lyde du selv optager, og morgenvaner.",
+  "app_description": "En alarm, der først stopper efter en mission, lyde du selv optager, og morgenvaner.",
   "eyebrow": "Zaco Labs",
-  "h1": "Din egen AI-vækkestemme",
-  "lede": "Din krop lærer at sove videre til den samme ringetone. Waky er en vækkeur-app, hvor forskellige AI-stemmer — stemmeskuespillere, fortælling, animation — læser den sætning op, du har skrevet.",
+  "h1": "Slut med at slukke og sove videre",
+  "lede": "Waky er en alarm, der først stopper, når du har klaret en mission. Den vækker dig med en lyd, du selv har optaget, og hjælper dig bagefter med at starte dagen med dine morgenvaner.",
   "note": "iOS · Android · Gratis at hente",
   "hero_alt": "Illustration af en person, der bliver vækket med et sæt af et bippende vækkeur og sætter sig op i sengen",
   "features_title": "Det gør Waky anderledes",
   "features_lede": "I stedet for at gøre vækkeuret højere har vi gjort det sværere at ignorere.",
   "features": [
     {
-      "title": "Vælg den stemme, du vil have",
-      "text": "Kvinde, mand, stemmeskuespiller, fortælling, animation, dramatisk. Gennemse efter kategori, lyt, og giv dine favoritter en stjerne."
+      "title": "En alarm, du skal gøre dig fortjent til",
+      "text": "Alarmen fortsætter, til du har klaret en mission, der kræver, at du er vågen: genstandsscanning, et regnestykke eller feltet med den afvigende farve. Slut med at slukke den i halvsøvne."
     },
     {
-      "title": "Skriv din egen sætning",
-      "text": "Skriv noget i stil med „I dag er det den store præsentation – op med dig!“, og en AI-stemme læser det op. En alarm skrevet til din morgen."
+      "title": "Din egen stemme som alarm",
+      "text": "Optag op til 1 minut – \"Du har den præsentation i dag, op med dig!\" eller en lyd, du holder af – og brug det som alarmlyd."
     },
     {
-      "title": "Lyt, før du indstiller den",
-      "text": "Tryk på afspil i listen, og hør den først. Ingen ubehagelige overraskelser næste morgen."
+      "title": "Morgenvaner, når du er oppe",
+      "text": "Tilføj det, du vil gøre hver morgen, som at drikke vand eller strække ud. Waky minder dig om det til tiden, og du krydser af direkte på låseskærmen."
     },
     {
-      "title": "Sværere at overhøre",
-      "text": "En fast ringetone sorterer din hjerne fra på få dage. En anden stemme, der siger en anden sætning, gør den ikke."
+      "title": "En vækkelog, der vokser",
+      "text": "Hvornår du stod op, og hvor mange gange du snoozede, registreres automatisk; et varmekort og din stime viser dit mønster med ét blik."
     }
   ],
-  "shot_alt": "Skærmen med listen over AI-alarmlyde i Waky-appen",
-  "shot_caption": "Listen over AI-alarmlyde – gennemse efter kategori, og gem dine favoritter med en stjerne.",
+  "shot_alt": "Alarmlisten i Waky-appen",
+  "shot_caption": "Alarmliste — gentagelsesdage og missioner med ét blik.",
   "howto_title": "Klar i tre trin",
   "howto_lede": "Fra du åbner appen første gang, til alarmen er klar, går der cirka et minut.",
   "steps": [
@@ -52,13 +52,13 @@
       "alt": "Illustration af en person, der ligger i sengen om aftenen og indstiller en alarm på telefonen"
     },
     {
-      "title": "Vælg en stemme og en sætning",
-      "text": "Vælg en stemme fra listen over AI-alarmer, eller skriv din egen sætning for at lave en ny.",
+      "title": "Vælg en mission og en lyd",
+      "text": "Vælg den mission, du skal løse for at slukke alarmen, og en indbygget lyd eller en, du selv har optaget.",
       "alt": "Illustration af en person, der sidder på sengekanten og lytter til alarmstemmer på telefonen"
     },
     {
-      "title": "Vågn op til den stemme",
-      "text": "Om morgenen læser den stemme, du har valgt, de ord, du har valgt, i stedet for en ringetone.",
+      "title": "Klar missionen og stå op",
+      "text": "Når du har løst missionen om morgenen, er du allerede vågen.",
       "alt": "Illustration af en person, der strækker sig og vågner i morgenlyset"
     }
   ],
@@ -67,50 +67,42 @@
   "faqs": [
     {
       "q": "Hvad gør jeg, hvis jeg har vænnet mig til mit vækkeur og sover videre?",
-      "a": "Når du hører den samme lyd hver morgen, lærer din hjerne at behandle den som baggrund frem for som et signal om at vågne. At skrue op for en lyd, du allerede har vænnet dig til, hjælper sjældent; at skifte selve lyden gør. En menneskestemme, der siger rigtige ord, er sværere at lade passere end et simpelt bip, fordi du skal forstå, hvad der bliver sagt. Med Waky kan du vælge mellem mange AI-stemmer og skifte, så snart én begynder at miste sin virkning."
+      "a": "Når du hører den samme lyd hver morgen, lærer hjernen at behandle den som baggrundsstøj i stedet for noget, der er værd at vågne af. At skrue op for en lyd, du allerede har vænnet dig til, hjælper sjældent; at skifte selve lyden gør. Din egen stemme med rigtige ord er langt sværere at ignorere end et bip. I Waky kan du bruge en optagelse af din stemme som alarm, og fordi slukning kræver en mission, er det svært at sove videre."
     },
     {
       "q": "Hvorfor sover jeg videre gennem flere alarmer?",
       "a": "Når det bliver en vane at slukke alarmen, gør du det næsten uden at vågne – ofte uden at kunne huske det bagefter. Flere alarmer hakker desuden din sidste søvn op i korte stykker, så du typisk har det værre, når du endelig står op. Én alarm, du faktisk registrerer, virker som regel bedre end fem, du slukker på autopilot."
     },
     {
-      "q": "Findes der en vækkeur-app, der vækker dig med en AI-stemme?",
-      "a": "Ja, det er præcis det, Waky gør. I stedet for en mekanisk ringetone læser AI-stemmer fra kategorier som stemmeskuespiller, fortælling, animation og dramatisk din alarm op. Du kan gennemse efter kategori, lytte til hver stemme, før du vælger den, og give de stemmer, du vil beholde, en stjerne. Den er gratis til iOS og Android."
+      "q": "Findes der en alarm-app, man kun kan slukke ved at løse en mission?",
+      "a": "Ja, Waky. Vælg mellem genstandsscanning (ret kameraet mod en valgt genstand), regnestykker eller feltet med den afvigende farve. På iOS er der også en armbøjningsmission og på Android en mønstermission. Alarmen ringer, til missionen er klaret."
     },
     {
-      "q": "Hvad er forskellen på en AI-alarm og en almindelig alarm?",
-      "a": "En almindelig alarm afspiller den samme tone igen og igen. Der er intet at forstå i den, så efter få dage bliver den til baggrundsstøj, du kan sove videre til. En AI-alarm siger en sætning, så din hjerne skal bearbejde sprog, og hvis du skifter stemme eller tekst, lyder hver morgen anderledes. Den virker ved at ændre typen af lyd i stedet for at skrue op."
+      "q": "Kan jeg lave en alarmlyd med min egen stemme?",
+      "a": "Tryk på optageknappen på fanen Optag, og optag op til 1 minut. Optagelsen kan straks bruges som lyd til en alarm eller vane, og filen bliver på din enhed."
     },
     {
-      "q": "Kan jeg lave en alarm, der siger noget, jeg selv har skrevet?",
-      "a": "I Waky kan du skrive en hvilken som helst sætning, og en AI-stemme læser den op som alarmlyd. Skriv det, der passer til din dag – „vigtig præsentation i formiddag“ eller noget, du gerne vil høre dig selv sige – og det er det, der afspilles, når alarmen går. Du kan lytte til den, før du gemmer."
+      "q": "Hvordan opretter jeg morgenvaner?",
+      "a": "Vælg på fanen Vaner mellem 85 skabeloner i 11 kategorier – opvågning, personlig pleje, måltider, motion og mere – eller lav din egen og sæt et tidspunkt. På det tidspunkt ringer en alarm, og hver vane, du gennemfører, giver erfaringspoint til næste niveau."
     },
     {
       "q": "Hvad hjælper ud over vækkeuret med at vågne?",
       "a": "De almindelige råd er at gå i seng på et fast tidspunkt og få stærkt lys kort efter, du vågner. Vanerne tager dog tid at få på plads, så det er praktisk at kombinere dem med en alarm, du helt sikkert lægger mærke til, i mellemtiden. En alarm erstatter ikke en god søvnrytme, men den holder skansen, mens du bygger en op."
     },
     {
-      "q": "Hvilke slags AI-stemmer findes der?",
-      "a": "De er inddelt i kategorier som kvinde, mand, stemmeskuespiller, fortælling, animation, dramatisk og sociale medier. Tryk på en kategori øverst i listen for kun at se den tone, du leder efter."
+      "q": "Hvor kan jeg se min vækkehistorik?",
+      "a": "Når du slukker en alarm, registreres tidspunktet, du stod op, og antallet af snoozes automatisk. Varmekortet, din stime og succesraten pr. ugedag viser dit mønster."
     },
     {
-      "q": "Kan jeg lave min egen alarmlyd?",
-      "a": "Ja. Tryk på tekstfeltet, skriv den sætning, du vil have, og en AI-stemme læser den op som alarmlyd."
-    },
-    {
-      "q": "Kan jeg høre en alarmlyd på forhånd?",
-      "a": "Tryk på afspilningsknappen i listen for at høre den med det samme, før du vælger den som alarm."
-    },
-    {
-      "q": "Kan jeg gemme dem, jeg kan lide?",
-      "a": "Tryk på stjernen for at føje en lyd til dine favoritter, og brug fanen med favoritter for kun at se de stemmer, du har gemt."
+      "q": "Kan den bruges til en kort lur?",
+      "a": "Med hurtigalarmen trykker du bare på en +N minutter-knap, og alarmen er sat – uden at vælge klokkeslæt. Praktisk til lure og korte pauser."
     },
     {
       "q": "Hvordan kontakter jeg jer?",
       "a": "Skriv til zaco.labs@gmail.com. Beskeden går direkte til Zaco Labs, holdet bag Waky."
     }
   ],
-  "cta_title": "Vågn op til en anden stemme i morgen",
+  "cta_title": "Stå rigtigt op i morgen tidlig",
   "cta_text": "Waky er gratis til iOS og Android.",
   "about_link": "Om Zaco Labs",
   "rights": "Alle rettigheder forbeholdes."

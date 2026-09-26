@@ -11,38 +11,38 @@
   "hero_image": "wake-en.webp",
   "shot_image": "app-en.webp",
   "currency": "USD",
-  "title": "Waky — Sariling AI na Boses ng Alarm Mo | Alarm App na Talagang Gigising sa Iyo",
-  "description": "Hindi ka na nagigising sa parehong ringtone? Ginigising ka ng Waky gamit ang mga AI na boses — voice actor, narration, animation at iba pa — na nagbabasa ng kahit anong linyang i-type mo. Libre sa iOS at Android.",
-  "og_title": "Waky — Sariling AI na Boses ng Alarm Mo",
-  "og_description": "Isang alarm app kung saan ginigising ka ng mga AI na boses gamit ang mga salitang pinili mo.",
-  "app_description": "Isang alarm app kung saan ginigising ka ng mga AI na boses gamit ang mga salitang pinili mo.",
+  "title": "Waky — Alarm na may Misyon at Gawi | Ang alarm na talagang gigising sa iyo",
+  "description": "Pinapatay ang alarm at natutulog ulit? Humihinto lang ang Waky kapag natapos mo ang isang misyon, ginigising ka gamit ang sarili mong boses na ni-record mo, at tinutulungan kang bumuo ng mga gawi sa umaga. Libre sa iOS at Android.",
+  "og_title": "Waky — Ang alarm na may misyon na talagang gigising sa iyo",
+  "og_description": "Alarm na humihinto lang pagkatapos ng misyon, mga tunog na ikaw mismo ang nag-record, at mga gawi sa umaga.",
+  "app_description": "Alarm na humihinto lang pagkatapos ng misyon, mga tunog na ikaw mismo ang nag-record, at mga gawi sa umaga.",
   "eyebrow": "Zaco Labs",
-  "h1": "Sariling AI na boses ng alarm mo",
-  "lede": "Natututo ang katawan mo na ituloy ang tulog kahit parehong ringtone ang tumutunog. Ang Waky ay isang alarm app kung saan iba't ibang AI na boses — voice actor, narration, animation — ang nagbabasa nang malakas ng linyang isinulat mo.",
+  "h1": "Tama na ang pagpatay ng alarm at pagtulog ulit",
+  "lede": "Ang Waky ay alarm na humihinto lang kapag natapos mo ang isang misyon. Ginigising ka nito gamit ang tunog na ikaw mismo ang nag-record, at pagkatapos ay tinutulungan kang simulan ang araw sa pagtapos ng iyong mga gawi sa umaga.",
   "note": "iOS · Android · Libreng i-download",
   "hero_alt": "Ilustrasyon ng taong nagulat sa tunog ng alarm clock at napaupo sa kama",
   "features_title": "Ano ang pinagkaiba ng Waky",
   "features_lede": "Imbes na lakasan ang alarm, ginawa naming mas mahirap itong balewalain.",
   "features": [
     {
-      "title": "Piliin ang boses na gusto mo",
-      "text": "Babae, lalaki, voice actor, narration, animation, dramatic. Mag-browse ayon sa kategorya, makinig, at lagyan ng star ang mga gusto mo."
+      "title": "Alarm na kailangan mong pagtrabahuhan",
+      "text": "Tuloy ang tunog hangga't hindi mo natatapos ang misyong kailangang gising ka: pag-scan ng bagay, isang math problem, o paghahanap ng tile na iba ang kulay. Wala nang pagpatay nito habang antok pa."
     },
     {
-      "title": "Isulat ang sarili mong linya",
-      "text": "Mag-type ng tulad ng “May malaking presentation ka ngayon — bangon na!” at babasahin ito ng AI na boses. Isang alarm na isinulat para sa umaga mo."
+      "title": "Sariling boses mo bilang alarm",
+      "text": "Mag-record ng hanggang 1 minuto — \"May presentation ka ngayon, bangon na!\" o tunog na gusto mo — at gamitin ito bilang tunog ng alarm."
     },
     {
-      "title": "Pakinggan bago i-set",
-      "text": "Pindutin ang play sa listahan at pakinggan muna. Walang hindi magandang sorpresa kinabukasan."
+      "title": "Mga gawi sa umaga pagkagising",
+      "text": "Idagdag ang gusto mong gawin tuwing umaga, tulad ng pag-inom ng tubig o pag-stretch. Paaalalahanan ka ng Waky sa tamang oras at mamarkahan mo ang mga ito mismo sa lock screen."
     },
     {
-      "title": "Mas mahirap balewalain",
-      "text": "Sa loob ng ilang araw, sinasala na ng utak mo ang iisang ringtone. Pero hindi ang ibang boses na nagsasabi ng ibang linya."
+      "title": "Talaan ng paggising na lumalaki",
+      "text": "Awtomatikong naitatala kung anong oras ka bumangon at ilang beses kang nag-snooze; ipinapakita ng heatmap at streak ang iyong pattern sa isang tingin."
     }
   ],
-  "shot_alt": "Screen ng listahan ng mga AI alarm sound sa Waky app",
-  "shot_caption": "Ang listahan ng mga AI alarm sound — mag-browse ayon sa kategorya at i-save ang mga paborito gamit ang star.",
+  "shot_alt": "Screen ng listahan ng alarm sa Waky app",
+  "shot_caption": "Listahan ng alarm — mga araw ng pag-ulit at misyon sa isang tingin.",
   "howto_title": "Tatlong hakbang para i-set up",
   "howto_lede": "Mula sa unang pagbukas hanggang handa na ang alarm, mga isang minuto lang.",
   "steps": [
@@ -52,13 +52,13 @@
       "alt": "Ilustrasyon ng taong nakahiga sa kama sa gabi habang nagse-set ng alarm sa phone"
     },
     {
-      "title": "Pumili ng boses at linya",
-      "text": "Pumili ng boses mula sa listahan ng mga AI alarm, o mag-type ng sarili mong linya para gumawa ng bago.",
+      "title": "Pumili ng misyon at tunog",
+      "text": "Piliin ang misyong lulutasin mo para patayin ang alarm, at isang built-in na tunog o tunog na ikaw mismo ang nag-record.",
       "alt": "Ilustrasyon ng taong nakaupo sa kama habang pinapakinggan ang mga boses ng alarm sa phone"
     },
     {
-      "title": "Gumising sa boses na iyon",
-      "text": "Sa umaga, imbes na ringtone, ang boses na pinili mo ang magbabasa ng mga salitang pinili mo.",
+      "title": "Tapusin ang misyon at bumangon",
+      "text": "Pagkatapos mong lutasin ang misyon sa umaga, gising ka na talaga.",
       "alt": "Ilustrasyon ng taong nag-iinat pagkagising sa liwanag ng umaga"
     }
   ],
@@ -67,50 +67,42 @@
   "faqs": [
     {
       "q": "Ano ang puwede kong gawin kung nasanay na ako sa alarm at natutulog pa rin?",
-      "a": "Kapag parehong tunog ang naririnig mo tuwing umaga, natututo ang utak mo na ituring ito bilang ingay sa background, hindi bilang hudyat na gumising. Bihirang makatulong ang paglakas ng tunog na binabalewala mo na; ang pagpapalit mismo ng tunog ang nakakatulong. Mas mahirap palampasin ang boses ng tao na nagsasabi ng totoong mga salita kaysa sa simpleng beep, dahil kailangan mong intindihin ang sinasabi. Sa Waky, puwede kang pumili mula sa maraming AI na boses at magpalit tuwing nawawalan ng epekto ang isa."
+      "a": "Kapag parehong tunog ang naririnig mo tuwing umaga, natututo ang utak na ituring itong ingay sa background sa halip na hudyat para gumising. Bihirang makatulong ang paglakas ng tunog na nakasanayan mo na; ang pagpapalit ng tunog mismo ang epektibo. Mas mahirap balewalain ang sarili mong boses na nagsasabi ng totoong salita kaysa sa isang beep. Sa Waky, puwede mong gamitin ang recording ng boses mo bilang alarm, at dahil kailangang tapusin ang misyon para patayin ito, mahirap makatulog ulit."
     },
     {
       "q": "Bakit natutulog pa rin ako kahit maraming alarm?",
       "a": "Kapag naging nakasanayan na ang pagpatay ng alarm, nagagawa mo ito nang halos hindi nagigising — madalas hindi mo na maalala pagkatapos. Hinahati rin ng maraming alarm ang huling bahagi ng tulog mo sa maiikling piraso, kaya mas masama ang pakiramdam mo kapag tuluyan ka nang bumangon. Kadalasan, mas epektibo ang isang alarm na talagang napapansin mo kaysa sa limang pinapatay mo nang wala sa sarili."
     },
     {
-      "q": "May alarm app ba na gumigising gamit ang AI na boses?",
-      "a": "Oo — ganoon mismo ang ginagawa ng Waky. Imbes na mekanikal na ringtone, mga AI na boses mula sa mga kategoryang tulad ng voice actor, narration, animation at dramatic ang nagbabasa ng alarm mo. Puwede kang mag-browse ayon sa kategorya, pakinggan ang bawat isa bago i-set, at lagyan ng star ang mga boses na gusto mong itabi. Libre ito sa iOS at Android."
+      "q": "May alarm app bang napapatay lang kapag nalutas ang misyon?",
+      "a": "Mayroon — ang Waky. Pumili sa pag-scan ng bagay (itutok ang camera sa napiling bagay), math problems, o paghahanap ng tile na iba ang kulay. Sa iOS may misyon ding push-up at sa Android may misyong pattern. Tuloy ang tunog hanggang matapos ang misyon."
     },
     {
-      "q": "Ano ang pinagkaiba ng AI alarm sa karaniwang alarm?",
-      "a": "Paulit-ulit na tono ang tinutugtog ng karaniwang alarm. Walang kailangang intindihin dito, kaya sa loob ng ilang araw nagiging ingay na lang ito sa background na kaya mong tulugan. Ang AI alarm ay nagsasalita ng isang pangungusap, kaya kailangang iproseso ng utak mo ang wika, at kapag pinalitan mo ang boses o ang linya, iba ang tunog tuwing umaga. Gumagana ito sa pagbabago ng uri ng tunog, hindi sa paglakas nito."
+      "q": "Puwede ba akong gumawa ng tunog ng alarm gamit ang sarili kong boses?",
+      "a": "Sa tab na Record, i-tap ang record button para mag-record ng hanggang 1 minuto. Magagamit agad ang recording bilang tunog ng alarm o gawi, at nananatili ang file sa device mo."
     },
     {
-      "q": "Puwede ba akong gumawa ng alarm na nagsasabi ng isinulat ko?",
-      "a": "Sa Waky, puwede kang mag-type ng kahit anong linya at babasahin ito ng AI na boses bilang tunog ng alarm. Ilagay kung ano ang bagay sa araw mo — “may mahalagang presentation mamayang umaga” o isang bagay na gusto mong marinig mula sa sarili mo — at iyon ang tutunog pagdating ng alarm. Puwede mo itong pakinggan bago i-save."
+      "q": "Paano gumawa ng mga gawi sa umaga?",
+      "a": "Sa tab na Habits, pumili mula sa 85 preset sa 11 kategorya — paggising, paghahanda, pagkain, ehersisyo at iba pa — o gumawa ng sarili mo at magtakda ng oras. Tutunog ang alarm sa oras na iyon, at bawat gawing natapos ay nagbibigay ng XP para tumaas ang level."
     },
     {
       "q": "Bukod sa alarm, ano pa ang nakakatulong sa paggising?",
       "a": "Ang karaniwang payo ay matulog sa parehong oras gabi-gabi at masinagan ng maliwanag na ilaw pagkagising. Pero matagal bago mabuo ang mga gawing ito, kaya praktikal na isabay muna ang mga ito sa alarm na siguradong mapapansin mo. Hindi kayang palitan ng alarm ang maayos na routine sa pagtulog, pero kaya nitong umalalay habang binubuo mo pa ito."
     },
     {
-      "q": "Anong mga uri ng AI na boses ang mayroon?",
-      "a": "Nakapangkat ang mga ito sa mga kategoryang tulad ng babae, lalaki, voice actor, narration, animation, dramatic at social media. Pindutin ang isang kategorya sa itaas ng listahan para makita lang ang istilong gusto mo."
+      "q": "Saan ko makikita ang kasaysayan ng paggising ko?",
+      "a": "Kapag pinatay mo ang alarm, awtomatikong naitatala ang oras ng pagbangon at dami ng snooze. Ipinapakita ng heatmap, streak at success rate kada araw ng linggo ang iyong pattern."
     },
     {
-      "q": "Puwede ba akong gumawa ng sarili kong alarm sound?",
-      "a": "Oo. Pindutin ang opsyon para mag-type, isulat ang linyang gusto mo, at babasahin ito ng AI na boses bilang alarm sound."
-    },
-    {
-      "q": "Puwede ko bang pakinggan muna ang alarm sound?",
-      "a": "Pindutin ang play button sa listahan para marinig ito agad, bago mo i-set bilang alarm."
-    },
-    {
-      "q": "Puwede ko bang i-save ang mga gusto ko?",
-      "a": "Pindutin ang star para idagdag ang tunog sa mga paborito, tapos buksan ang favorites tab para makita lang ang mga boses na na-save mo."
+      "q": "Magagamit ba ito sa maikling idlip?",
+      "a": "Sa Quick Alarm, i-tap lang ang +N minuto na button at nakatakda na ang alarm nang hindi pumipili ng oras. Bagay sa idlip at maiikling pahinga."
     },
     {
       "q": "Paano kayo makokontak?",
       "a": "Mag-email sa zaco.labs@gmail.com. Diretso itong mapupunta sa Zaco Labs, ang team sa likod ng Waky."
     }
   ],
-  "cta_title": "Bukas ng umaga, gumising sa ibang boses",
+  "cta_title": "Bukas ng umaga, talagang bumangon ka",
   "cta_text": "Libre ang Waky sa iOS at Android.",
   "about_link": "Tungkol sa Zaco Labs",
   "rights": "Nakalaan ang lahat ng karapatan."

@@ -11,38 +11,38 @@
   "hero_image": "wake-en.webp",
   "shot_image": "app-en.webp",
   "currency": "USD",
-  "title": "Waky — Your Own AI Alarm Voice | Alarm App That Wakes You",
-  "description": "Numb to the same ringtone every morning? Waky wakes you with AI voices — voice actors, narration, animation and more — reading any line you type. Free on iOS and Android.",
-  "og_title": "Waky — Your Own AI Alarm Voice",
-  "og_description": "An alarm app where AI voices wake you with the words you choose.",
-  "app_description": "An alarm app where AI voices wake you with the words you choose.",
+  "title": "Waky — Alarm Clock & Habits | The Mission Alarm That Gets You Up",
+  "description": "Turn off the alarm and fall back asleep? Waky only stops once you clear a mission, wakes you with your own recorded voice, and helps you build morning habits. Free on iOS and Android.",
+  "og_title": "Waky — The mission alarm that really wakes you",
+  "og_description": "An alarm you stop by clearing a mission, sounds you record yourself, and morning habits.",
+  "app_description": "An alarm you stop by clearing a mission, sounds you record yourself, and morning habits.",
   "eyebrow": "Zaco Labs",
-  "h1": "Your own AI alarm voice",
-  "lede": "Your body learns to sleep through the same ringtone. Waky is an alarm app where a range of AI voices — voice actors, narration, animation — read out the line you wrote.",
+  "h1": "No more switching it off and going back to sleep",
+  "lede": "Waky is an alarm you can only stop by clearing a mission. It wakes you with a sound you recorded yourself, then helps you start the day by working through your morning habits.",
   "note": "iOS · Android · Free to download",
   "hero_alt": "Illustration of a person startled awake by a beeping alarm clock, sitting up in bed",
   "features_title": "What makes Waky different",
   "features_lede": "Instead of making the alarm louder, we made it harder to ignore.",
   "features": [
     {
-      "title": "Pick the voice you want",
-      "text": "Female, male, voice actor, narration, animation, dramatic. Browse by category, listen, and star the ones you like."
+      "title": "An alarm you have to earn",
+      "text": "The alarm keeps going until you finish a mission that needs a working brain — Object Scan, a math problem, or spotting the odd color tile. No more dismissing it half asleep."
     },
     {
-      "title": "Write your own line",
-      "text": "Type something like “Big presentation today — get up,” and an AI voice reads it back. An alarm written for your morning."
+      "title": "Your own recorded alarm sound",
+      "text": "Record up to a minute of anything — \"You've got that presentation today, get up!\" or a sound you love — and use it as your alarm."
     },
     {
-      "title": "Listen before you set it",
-      "text": "Hit play in the list and hear it first. No unpleasant surprises the next morning."
+      "title": "Morning habits after you get up",
+      "text": "Add what you want to do each morning, like drinking water or stretching. Waky reminds you at that time and you check them off right on the Lock Screen."
     },
     {
-      "title": "Harder to tune out",
-      "text": "A fixed ringtone gets filtered out by your brain within days. A different voice saying a different line does not."
+      "title": "A wake-up record that builds",
+      "text": "When you got up and how often you snoozed are logged automatically, so a heatmap and your streak show your pattern at a glance."
     }
   ],
-  "shot_alt": "The AI alarm sound list screen in the Waky app",
-  "shot_caption": "The AI alarm sound list — browse by category, star your favorites.",
+  "shot_alt": "Waky alarm list screen",
+  "shot_caption": "Alarm list — repeat days and missions at a glance.",
   "howto_title": "Three steps to set it up",
   "howto_lede": "From first launch to a working alarm takes about a minute.",
   "steps": [
@@ -52,13 +52,13 @@
       "alt": "Illustration of a person lying in bed at night setting an alarm on their phone"
     },
     {
-      "title": "Choose a voice and a line",
-      "text": "Pick a voice from the AI alarm list, or type your own line to create a new one.",
+      "title": "Pick a mission and a sound",
+      "text": "Choose the mission you'll solve to stop the alarm, then a built-in sound or one you recorded yourself.",
       "alt": "Illustration of a person sitting on the bed previewing alarm voices on their phone"
     },
     {
-      "title": "Wake up to that voice",
-      "text": "In the morning, instead of a ringtone, your chosen voice reads your chosen words.",
+      "title": "Clear the mission and get up",
+      "text": "By the time you've solved the mission in the morning, you're already awake.",
       "alt": "Illustration of a person stretching awake in the morning sunlight"
     }
   ],
@@ -67,50 +67,42 @@
   "faqs": [
     {
       "q": "What can I do if I've gotten used to my alarm and sleep through it?",
-      "a": "When you hear the same sound every morning, your brain learns to treat it as background rather than something worth waking for. Turning the volume up on a sound you have already tuned out rarely helps; changing the sound itself does. A human voice saying actual words is harder to let slide than a plain beep, because you have to process what is being said. Waky lets you pick from a range of AI voices and swap between them whenever one starts to lose its effect."
+      "a": "When you hear the same sound every morning, your brain learns to treat it as background rather than something worth waking for. Turning the volume up on a sound you have already tuned out rarely helps; changing the sound itself does. Your own voice saying real words is much harder to let slide than a plain beep. In Waky you can use a recording of your own voice as the alarm, and because stopping it means clearing a mission, sleeping through it is hard."
     },
     {
       "q": "Why do I sleep through several alarms in a row?",
       "a": "Once dismissing an alarm becomes routine, you do it almost without waking — often with no memory of it afterwards. Stacking more alarms also breaks your last stretch of sleep into short fragments, which tends to leave you feeling worse when you finally get up. One alarm you actually register usually works better than five you can dismiss on autopilot."
     },
     {
-      "q": "Is there an alarm app that wakes you with an AI voice?",
-      "a": "Yes — Waky does exactly that. Instead of a mechanical ringtone, AI voices across categories like voice actor, narration, animation and dramatic read out your alarm. You can browse by category, preview each one before setting it, and star the voices you want to keep. It is free on both iOS and Android."
+      "q": "Is there an alarm app you can only stop by solving a mission?",
+      "a": "Yes — that's Waky. Choose from Object Scan (point the camera at an object you picked), math problems, or finding the odd color tile. iOS also has a Push-Ups mission and Android a Pattern mission. The alarm keeps ringing until the mission is done."
     },
     {
-      "q": "How is an AI alarm different from a normal one?",
-      "a": "A normal alarm replays a fixed tone. There is nothing to understand in it, so within days it becomes background noise you can sleep through. An AI alarm speaks a sentence, so your brain has to process language, and changing the voice or the wording means a different sound each morning. It works by changing the kind of sound rather than making it louder."
+      "q": "Can I make an alarm sound with my own voice?",
+      "a": "In the Record tab, tap the record button to capture up to a minute. You can set the recording as an alarm or habit sound right away, and the file stays on your device."
     },
     {
-      "q": "Can I make an alarm that says something I wrote?",
-      "a": "In Waky you can type any line and an AI voice will read it back as your alarm sound. Put in whatever fits the day — “big presentation this morning,” or something you want to hear from yourself — and that is what plays when the alarm goes off. You can preview it before you save it."
+      "q": "How do I set up morning habits?",
+      "a": "In the Habits tab, pick from 85 presets in 11 categories — wake-up, washing, meals, exercise and more — or make your own, and set a time. An alarm rings at that time, and every habit you complete earns XP toward the next level."
     },
     {
       "q": "Besides the alarm, what else helps with waking up?",
       "a": "Going to bed at a consistent time and getting bright light soon after you wake are the usual recommendations. Those habits take a while to settle in, though, so it is practical to pair them with an alarm you reliably notice in the meantime. An alarm will not replace a sleep routine, but it can hold the line while one is forming."
     },
     {
-      "q": "What kinds of AI voices are there?",
-      "a": "They are grouped into categories such as female, male, voice actor, narration, animation, dramatic and social media. Tap a category at the top of the list to narrow it to the tone you want."
+      "q": "Where can I see my wake-up history?",
+      "a": "When you stop an alarm, the time you got up and how many times you snoozed are recorded automatically. A wake-up heatmap, your streak and success rate by weekday show your pattern."
     },
     {
-      "q": "Can I create my own alarm sound?",
-      "a": "Yes. Tap the text-entry option, write the line you want, and an AI voice will read it back as an alarm sound."
-    },
-    {
-      "q": "Can I preview an alarm sound?",
-      "a": "Tap the play button in the list to hear it right away, before you set it as your alarm."
-    },
-    {
-      "q": "Can I save the ones I like?",
-      "a": "Tap the star to add a sound to your favorites, then use the favorites tab to see only the voices you have saved."
+      "q": "Can I use it for a quick nap?",
+      "a": "With Quick Alarm, just tap a +N minutes button and the alarm is set — no time picker needed. Handy for naps and short breaks."
     },
     {
       "q": "How do I get in touch?",
       "a": "Email zaco.labs@gmail.com. It goes straight to Zaco Labs, the team behind Waky."
     }
   ],
-  "cta_title": "Wake up to a different voice tomorrow",
+  "cta_title": "Actually get up tomorrow morning",
   "cta_text": "Waky is free on iOS and Android.",
   "about_link": "About Zaco Labs",
   "rights": "All rights reserved."

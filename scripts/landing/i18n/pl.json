@@ -11,38 +11,38 @@
   "hero_image": "wake-en.webp",
   "shot_image": "app-en.webp",
   "currency": "USD",
-  "title": "Waky — Twój własny głos budzika AI | Aplikacja budzik, która naprawdę budzi",
-  "description": "Ten sam dzwonek już cię nie budzi? Waky budzi cię głosami AI — lektorów, narracji, animacji i nie tylko — które czytają dowolne zdanie, jakie wpiszesz. Za darmo na iOS i Androida.",
-  "og_title": "Waky — Twój własny głos budzika AI",
-  "og_description": "Aplikacja budzik, w której głosy AI budzą cię słowami, które sam wybierzesz.",
-  "app_description": "Aplikacja budzik, w której głosy AI budzą cię słowami, które sam wybierzesz.",
+  "title": "Waky — Budzik i nawyki | Budzik z misjami, który naprawdę stawia na nogi",
+  "description": "Wyłączasz budzik i zasypiasz z powrotem? Waky wyłącza się dopiero po wykonaniu misji, budzi Cię Twoim własnym nagranym głosem i pomaga budować poranne nawyki. Za darmo na iOS i Androida.",
+  "og_title": "Waky — Budzik z misjami, który naprawdę budzi",
+  "og_description": "Budzik, który milknie dopiero po misji, dźwięki nagrane przez Ciebie i poranne nawyki.",
+  "app_description": "Budzik, który milknie dopiero po misji, dźwięki nagrane przez Ciebie i poranne nawyki.",
   "eyebrow": "Zaco Labs",
-  "h1": "Twój własny głos budzika AI",
-  "lede": "Organizm uczy się przesypiać ten sam dzwonek. Waky to aplikacja budzik, w której różne głosy AI — lektorzy, narracja, animacja — czytają na głos zdanie, które napisałeś.",
+  "h1": "Koniec z wyłączaniem budzika i spaniem dalej",
+  "lede": "Waky to budzik, który milknie dopiero po wykonaniu misji. Budzi Cię dźwiękiem nagranym przez Ciebie, a potem pomaga zacząć dzień od porannych nawyków.",
   "note": "iOS · Android · Pobierz za darmo",
   "hero_alt": "Ilustracja osoby wyrwanej ze snu przez dzwoniący budzik, siadającej na łóżku",
   "features_title": "Czym Waky różni się od innych budzików",
   "features_lede": "Zamiast robić budzik głośniejszym, sprawiliśmy, że trudniej go zignorować.",
   "features": [
     {
-      "title": "Wybierz głos, jaki chcesz",
-      "text": "Kobiecy, męski, lektor, narracja, animacja, dramatyczny. Przeglądaj według kategorii, słuchaj i oznaczaj ulubione gwiazdką."
+      "title": "Budzik, na który trzeba zapracować",
+      "text": "Alarm dzwoni, dopóki nie skończysz misji wymagającej przytomności: skanowania obiektu, zadania matematycznego czy znalezienia kafelka w innym kolorze. Koniec z wyłączaniem go przez sen."
     },
     {
-      "title": "Napisz własne zdanie",
-      "text": "Wpisz na przykład „Dziś wielka prezentacja — wstawaj!”, a głos AI ci je przeczyta. Budzik napisany dla twojego poranka."
+      "title": "Twój własny głos jako budzik",
+      "text": "Nagraj do 1 minuty – „Masz dziś tę prezentację, wstawaj!” albo ulubiony dźwięk – i ustaw go jako dźwięk budzika."
     },
     {
-      "title": "Posłuchaj, zanim ustawisz",
-      "text": "Stuknij odtwarzanie na liście i najpierw posłuchaj. Żadnych przykrych niespodzianek następnego ranka."
+      "title": "Poranne nawyki po przebudzeniu",
+      "text": "Dodaj to, co chcesz robić każdego ranka, np. picie wody czy rozciąganie. Waky przypomni o tym o czasie, a Ty odhaczysz wszystko na ekranie blokady."
     },
     {
-      "title": "Trudniej go przespać",
-      "text": "Stały dzwonek mózg odfiltrowuje w kilka dni. Innego głosu mówiącego inne zdanie — już nie."
+      "title": "Rosnący dziennik pobudek",
+      "text": "Godzina wstania i liczba drzemek zapisują się automatycznie; mapa cieplna i Twoja seria pokazują Twój wzorzec na pierwszy rzut oka."
     }
   ],
-  "shot_alt": "Ekran z listą dźwięków budzika AI w aplikacji Waky",
-  "shot_caption": "Lista dźwięków budzika AI — przeglądaj według kategorii, zapisuj ulubione gwiazdką.",
+  "shot_alt": "Ekran listy alarmów w aplikacji Waky",
+  "shot_caption": "Lista alarmów — dni powtórzeń i misje na pierwszy rzut oka.",
   "howto_title": "Trzy kroki do ustawienia",
   "howto_lede": "Od pierwszego uruchomienia do gotowego budzika mija mniej więcej minuta.",
   "steps": [
@@ -52,13 +52,13 @@
       "alt": "Ilustracja osoby leżącej wieczorem w łóżku i ustawiającej budzik w telefonie"
     },
     {
-      "title": "Wybierz głos i zdanie",
-      "text": "Wybierz głos z listy budzików AI albo wpisz własne zdanie, żeby utworzyć nowy.",
+      "title": "Wybierz misję i dźwięk",
+      "text": "Wybierz misję, którą rozwiążesz, żeby wyłączyć alarm, oraz wbudowany dźwięk lub nagrany przez siebie.",
       "alt": "Ilustracja osoby siedzącej na łóżku i słuchającej głosów budzika w telefonie"
     },
     {
-      "title": "Obudź się przy tym głosie",
-      "text": "Rano zamiast dzwonka wybrany przez ciebie głos czyta wybrane przez ciebie słowa.",
+      "title": "Wykonaj misję i wstań",
+      "text": "Zanim rano skończysz misję, będziesz już całkiem przytomny.",
       "alt": "Ilustracja osoby przeciągającej się po przebudzeniu w porannym świetle"
     }
   ],
@@ -67,50 +67,42 @@
   "faqs": [
     {
       "q": "Co zrobić, jeśli przyzwyczaiłem się do budzika i go przesypiam?",
-      "a": "Gdy każdego ranka słyszysz ten sam dźwięk, mózg uczy się traktować go jak tło, a nie sygnał do pobudki. Podkręcenie głośności dźwięku, który już ignorujesz, rzadko pomaga; pomaga zmiana samego dźwięku. Ludzki głos mówiący prawdziwe słowa trudniej puścić mimo uszu niż zwykłe piknięcie, bo musisz zrozumieć, co zostało powiedziane. Waky pozwala wybierać spośród wielu głosów AI i zmieniać je, gdy któryś zaczyna tracić skuteczność."
+      "a": "Gdy każdego ranka słyszysz ten sam dźwięk, mózg uczy się traktować go jak tło, a nie sygnał do pobudki. Podkręcanie głośności dźwięku, do którego już przywykłeś, rzadko pomaga – zmiana samego dźwięku tak. Twój własny głos mówiący prawdziwe słowa znacznie trudniej zignorować niż piknięcie. W Waky możesz ustawić nagranie swojego głosu jako budzik, a ponieważ wyłączenie wymaga misji, trudno go przespać."
     },
     {
       "q": "Dlaczego przesypiam nawet kilka budzików z rzędu?",
       "a": "Kiedy wyłączanie budzika staje się rutyną, robisz to niemal bez budzenia się — często nawet tego nie pamiętając. Więcej budzików dzieli też końcówkę snu na krótkie kawałki, przez co zwykle czujesz się gorzej, gdy w końcu wstajesz. Jeden budzik, który naprawdę zauważasz, zwykle działa lepiej niż pięć wyłączanych na autopilocie."
     },
     {
-      "q": "Czy jest aplikacja budzik, która budzi głosem AI?",
-      "a": "Tak, dokładnie to robi Waky. Zamiast mechanicznego dzwonka twój budzik czytają głosy AI z kategorii takich jak lektor, narracja, animacja czy dramatyczny. Możesz przeglądać według kategorii, odsłuchać każdy głos przed ustawieniem i oznaczyć gwiazdką te, które chcesz zachować. Aplikacja jest darmowa na iOS i Androida."
+      "q": "Czy jest aplikacja budzika, którą wyłącza się tylko po wykonaniu misji?",
+      "a": "Tak, Waky. Wybierz skanowanie obiektu (skieruj aparat na wybrany przedmiot), zadania matematyczne lub znalezienie kafelka w innym kolorze. Na iOS jest też misja z pompkami, a na Androidzie misja ze wzorem. Alarm dzwoni, dopóki misja nie zostanie ukończona."
     },
     {
-      "q": "Czym budzik AI różni się od zwykłego?",
-      "a": "Zwykły budzik powtarza stały sygnał. Nie ma w nim nic do zrozumienia, więc po kilku dniach staje się szumem w tle, przy którym śpisz dalej. Budzik AI wypowiada zdanie, więc mózg musi przetwarzać język, a gdy zmienisz głos lub tekst, każdy poranek brzmi inaczej. Działa przez zmianę rodzaju dźwięku, a nie jego głośności."
+      "q": "Czy mogę stworzyć dźwięk budzika własnym głosem?",
+      "a": "Na karcie Nagraj stuknij przycisk nagrywania i nagraj do 1 minuty. Nagranie od razu ustawisz jako dźwięk alarmu lub nawyku, a plik zostaje na Twoim urządzeniu."
     },
     {
-      "q": "Czy mogę zrobić budzik, który powie coś, co sam napisałem?",
-      "a": "W Waky możesz wpisać dowolne zdanie, a głos AI przeczyta je jako dźwięk budzika. Wpisz to, co pasuje do twojego dnia — „rano ważna prezentacja” albo coś, co chcesz usłyszeć od siebie — i właśnie to usłyszysz, gdy zadzwoni budzik. Przed zapisaniem możesz go odsłuchać."
+      "q": "Jak utworzyć poranne nawyki?",
+      "a": "Na karcie Nawyki wybierz spośród 85 szablonów w 11 kategoriach – pobudka, higiena, posiłki, ruch i inne – albo stwórz własny i ustaw godzinę. O tej porze zadzwoni alarm, a każdy wykonany nawyk daje punkty doświadczenia do kolejnego poziomu."
     },
     {
       "q": "Co poza budzikiem pomaga się obudzić?",
       "a": "Typowe zalecenia to kładzenie się spać o stałej porze i wystawienie się na jasne światło krótko po przebudzeniu. Takie nawyki potrzebują jednak czasu, więc w międzyczasie warto łączyć je z budzikiem, który na pewno zauważysz. Budzik nie zastąpi rytmu snu, ale pomoże przetrwać, zanim ten rytm się wyrobi."
     },
     {
-      "q": "Jakie rodzaje głosów AI są dostępne?",
-      "a": "Są pogrupowane w kategorie, takie jak kobiecy, męski, lektor, narracja, animacja, dramatyczny i media społecznościowe. Stuknij kategorię u góry listy, aby zobaczyć tylko wybrany styl."
+      "q": "Gdzie zobaczę historię pobudek?",
+      "a": "Gdy wyłączasz alarm, godzina wstania i liczba drzemek zapisują się automatycznie. Mapa cieplna, seria i skuteczność według dnia tygodnia pokazują Twój wzorzec."
     },
     {
-      "q": "Czy mogę stworzyć własny dźwięk budzika?",
-      "a": "Tak. Stuknij opcję wpisywania tekstu, napisz wybrane zdanie, a głos AI przeczyta je jako dźwięk budzika."
-    },
-    {
-      "q": "Czy mogę wcześniej odsłuchać dźwięk budzika?",
-      "a": "Stuknij przycisk odtwarzania na liście, aby od razu go usłyszeć, zanim ustawisz go jako budzik."
-    },
-    {
-      "q": "Czy mogę zapisać te, które mi się podobają?",
-      "a": "Stuknij gwiazdkę, aby dodać dźwięk do ulubionych, a potem otwórz kartę ulubionych, aby zobaczyć tylko zapisane głosy."
+      "q": "Czy nadaje się na krótką drzemkę?",
+      "a": "W szybkim alarmie wystarczy stuknąć przycisk +N minut i alarm jest ustawiony, bez wybierania godziny. Wygodne na drzemki i krótkie przerwy."
     },
     {
       "q": "Jak się z wami skontaktować?",
       "a": "Napisz na zaco.labs@gmail.com. Wiadomość trafia bezpośrednio do Zaco Labs, zespołu stojącego za Waky."
     }
   ],
-  "cta_title": "Jutro obudź się przy innym głosie",
+  "cta_title": "Jutro rano naprawdę wstań",
   "cta_text": "Waky jest darmowa na iOS i Androida.",
   "about_link": "O Zaco Labs",
   "rights": "Wszelkie prawa zastrzeżone."

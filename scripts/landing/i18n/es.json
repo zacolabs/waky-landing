@@ -11,38 +11,38 @@
   "hero_image": "wake-en.webp",
   "shot_image": "app-en.webp",
   "currency": "USD",
-  "title": "Waky — Tu propia voz de alarma con IA | La app de alarma que sí te despierta",
-  "description": "¿Ya no te despierta el mismo tono de siempre? Waky te despierta con voces de IA —actores de doblaje, narración, animación y más— que leen la frase que tú escribas. Gratis en iOS y Android.",
-  "og_title": "Waky — Tu propia voz de alarma con IA",
-  "og_description": "Una app de alarma en la que voces de IA te despiertan con las palabras que tú elijas.",
-  "app_description": "Una app de alarma en la que voces de IA te despiertan con las palabras que tú elijas.",
+  "title": "Waky — Despertador y Hábitos | La alarma con misiones que te levanta",
+  "description": "¿Apagas la alarma y vuelves a dormirte? Con Waky solo se apaga al superar una misión, te despierta con tu propia voz grabada y te ayuda a crear hábitos matutinos. Gratis en iOS y Android.",
+  "og_title": "Waky — La alarma con misiones que de verdad te despierta",
+  "og_description": "Una alarma que se apaga al superar una misión, sonidos grabados por ti y hábitos matutinos.",
+  "app_description": "Una alarma que se apaga al superar una misión, sonidos grabados por ti y hábitos matutinos.",
   "eyebrow": "Zaco Labs",
-  "h1": "Tu propia voz de alarma con IA",
-  "lede": "Tu cuerpo aprende a seguir durmiendo con el mismo tono de siempre. Waky es una app de alarma en la que distintas voces de IA —actores de doblaje, narración, animación— leen en voz alta la frase que escribiste.",
+  "h1": "Se acabó apagar la alarma y seguir durmiendo",
+  "lede": "Waky es una alarma que solo se apaga cuando superas una misión. Te despierta con un sonido que grabaste tú y luego te ayuda a empezar el día completando tus hábitos matutinos.",
   "note": "iOS · Android · Descarga gratuita",
   "hero_alt": "Ilustración de una persona que se despierta sobresaltada por un despertador y se incorpora en la cama",
   "features_title": "Qué hace diferente a Waky",
   "features_lede": "En lugar de hacer la alarma más fuerte, la hicimos más difícil de ignorar.",
   "features": [
     {
-      "title": "Elige la voz que quieras",
-      "text": "Femenina, masculina, actor de doblaje, narración, animación, dramática. Explora por categoría, escucha y marca con una estrella las que te gusten."
+      "title": "Una alarma que debes ganarte",
+      "text": "La alarma no para hasta que terminas una misión que exige estar despierto: escaneo de objetos, un problema de matemáticas o encontrar la casilla de otro color. Se acabó apagarla medio dormido."
     },
     {
-      "title": "Escribe tu propia frase",
-      "text": "Escribe algo como «Hoy tienes la presentación, levántate» y una voz de IA te lo leerá. Una alarma escrita para tu mañana."
+      "title": "Tu propia voz como alarma",
+      "text": "Graba hasta 1 minuto — \"¡Hoy tienes esa presentación, levántate!\" o un sonido que te guste — y úsalo como sonido de alarma."
     },
     {
-      "title": "Escúchala antes de ponerla",
-      "text": "Pulsa reproducir en la lista y escúchala primero. Sin sorpresas desagradables a la mañana siguiente."
+      "title": "Hábitos matutinos al levantarte",
+      "text": "Añade lo que quieres hacer cada mañana, como beber agua o estirarte. Waky te avisa a esa hora y los marcas uno a uno desde la pantalla de bloqueo."
     },
     {
-      "title": "Más difícil de ignorar",
-      "text": "Tu cerebro filtra un tono fijo en pocos días. Una voz distinta diciendo una frase distinta, no."
+      "title": "Un registro de despertares",
+      "text": "La hora a la que te levantas y cuántas veces pospones se registran solas; un mapa de calor y tu racha muestran tu patrón de un vistazo."
     }
   ],
-  "shot_alt": "Pantalla con la lista de sonidos de alarma con IA en la app Waky",
-  "shot_caption": "La lista de sonidos de alarma con IA: explora por categoría y guarda tus favoritos.",
+  "shot_alt": "Pantalla de lista de alarmas de Waky",
+  "shot_caption": "Lista de alarmas — días de repetición y misiones de un vistazo.",
   "howto_title": "Tres pasos para configurarla",
   "howto_lede": "Desde que la abres por primera vez hasta tener la alarma lista pasa más o menos un minuto.",
   "steps": [
@@ -52,13 +52,13 @@
       "alt": "Ilustración de una persona acostada por la noche que configura una alarma en el móvil"
     },
     {
-      "title": "Elige una voz y una frase",
-      "text": "Escoge una voz de la lista de alarmas con IA o escribe tu propia frase para crear una nueva.",
+      "title": "Elige una misión y un sonido",
+      "text": "Decide qué misión resolverás para apagar la alarma y elige un sonido incluido o uno grabado por ti.",
       "alt": "Ilustración de una persona sentada en la cama escuchando voces de alarma en el móvil"
     },
     {
-      "title": "Despierta con esa voz",
-      "text": "Por la mañana, en lugar de un tono, la voz que elegiste lee las palabras que elegiste.",
+      "title": "Supera la misión y levántate",
+      "text": "Cuando terminas la misión por la mañana, ya estás despierto.",
       "alt": "Ilustración de una persona que se despierta estirándose con la luz de la mañana"
     }
   ],
@@ -67,50 +67,42 @@
   "faqs": [
     {
       "q": "¿Qué hago si me acostumbré a la alarma y ya no me despierta?",
-      "a": "Cuando oyes el mismo sonido todas las mañanas, tu cerebro aprende a tratarlo como ruido de fondo y no como una señal para despertarte. Subir el volumen de un sonido que ya ignoras rara vez sirve; lo que funciona es cambiar el sonido en sí. Una voz humana diciendo palabras reales cuesta más de pasar por alto que un simple pitido, porque tienes que procesar lo que dice. Waky te deja elegir entre muchas voces de IA y cambiar de una a otra cuando alguna empieza a perder efecto."
+      "a": "Cuando oyes el mismo sonido cada mañana, tu cerebro aprende a tratarlo como ruido de fondo y no como algo por lo que despertarse. Subir el volumen de un sonido al que ya te acostumbraste rara vez funciona; cambiar el sonido sí. Tu propia voz diciendo palabras reales es mucho más difícil de ignorar que un pitido. En Waky puedes usar una grabación de tu voz como alarma y, como para apagarla hay que superar una misión, dormirse encima es difícil."
     },
     {
       "q": "¿Por qué sigo durmiendo aunque ponga varias alarmas?",
       "a": "Cuando apagar la alarma se vuelve rutina, lo haces casi sin despertarte, y muchas veces ni lo recuerdas después. Además, poner más alarmas parte tu último tramo de sueño en fragmentos cortos, y eso suele hacer que te levantes peor. Una sola alarma que de verdad notas suele funcionar mejor que cinco que apagas en piloto automático."
     },
     {
-      "q": "¿Hay alguna app de alarma que te despierte con una voz de IA?",
-      "a": "Sí, Waky hace exactamente eso. En lugar de un tono mecánico, voces de IA de categorías como actor de doblaje, narración, animación o dramática leen tu alarma. Puedes explorar por categoría, escuchar cada una antes de configurarla y marcar con una estrella las voces que quieras guardar. Es gratis en iOS y Android."
+      "q": "¿Hay una app de alarma que solo se apague resolviendo una misión?",
+      "a": "Sí, Waky. Puedes elegir escaneo de objetos (apuntar la cámara a un objeto que elegiste), problemas de matemáticas o encontrar la casilla de otro color. En iOS también hay una misión de flexiones y en Android una de patrones. La alarma sigue sonando hasta completar la misión."
     },
     {
-      "q": "¿En qué se diferencia una alarma con IA de una normal?",
-      "a": "Una alarma normal repite un tono fijo. No hay nada que entender en él, así que en pocos días se convierte en un ruido de fondo con el que puedes seguir durmiendo. Una alarma con IA dice una frase, de modo que tu cerebro tiene que procesar lenguaje, y si cambias la voz o el texto, cada mañana suena distinto. Funciona cambiando el tipo de sonido, no subiendo el volumen."
+      "q": "¿Puedo crear un sonido de alarma con mi propia voz?",
+      "a": "En la pestaña Grabar, pulsa el botón de grabación para grabar hasta 1 minuto. Puedes usar la grabación al instante como sonido de una alarma o de un hábito, y el archivo se guarda en tu dispositivo."
     },
     {
-      "q": "¿Puedo crear una alarma que diga algo que yo escriba?",
-      "a": "En Waky puedes escribir cualquier frase y una voz de IA la leerá como sonido de alarma. Pon lo que encaje con tu día —«hoy por la mañana tengo una presentación importante» o algo que quieras oír de ti mismo— y eso es lo que sonará cuando se active la alarma. Puedes escucharla antes de guardarla."
+      "q": "¿Cómo creo hábitos matutinos?",
+      "a": "En la pestaña Hábitos, elige entre 85 plantillas en 11 categorías —despertar, aseo, comidas, ejercicio y más— o crea el tuyo y ponle una hora. A esa hora suena una alarma, y cada hábito completado suma experiencia para subir de nivel."
     },
     {
       "q": "Además de la alarma, ¿qué más ayuda a despertarse?",
       "a": "Lo que se suele recomendar es acostarse siempre a la misma hora y exponerse a luz intensa poco después de despertar. Pero esos hábitos tardan en asentarse, así que es práctico combinarlos mientras tanto con una alarma que notes sin falta. Una alarma no sustituye una rutina de sueño, pero te sostiene mientras la construyes."
     },
     {
-      "q": "¿Qué tipos de voces de IA hay?",
-      "a": "Están agrupadas en categorías como femenina, masculina, actor de doblaje, narración, animación, dramática y redes sociales. Toca una categoría en la parte superior de la lista para ver solo el tono que buscas."
+      "q": "¿Dónde veo mi historial de despertares?",
+      "a": "Al apagar una alarma se registran automáticamente la hora a la que te levantaste y cuántas veces pospusiste. El mapa de calor, tu racha y la tasa de éxito por día de la semana muestran tu patrón."
     },
     {
-      "q": "¿Puedo crear mi propio sonido de alarma?",
-      "a": "Sí. Toca la opción de escribir texto, redacta la frase que quieras y una voz de IA la leerá como sonido de alarma."
-    },
-    {
-      "q": "¿Puedo escuchar un sonido de alarma antes?",
-      "a": "Toca el botón de reproducir en la lista para escucharlo al instante, antes de ponerlo como alarma."
-    },
-    {
-      "q": "¿Puedo guardar los que me gustan?",
-      "a": "Toca la estrella para añadir un sonido a tus favoritos y usa la pestaña de favoritos para ver solo las voces que guardaste."
+      "q": "¿Sirve para una siesta corta?",
+      "a": "Con la alarma rápida basta con tocar un botón de +N minutos y la alarma queda puesta, sin elegir la hora. Ideal para siestas y descansos cortos."
     },
     {
       "q": "¿Cómo puedo contactaros?",
       "a": "Escribe a zaco.labs@gmail.com. Lo recibe directamente Zaco Labs, el equipo detrás de Waky."
     }
   ],
-  "cta_title": "Mañana, despierta con otra voz",
+  "cta_title": "Mañana, levántate de verdad",
   "cta_text": "Waky es gratis en iOS y Android.",
   "about_link": "Sobre Zaco Labs",
   "rights": "Todos los derechos reservados."

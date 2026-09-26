@@ -11,38 +11,38 @@
   "hero_image": "wake-en.webp",
   "shot_image": "app-en.webp",
   "currency": "USD",
-  "title": "Waky — Je eigen AI-wekstem | De wekker-app die je echt wakker maakt",
-  "description": "Word je niet meer wakker van dezelfde beltoon? Waky wekt je met AI-stemmen — stemacteurs, vertelling, animatie en meer — die elke zin voorlezen die je typt. Gratis voor iOS en Android.",
-  "og_title": "Waky — Je eigen AI-wekstem",
-  "og_description": "Een wekker-app waarin AI-stemmen je wekken met de woorden die jij kiest.",
-  "app_description": "Een wekker-app waarin AI-stemmen je wekken met de woorden die jij kiest.",
+  "title": "Waky — Wekker & Gewoonten | De missiewekker die je echt uit bed krijgt",
+  "description": "Wekker uit en weer in slaap? Waky stopt pas als je een missie voltooit, maakt je wakker met je eigen opgenomen stem en helpt je ochtendgewoonten op te bouwen. Gratis voor iOS en Android.",
+  "og_title": "Waky — De missiewekker die je echt wakker maakt",
+  "og_description": "Een wekker die pas stopt na een missie, zelf opgenomen geluiden en ochtendgewoonten.",
+  "app_description": "Een wekker die pas stopt na een missie, zelf opgenomen geluiden en ochtendgewoonten.",
   "eyebrow": "Zaco Labs",
-  "h1": "Je eigen AI-wekstem",
-  "lede": "Je lichaam leert door te slapen bij steeds dezelfde beltoon. Waky is een wekker-app waarin verschillende AI-stemmen — stemacteurs, vertelling, animatie — de zin voorlezen die jij hebt geschreven.",
+  "h1": "Nooit meer uitzetten en doorslapen",
+  "lede": "Waky is een wekker die pas stopt als je een missie hebt voltooid. Hij maakt je wakker met een geluid dat je zelf hebt opgenomen en helpt je daarna de dag te beginnen met je ochtendgewoonten.",
   "note": "iOS · Android · Gratis te downloaden",
   "hero_alt": "Illustratie van iemand die schrikt van een piepende wekker en rechtop gaat zitten in bed",
   "features_title": "Wat Waky anders maakt",
   "features_lede": "In plaats van de wekker harder te maken, hebben we hem moeilijker te negeren gemaakt.",
   "features": [
     {
-      "title": "Kies de stem die je wilt",
-      "text": "Vrouwelijk, mannelijk, stemacteur, vertelling, animatie, dramatisch. Blader per categorie, luister en geef je favorieten een ster."
+      "title": "Een wekker die je moet verdienen",
+      "text": "Het alarm blijft gaan tot je een missie hebt afgerond waarvoor je wakker moet zijn: Object Scan, een rekensom of het vakje met de afwijkende kleur. Nooit meer half slapend uitzetten."
     },
     {
-      "title": "Schrijf je eigen zin",
-      "text": "Typ iets als ‘Vandaag is de grote presentatie — opstaan!’ en een AI-stem leest het voor. Een wekker geschreven voor jouw ochtend."
+      "title": "Je eigen stem als wekker",
+      "text": "Neem tot 1 minuut op – \"Je hebt vandaag die presentatie, opstaan!\" of een geluid dat je mooi vindt – en gebruik het als wekkergeluid."
     },
     {
-      "title": "Luister voordat je hem instelt",
-      "text": "Tik in de lijst op afspelen en luister eerst. Geen vervelende verrassingen de volgende ochtend."
+      "title": "Ochtendgewoonten na het opstaan",
+      "text": "Voeg toe wat je elke ochtend wilt doen, zoals water drinken of rekken. Waky herinnert je op tijd en je vinkt alles af op het toegangsscherm."
     },
     {
-      "title": "Moeilijker te negeren",
-      "text": "Een vaste beltoon filtert je brein binnen een paar dagen weg. Een andere stem die een andere zin zegt niet."
+      "title": "Een groeiend wakkerlogboek",
+      "text": "Wanneer je opstond en hoe vaak je snoozede wordt automatisch vastgelegd; een heatmap en je reeks tonen je patroon in één oogopslag."
     }
   ],
-  "shot_alt": "Scherm met de lijst van AI-wekgeluiden in de Waky-app",
-  "shot_caption": "De lijst met AI-wekgeluiden — blader per categorie en bewaar je favorieten met een ster.",
+  "shot_alt": "Wekkerlijst in de Waky-app",
+  "shot_caption": "Wekkerlijst — herhaaldagen en missies in één oogopslag.",
   "howto_title": "In drie stappen ingesteld",
   "howto_lede": "Van de eerste keer openen tot een werkende wekker kost ongeveer een minuut.",
   "steps": [
@@ -52,13 +52,13 @@
       "alt": "Illustratie van iemand die 's avonds in bed ligt en een wekker instelt op de telefoon"
     },
     {
-      "title": "Kies een stem en een zin",
-      "text": "Kies een stem uit de lijst met AI-wekkers of typ je eigen zin om een nieuwe te maken.",
+      "title": "Kies een missie en een geluid",
+      "text": "Kies de missie die je moet oplossen om het alarm uit te zetten en een ingebouwd of zelf opgenomen geluid.",
       "alt": "Illustratie van iemand die op de bedrand zit en wekstemmen beluistert op de telefoon"
     },
     {
-      "title": "Word wakker met die stem",
-      "text": "'s Ochtends leest in plaats van een beltoon jouw gekozen stem jouw gekozen woorden voor.",
+      "title": "Voltooi de missie en sta op",
+      "text": "Tegen de tijd dat je 's ochtends de missie hebt opgelost, ben je al wakker.",
       "alt": "Illustratie van iemand die zich uitrekt bij het wakker worden in het ochtendlicht"
     }
   ],
@@ -67,50 +67,42 @@
   "faqs": [
     {
       "q": "Wat kan ik doen als ik gewend ben geraakt aan mijn wekker en erdoorheen slaap?",
-      "a": "Als je elke ochtend hetzelfde geluid hoort, leert je brein het te behandelen als achtergrond in plaats van als signaal om wakker te worden. Het volume opschroeven van een geluid dat je al negeert helpt zelden; het geluid zelf veranderen wel. Een menselijke stem die echte woorden zegt is moeilijker te negeren dan een simpele piep, omdat je moet verwerken wat er gezegd wordt. Met Waky kies je uit allerlei AI-stemmen en wissel je zodra er één zijn effect verliest."
+      "a": "Als je elke ochtend hetzelfde geluid hoort, leert je brein het te behandelen als achtergrondgeluid in plaats van als reden om wakker te worden. Het volume opschroeven van een geluid waaraan je gewend bent helpt zelden; het geluid zelf veranderen wel. Je eigen stem met echte woorden is veel moeilijker te negeren dan een piepje. In Waky kun je een opname van je eigen stem als wekker gebruiken, en omdat uitzetten een missie vereist, slaap je er niet makkelijk doorheen."
     },
     {
       "q": "Waarom slaap ik door meerdere wekkers heen?",
       "a": "Zodra het uitzetten van de wekker een routine wordt, doe je het bijna zonder wakker te worden, vaak zonder dat je het je later herinnert. Meer wekkers hakken bovendien je laatste stuk slaap in korte stukjes, waardoor je je bij het opstaan meestal slechter voelt. Eén wekker die je echt opmerkt werkt meestal beter dan vijf die je op de automatische piloot uitzet."
     },
     {
-      "q": "Bestaat er een wekker-app die je wekt met een AI-stem?",
-      "a": "Ja, precies dat doet Waky. In plaats van een mechanische beltoon lezen AI-stemmen uit categorieën als stemacteur, vertelling, animatie en dramatisch je wekker voor. Je kunt per categorie bladeren, elke stem vooraf beluisteren en de stemmen die je wilt bewaren een ster geven. Het is gratis voor iOS en Android."
+      "q": "Bestaat er een wekker-app die je alleen met een missie uitzet?",
+      "a": "Ja, Waky. Kies uit Object Scan (richt de camera op een gekozen voorwerp), rekensommen of het vakje met de afwijkende kleur vinden. Op iOS is er ook een push-upmissie en op Android een patroonmissie. Het alarm blijft gaan tot de missie klaar is."
     },
     {
-      "q": "Wat is het verschil tussen een AI-wekker en een gewone wekker?",
-      "a": "Een gewone wekker speelt steeds dezelfde toon af. Er valt niets in te begrijpen, dus binnen een paar dagen wordt het achtergrondgeluid waar je doorheen slaapt. Een AI-wekker spreekt een zin uit, dus je brein moet taal verwerken, en als je de stem of de tekst verandert, klinkt elke ochtend anders. Het werkt door het soort geluid te veranderen in plaats van het harder te zetten."
+      "q": "Kan ik een wekkergeluid maken met mijn eigen stem?",
+      "a": "Tik op het tabblad Opnemen op de opnameknop en neem tot 1 minuut op. Je kunt de opname meteen gebruiken als geluid voor een wekker of gewoonte, en het bestand blijft op je apparaat."
     },
     {
-      "q": "Kan ik een wekker maken die iets zegt wat ik zelf heb geschreven?",
-      "a": "In Waky typ je een willekeurige zin en een AI-stem leest die voor als wekgeluid. Zet erin wat bij je dag past — ‘vanochtend een belangrijke presentatie’ of iets wat je van jezelf wilt horen — en dat hoor je als de wekker afgaat. Je kunt het beluisteren voordat je het opslaat."
+      "q": "Hoe stel ik ochtendgewoonten in?",
+      "a": "Kies op het tabblad Gewoonten uit 85 voorbeelden in 11 categorieën – opstaan, verzorging, eten, sport en meer – of maak er zelf een en stel een tijd in. Op dat moment gaat er een wekker, en elke voltooide gewoonte levert ervaringspunten op voor het volgende niveau."
     },
     {
       "q": "Wat helpt er naast de wekker nog bij het wakker worden?",
       "a": "De gebruikelijke adviezen zijn op een vaste tijd naar bed gaan en kort na het wakker worden fel licht opzoeken. Die gewoontes hebben tijd nodig, dus het is praktisch om ze in de tussentijd te combineren met een wekker die je zeker opmerkt. Een wekker vervangt geen slaapritme, maar houdt stand terwijl je er een opbouwt."
     },
     {
-      "q": "Welke soorten AI-stemmen zijn er?",
-      "a": "Ze zijn ingedeeld in categorieën zoals vrouwelijk, mannelijk, stemacteur, vertelling, animatie, dramatisch en sociale media. Tik bovenaan de lijst op een categorie om alleen de toon te zien die je zoekt."
+      "q": "Waar zie ik mijn wakkergeschiedenis?",
+      "a": "Als je een wekker uitzet, worden je opstaantijd en het aantal keer snoozen automatisch vastgelegd. De heatmap, je reeks en het slagingspercentage per weekdag tonen je patroon."
     },
     {
-      "q": "Kan ik mijn eigen wekgeluid maken?",
-      "a": "Ja. Tik op de optie om tekst in te voeren, schrijf de zin die je wilt en een AI-stem leest die voor als wekgeluid."
-    },
-    {
-      "q": "Kan ik een wekgeluid vooraf beluisteren?",
-      "a": "Tik in de lijst op de afspeelknop om het meteen te horen, voordat je het als wekker instelt."
-    },
-    {
-      "q": "Kan ik de geluiden die ik leuk vind bewaren?",
-      "a": "Tik op de ster om een geluid aan je favorieten toe te voegen en gebruik het tabblad favorieten om alleen de bewaarde stemmen te zien."
+      "q": "Kan ik hem gebruiken voor een kort dutje?",
+      "a": "Met de snelle wekker tik je gewoon op een +N-minutenknop en de wekker staat, zonder tijd te kiezen. Handig voor dutjes en korte pauzes."
     },
     {
       "q": "Hoe kan ik contact opnemen?",
       "a": "Mail naar zaco.labs@gmail.com. Je bericht komt rechtstreeks bij Zaco Labs, het team achter Waky."
     }
   ],
-  "cta_title": "Word morgen wakker met een andere stem",
+  "cta_title": "Sta morgenochtend echt op",
   "cta_text": "Waky is gratis voor iOS en Android.",
   "about_link": "Over Zaco Labs",
   "rights": "Alle rechten voorbehouden."

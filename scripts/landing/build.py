@@ -359,13 +359,13 @@ ENTRY_CSS = """<style>
 # 공유 미리보기는 기존과 같게 둔다 (주 공유 대상이 한국어).
 ENTRY_OG = """<meta property="og:type" content="website" />
 <meta property="og:site_name" content="Zaco Labs" />
-<meta property="og:title" content="Waky — 나만의 AI 알람음" />
-<meta property="og:description" content="다양한 AI 목소리가 원하는 문구로 깨워 주는 알람 앱." />
+<meta property="og:title" content="Waky — 확실하게 깨워 주는 미션 알람" />
+<meta property="og:description" content="미션을 풀어야 꺼지는 알람, 직접 녹음한 알람음, 아침 습관까지." />
 <meta property="og:url" content="%(base)s/introduce/" />
 <meta property="og:image" content="%(base)s/introduce/zacolabs-assets/og-image-kr-1200x630.png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
-<meta property="og:image:alt" content="Waky — 나만의 AI 알람음" />
+<meta property="og:image:alt" content="Waky — 확실하게 깨워 주는 미션 알람" />
 <meta name="twitter:card" content="summary_large_image" />"""
 
 

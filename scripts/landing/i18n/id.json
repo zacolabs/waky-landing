@@ -11,38 +11,38 @@
   "hero_image": "wake-en.webp",
   "shot_image": "app-en.webp",
   "currency": "USD",
-  "title": "Waky — Suara Alarm AI Milikmu | Aplikasi Alarm yang Benar-Benar Membangunkan",
-  "description": "Nada dering yang sama tidak lagi membangunkanmu? Waky membangunkanmu dengan suara AI — pengisi suara, narasi, animasi, dan lainnya — yang membacakan kalimat apa pun yang kamu ketik. Gratis di iOS dan Android.",
-  "og_title": "Waky — Suara Alarm AI Milikmu",
-  "og_description": "Aplikasi alarm tempat suara AI membangunkanmu dengan kata-kata pilihanmu.",
-  "app_description": "Aplikasi alarm tempat suara AI membangunkanmu dengan kata-kata pilihanmu.",
+  "title": "Waky — Alarm Misi & Kebiasaan | Alarm yang benar-benar membangunkanmu",
+  "description": "Mematikan alarm lalu tidur lagi? Waky baru berhenti setelah kamu menyelesaikan misi, membangunkanmu dengan suaramu sendiri yang kamu rekam, dan membantu membangun kebiasaan pagi. Gratis di iOS dan Android.",
+  "og_title": "Waky — Alarm misi yang benar-benar membangunkanmu",
+  "og_description": "Alarm yang baru berhenti setelah misi, suara yang kamu rekam sendiri, dan kebiasaan pagi.",
+  "app_description": "Alarm yang baru berhenti setelah misi, suara yang kamu rekam sendiri, dan kebiasaan pagi.",
   "eyebrow": "Zaco Labs",
-  "h1": "Suara alarm AI milikmu",
-  "lede": "Tubuhmu belajar tetap tidur meski nada deringnya sama setiap hari. Waky adalah aplikasi alarm tempat berbagai suara AI — pengisi suara, narasi, animasi — membacakan kalimat yang kamu tulis.",
+  "h1": "Tidak ada lagi mematikan alarm lalu tidur lagi",
+  "lede": "Waky adalah alarm yang baru berhenti setelah kamu menyelesaikan misi. Alarm ini membangunkanmu dengan suara yang kamu rekam sendiri, lalu membantumu memulai hari dengan menyelesaikan kebiasaan pagi.",
   "note": "iOS · Android · Unduh gratis",
   "hero_alt": "Ilustrasi seseorang yang terbangun kaget oleh jam weker berbunyi dan duduk di tempat tidur",
   "features_title": "Apa yang membuat Waky berbeda",
   "features_lede": "Alih-alih membuat alarm lebih keras, kami membuatnya lebih sulit diabaikan.",
   "features": [
     {
-      "title": "Pilih suara yang kamu mau",
-      "text": "Perempuan, laki-laki, pengisi suara, narasi, animasi, dramatis. Jelajahi per kategori, dengarkan, dan beri bintang pada yang kamu suka."
+      "title": "Alarm yang harus kamu usahakan",
+      "text": "Alarm terus berbunyi sampai kamu menyelesaikan misi yang butuh kesadaran penuh: pindai objek, soal matematika, atau mencari ubin berwarna beda. Tidak ada lagi mematikannya sambil setengah tidur."
     },
     {
-      "title": "Tulis kalimatmu sendiri",
-      "text": "Ketik sesuatu seperti “Hari ini presentasi besar — ayo bangun!” dan suara AI akan membacakannya. Alarm yang ditulis untuk pagimu."
+      "title": "Suaramu sendiri sebagai alarm",
+      "text": "Rekam hingga 1 menit — \"Hari ini ada presentasi, ayo bangun!\" atau suara favoritmu — lalu jadikan suara alarm."
     },
     {
-      "title": "Dengarkan sebelum mengatur",
-      "text": "Ketuk putar di daftar dan dengarkan dulu. Tidak ada kejutan yang tidak enak keesokan paginya."
+      "title": "Kebiasaan pagi setelah bangun",
+      "text": "Tambahkan hal yang ingin kamu lakukan tiap pagi, seperti minum air atau peregangan. Waky mengingatkan pada waktunya dan kamu mencentangnya langsung dari layar kunci."
     },
     {
-      "title": "Lebih sulit diabaikan",
-      "text": "Otakmu menyaring nada dering yang sama dalam beberapa hari. Suara berbeda yang mengucapkan kalimat berbeda tidak begitu."
+      "title": "Catatan bangun yang terus bertambah",
+      "text": "Jam bangun dan berapa kali kamu menunda tercatat otomatis; peta panas dan rentetan harimu menunjukkan polamu dalam sekejap."
     }
   ],
-  "shot_alt": "Layar daftar suara alarm AI di aplikasi Waky",
-  "shot_caption": "Daftar suara alarm AI — jelajahi per kategori, simpan favorit dengan bintang.",
+  "shot_alt": "Layar daftar alarm aplikasi Waky",
+  "shot_caption": "Daftar alarm — hari pengulangan dan misi dalam sekejap.",
   "howto_title": "Tiga langkah untuk mengaturnya",
   "howto_lede": "Dari pertama kali dibuka sampai alarm siap, kira-kira hanya satu menit.",
   "steps": [
@@ -52,13 +52,13 @@
       "alt": "Ilustrasi seseorang berbaring di tempat tidur pada malam hari sambil mengatur alarm di ponsel"
     },
     {
-      "title": "Pilih suara dan kalimat",
-      "text": "Pilih suara dari daftar alarm AI, atau ketik kalimatmu sendiri untuk membuat yang baru.",
+      "title": "Pilih misi dan suara",
+      "text": "Tentukan misi yang harus kamu selesaikan untuk mematikan alarm, lalu pilih suara bawaan atau rekamanmu sendiri.",
       "alt": "Ilustrasi seseorang duduk di tepi tempat tidur sambil mendengarkan suara alarm di ponsel"
     },
     {
-      "title": "Bangun dengan suara itu",
-      "text": "Di pagi hari, bukan nada dering yang terdengar, melainkan suara pilihanmu membacakan kata-kata pilihanmu.",
+      "title": "Selesaikan misi dan bangun",
+      "text": "Saat misi pagi selesai, kamu sudah benar-benar terjaga.",
       "alt": "Ilustrasi seseorang menggeliat saat bangun di bawah cahaya pagi"
     }
   ],
@@ -67,50 +67,42 @@
   "faqs": [
     {
       "q": "Apa yang bisa dilakukan kalau sudah terbiasa dengan alarm dan tetap tertidur?",
-      "a": "Kalau setiap pagi kamu mendengar suara yang sama, otak belajar menganggapnya sebagai latar belakang, bukan tanda untuk bangun. Menaikkan volume suara yang sudah kamu abaikan jarang membantu; yang membantu adalah mengganti suaranya. Suara manusia yang mengucapkan kata-kata nyata lebih sulit diabaikan daripada bunyi bip biasa, karena kamu harus memahami apa yang dikatakan. Waky memungkinkanmu memilih dari berbagai suara AI dan menggantinya kapan pun satu suara mulai kehilangan efeknya."
+      "a": "Saat mendengar suara yang sama setiap pagi, otak belajar menganggapnya sebagai latar, bukan tanda untuk bangun. Mengeraskan suara yang sudah biasa jarang membantu; mengganti suaranya justru berhasil. Suaramu sendiri yang mengucapkan kata-kata nyata jauh lebih sulit diabaikan daripada bunyi bip. Di Waky kamu bisa memakai rekaman suaramu sebagai alarm, dan karena mematikannya butuh misi, sulit untuk tidur lagi."
     },
     {
       "q": "Kenapa aku tetap tertidur meski memasang beberapa alarm?",
       "a": "Begitu mematikan alarm menjadi kebiasaan, kamu melakukannya hampir tanpa terbangun — sering kali bahkan tidak ingat setelahnya. Memasang lebih banyak alarm juga memotong sisa tidurmu menjadi potongan-potongan pendek, sehingga biasanya kamu merasa lebih tidak segar saat akhirnya bangun. Satu alarm yang benar-benar kamu sadari biasanya lebih efektif daripada lima alarm yang kamu matikan secara otomatis."
     },
     {
-      "q": "Adakah aplikasi alarm yang membangunkan dengan suara AI?",
-      "a": "Ada — Waky melakukan persis itu. Alih-alih nada dering mekanis, suara AI dari kategori seperti pengisi suara, narasi, animasi, dan dramatis membacakan alarmmu. Kamu bisa menjelajah per kategori, mendengarkan tiap suara sebelum mengaturnya, dan memberi bintang pada suara yang ingin kamu simpan. Gratis di iOS dan Android."
+      "q": "Adakah aplikasi alarm yang hanya bisa dimatikan dengan misi?",
+      "a": "Ada, yaitu Waky. Pilih pindai objek (arahkan kamera ke benda yang kamu tentukan), soal matematika, atau mencari ubin berwarna beda. Di iOS juga ada misi push-up dan di Android misi pola. Alarm terus berbunyi sampai misi selesai."
     },
     {
-      "q": "Apa bedanya alarm AI dengan alarm biasa?",
-      "a": "Alarm biasa memutar nada yang sama berulang-ulang. Tidak ada yang perlu dipahami di dalamnya, jadi dalam beberapa hari nada itu menjadi suara latar yang bisa kamu tiduri. Alarm AI mengucapkan sebuah kalimat, sehingga otakmu harus memproses bahasa, dan dengan mengganti suara atau kalimatnya, setiap pagi terdengar berbeda. Caranya adalah mengubah jenis suara, bukan membuatnya lebih keras."
+      "q": "Bisakah membuat suara alarm dengan suaraku sendiri?",
+      "a": "Di tab Rekam, ketuk tombol rekam untuk merekam hingga 1 menit. Rekaman bisa langsung dijadikan suara alarm atau kebiasaan, dan filenya tetap tersimpan di perangkatmu."
     },
     {
-      "q": "Bisakah aku membuat alarm yang mengucapkan kalimat tulisanku sendiri?",
-      "a": "Di Waky kamu bisa mengetik kalimat apa pun dan suara AI akan membacakannya sebagai suara alarm. Tulis apa yang cocok untuk harimu — “ada presentasi penting pagi ini” atau sesuatu yang ingin kamu dengar dari dirimu sendiri — dan itulah yang akan diputar saat alarm berbunyi. Kamu bisa mendengarkannya dulu sebelum menyimpan."
+      "q": "Bagaimana cara membuat kebiasaan pagi?",
+      "a": "Di tab Kebiasaan, pilih dari 85 templat dalam 11 kategori — bangun tidur, bersiap, makan, olahraga, dan lainnya — atau buat sendiri lalu atur waktunya. Alarm berbunyi pada waktu itu, dan setiap kebiasaan yang selesai memberi XP untuk naik level."
     },
     {
       "q": "Selain alarm, apa lagi yang membantu bangun pagi?",
       "a": "Saran yang umum adalah tidur di jam yang sama setiap hari dan terkena cahaya terang segera setelah bangun. Kebiasaan itu butuh waktu untuk terbentuk, jadi sementara itu ada baiknya dipadukan dengan alarm yang pasti kamu sadari. Alarm tidak menggantikan rutinitas tidur, tapi bisa menopangmu selama rutinitas itu terbentuk."
     },
     {
-      "q": "Suara AI apa saja yang tersedia?",
-      "a": "Suara dikelompokkan ke dalam kategori seperti perempuan, laki-laki, pengisi suara, narasi, animasi, dramatis, dan media sosial. Ketuk kategori di bagian atas daftar untuk menampilkan gaya yang kamu inginkan saja."
+      "q": "Di mana melihat riwayat bangunku?",
+      "a": "Saat kamu mematikan alarm, jam bangun dan jumlah tunda tercatat otomatis. Peta panas, rentetan hari, dan tingkat keberhasilan per hari menunjukkan polamu."
     },
     {
-      "q": "Bisakah aku membuat suara alarm sendiri?",
-      "a": "Bisa. Ketuk opsi input teks, tulis kalimat yang kamu mau, dan suara AI akan membacakannya sebagai suara alarm."
-    },
-    {
-      "q": "Bisakah aku mendengarkan suara alarm lebih dulu?",
-      "a": "Ketuk tombol putar di daftar untuk langsung mendengarnya, sebelum kamu menjadikannya alarm."
-    },
-    {
-      "q": "Bisakah aku menyimpan suara yang kusuka?",
-      "a": "Ketuk bintang untuk menambahkan suara ke favorit, lalu buka tab favorit untuk melihat hanya suara yang sudah kamu simpan."
+      "q": "Bisakah dipakai untuk tidur siang singkat?",
+      "a": "Di alarm cepat, cukup ketuk tombol +N menit dan alarm langsung terpasang tanpa memilih jam. Cocok untuk tidur siang dan istirahat singkat."
     },
     {
       "q": "Bagaimana cara menghubungi kalian?",
       "a": "Kirim email ke zaco.labs@gmail.com. Pesanmu langsung sampai ke Zaco Labs, tim di balik Waky."
     }
   ],
-  "cta_title": "Besok pagi, bangun dengan suara yang berbeda",
+  "cta_title": "Besok pagi, benar-benar bangunlah",
   "cta_text": "Waky gratis di iOS dan Android.",
   "about_link": "Tentang Zaco Labs",
   "rights": "Hak cipta dilindungi undang-undang."

@@ -11,38 +11,38 @@
   "hero_image": "wake-en.webp",
   "shot_image": "app-en.webp",
   "currency": "USD",
-  "title": "Waky — Giọng báo thức AI của riêng bạn | Ứng dụng báo thức đánh thức bạn thật sự",
-  "description": "Tiếng chuông quen thuộc không còn đánh thức được bạn? Waky đánh thức bạn bằng giọng AI — diễn viên lồng tiếng, dẫn chuyện, hoạt hình và nhiều hơn nữa — đọc bất kỳ câu nào bạn nhập. Miễn phí trên iOS và Android.",
-  "og_title": "Waky — Giọng báo thức AI của riêng bạn",
-  "og_description": "Ứng dụng báo thức nơi giọng AI đánh thức bạn bằng những lời bạn chọn.",
-  "app_description": "Ứng dụng báo thức nơi giọng AI đánh thức bạn bằng những lời bạn chọn.",
+  "title": "Waky — Báo thức nhiệm vụ & Thói quen | Báo thức đánh thức bạn thật sự",
+  "description": "Tắt báo thức rồi ngủ tiếp? Waky chỉ dừng khi bạn hoàn thành nhiệm vụ, đánh thức bạn bằng chính giọng nói bạn thu âm và giúp bạn xây dựng thói quen buổi sáng. Miễn phí trên iOS và Android.",
+  "og_title": "Waky — Báo thức nhiệm vụ đánh thức bạn thật sự",
+  "og_description": "Báo thức chỉ dừng khi làm xong nhiệm vụ, âm thanh do bạn tự thu và thói quen buổi sáng.",
+  "app_description": "Báo thức chỉ dừng khi làm xong nhiệm vụ, âm thanh do bạn tự thu và thói quen buổi sáng.",
   "eyebrow": "Zaco Labs",
-  "h1": "Giọng báo thức AI của riêng bạn",
-  "lede": "Cơ thể bạn sẽ quen dần và ngủ tiếp mặc cho cùng một tiếng chuông. Waky là ứng dụng báo thức nơi nhiều giọng AI — diễn viên lồng tiếng, dẫn chuyện, hoạt hình — đọc to câu bạn đã viết.",
+  "h1": "Thôi tắt báo thức rồi ngủ tiếp",
+  "lede": "Waky là báo thức chỉ dừng khi bạn hoàn thành nhiệm vụ. Ứng dụng đánh thức bạn bằng âm thanh bạn tự thu, rồi giúp bạn bắt đầu ngày mới bằng cách hoàn thành các thói quen buổi sáng.",
   "note": "iOS · Android · Tải miễn phí",
   "hero_alt": "Hình minh họa một người giật mình tỉnh giấc vì đồng hồ báo thức reo và ngồi dậy trên giường",
   "features_title": "Điều làm Waky khác biệt",
   "features_lede": "Thay vì làm báo thức to hơn, chúng tôi làm cho nó khó bị phớt lờ hơn.",
   "features": [
     {
-      "title": "Chọn giọng bạn muốn",
-      "text": "Nữ, nam, diễn viên lồng tiếng, dẫn chuyện, hoạt hình, kịch tính. Duyệt theo danh mục, nghe thử và gắn sao những giọng bạn thích."
+      "title": "Báo thức phải tự giành lấy",
+      "text": "Chuông cứ reo cho đến khi bạn làm xong một nhiệm vụ cần tỉnh táo: quét đồ vật, một bài toán hoặc tìm ô khác màu. Không còn tắt chuông khi đang mơ màng."
     },
     {
-      "title": "Tự viết câu của bạn",
-      "text": "Nhập một câu như “Hôm nay thuyết trình quan trọng — dậy thôi!” và giọng AI sẽ đọc cho bạn nghe. Một báo thức viết riêng cho buổi sáng của bạn."
+      "title": "Chính giọng bạn làm chuông báo",
+      "text": "Thu âm tối đa 1 phút — \"Hôm nay có buổi thuyết trình, dậy thôi!\" hay một âm thanh bạn thích — rồi dùng làm chuông báo thức."
     },
     {
-      "title": "Nghe trước khi đặt",
-      "text": "Nhấn phát trong danh sách để nghe trước. Không có bất ngờ khó chịu vào sáng hôm sau."
+      "title": "Thói quen buổi sáng sau khi dậy",
+      "text": "Thêm những việc bạn muốn làm mỗi sáng như uống nước hay giãn cơ. Waky nhắc bạn đúng giờ và bạn đánh dấu hoàn thành ngay trên màn hình khóa."
     },
     {
-      "title": "Khó bỏ qua hơn",
-      "text": "Não bạn sẽ lọc bỏ một tiếng chuông cố định chỉ sau vài ngày. Một giọng khác nói một câu khác thì không."
+      "title": "Nhật ký thức dậy ngày càng dày",
+      "text": "Giờ bạn dậy và số lần báo lại được ghi tự động; bản đồ nhiệt và chuỗi ngày cho bạn thấy thói quen chỉ trong nháy mắt."
     }
   ],
-  "shot_alt": "Màn hình danh sách âm thanh báo thức AI trong ứng dụng Waky",
-  "shot_caption": "Danh sách âm thanh báo thức AI — duyệt theo danh mục, gắn sao để lưu yêu thích.",
+  "shot_alt": "Màn hình danh sách báo thức của ứng dụng Waky",
+  "shot_caption": "Danh sách báo thức — ngày lặp lại và nhiệm vụ trong nháy mắt.",
   "howto_title": "Ba bước để cài đặt",
   "howto_lede": "Từ lần mở đầu tiên đến khi báo thức sẵn sàng chỉ mất khoảng một phút.",
   "steps": [
@@ -52,13 +52,13 @@
       "alt": "Hình minh họa một người nằm trên giường vào ban đêm, đặt báo thức trên điện thoại"
     },
     {
-      "title": "Chọn giọng và câu nói",
-      "text": "Chọn một giọng trong danh sách báo thức AI, hoặc nhập câu của riêng bạn để tạo báo thức mới.",
+      "title": "Chọn nhiệm vụ và âm thanh",
+      "text": "Chọn nhiệm vụ cần giải để tắt báo thức, rồi chọn âm thanh có sẵn hoặc âm thanh bạn tự thu.",
       "alt": "Hình minh họa một người ngồi trên giường nghe thử các giọng báo thức trên điện thoại"
     },
     {
-      "title": "Thức dậy với giọng đó",
-      "text": "Buổi sáng, thay vì tiếng chuông, giọng bạn chọn sẽ đọc những lời bạn chọn.",
+      "title": "Hoàn thành nhiệm vụ và thức dậy",
+      "text": "Khi làm xong nhiệm vụ vào buổi sáng, bạn đã tỉnh hẳn.",
       "alt": "Hình minh họa một người vươn vai thức dậy trong ánh nắng sớm"
     }
   ],
@@ -67,50 +67,42 @@
   "faqs": [
     {
       "q": "Phải làm sao nếu đã quen với báo thức và vẫn ngủ quên?",
-      "a": "Khi nghe cùng một âm thanh mỗi sáng, não bạn học cách coi nó là tiếng nền chứ không phải tín hiệu để thức dậy. Tăng âm lượng một âm thanh bạn đã quen tai hiếm khi có tác dụng; đổi hẳn âm thanh mới là cách hiệu quả. Giọng người nói những lời thật khó bỏ qua hơn một tiếng bíp đơn thuần, vì bạn phải xử lý xem đang được nói gì. Waky cho phép bạn chọn trong nhiều giọng AI và đổi sang giọng khác bất cứ khi nào một giọng bắt đầu mất tác dụng."
+      "a": "Khi nghe cùng một âm thanh mỗi sáng, não sẽ coi nó là tiếng nền thay vì tín hiệu để thức dậy. Tăng âm lượng cho một âm thanh đã quen hiếm khi hiệu quả; đổi chính âm thanh đó thì có. Giọng của chính bạn nói những lời thật khó bỏ qua hơn nhiều so với tiếng bíp. Trong Waky, bạn có thể dùng bản thu giọng mình làm báo thức, và vì muốn tắt phải làm nhiệm vụ nên rất khó ngủ quên."
     },
     {
       "q": "Vì sao đặt nhiều báo thức mà vẫn ngủ quên?",
       "a": "Khi việc tắt báo thức trở thành thói quen, bạn làm điều đó gần như không tỉnh — nhiều khi sau đó còn không nhớ. Đặt thêm báo thức cũng cắt quãng ngủ cuối thành từng đoạn ngắn, khiến bạn thường thấy mệt hơn khi cuối cùng cũng dậy. Một báo thức bạn thật sự nhận ra thường hiệu quả hơn năm cái bạn tắt theo phản xạ."
     },
     {
-      "q": "Có ứng dụng báo thức nào đánh thức bằng giọng AI không?",
-      "a": "Có — Waky làm đúng điều đó. Thay cho tiếng chuông máy móc, các giọng AI thuộc những danh mục như diễn viên lồng tiếng, dẫn chuyện, hoạt hình và kịch tính sẽ đọc báo thức của bạn. Bạn có thể duyệt theo danh mục, nghe thử từng giọng trước khi đặt và gắn sao những giọng muốn giữ lại. Ứng dụng miễn phí trên iOS và Android."
+      "q": "Có ứng dụng báo thức nào chỉ tắt được khi làm xong nhiệm vụ không?",
+      "a": "Có, đó là Waky. Bạn chọn giữa quét đồ vật (hướng camera vào đồ vật đã chọn), bài toán hoặc tìm ô khác màu. Trên iOS còn có nhiệm vụ chống đẩy, trên Android có nhiệm vụ vẽ hình mẫu. Chuông reo cho đến khi hoàn thành nhiệm vụ."
     },
     {
-      "q": "Báo thức AI khác báo thức thường ở điểm nào?",
-      "a": "Báo thức thường lặp lại một âm cố định. Trong đó không có gì cần hiểu, nên chỉ vài ngày là nó thành tiếng ồn nền mà bạn vẫn ngủ được. Báo thức AI nói một câu, nên não bạn phải xử lý ngôn ngữ, và khi đổi giọng hay đổi câu, mỗi sáng lại nghe khác đi. Cách làm của nó là thay đổi loại âm thanh chứ không phải tăng âm lượng."
+      "q": "Tôi có thể tạo chuông báo bằng giọng của mình không?",
+      "a": "Trong tab Ghi âm, chạm nút ghi để thu tối đa 1 phút. Bản thu có thể dùng ngay làm âm thanh cho báo thức hoặc thói quen, và tệp được lưu trên thiết bị của bạn."
     },
     {
-      "q": "Tôi có thể tạo báo thức nói câu do mình tự viết không?",
-      "a": "Trong Waky, bạn có thể nhập bất kỳ câu nào và giọng AI sẽ đọc nó thành âm thanh báo thức. Hãy viết điều phù hợp với ngày hôm đó — “sáng nay có buổi thuyết trình quan trọng” hoặc điều bạn muốn tự nhắc mình — và đó chính là thứ sẽ phát khi báo thức reo. Bạn có thể nghe thử trước khi lưu."
+      "q": "Làm sao tạo thói quen buổi sáng?",
+      "a": "Trong tab Thói quen, chọn từ 85 mẫu thuộc 11 nhóm — thức dậy, vệ sinh, ăn uống, vận động và nhiều hơn — hoặc tự tạo rồi đặt giờ. Đến giờ sẽ có báo thức, và mỗi thói quen hoàn thành giúp bạn tích điểm kinh nghiệm để lên cấp."
     },
     {
       "q": "Ngoài báo thức, còn gì giúp dậy sớm dễ hơn?",
       "a": "Lời khuyên phổ biến là đi ngủ vào một giờ cố định và tiếp xúc với ánh sáng mạnh ngay sau khi thức dậy. Nhưng những thói quen này cần thời gian để hình thành, nên trong lúc đó bạn nên kết hợp với một báo thức chắc chắn khiến bạn chú ý. Báo thức không thay thế được nếp ngủ, nhưng có thể giúp bạn trụ vững trong lúc nếp ngủ đang hình thành."
     },
     {
-      "q": "Có những loại giọng AI nào?",
-      "a": "Các giọng được chia theo danh mục như nữ, nam, diễn viên lồng tiếng, dẫn chuyện, hoạt hình, kịch tính và mạng xã hội. Chạm vào một danh mục ở đầu danh sách để chỉ xem phong cách bạn muốn."
+      "q": "Xem lịch sử thức dậy ở đâu?",
+      "a": "Khi bạn tắt báo thức, giờ thức dậy và số lần báo lại được ghi tự động. Bản đồ nhiệt, chuỗi ngày và tỷ lệ thành công theo thứ trong tuần cho thấy thói quen của bạn."
     },
     {
-      "q": "Tôi có thể tự tạo âm thanh báo thức không?",
-      "a": "Có. Chạm vào tùy chọn nhập chữ, viết câu bạn muốn, và giọng AI sẽ đọc nó thành âm thanh báo thức."
-    },
-    {
-      "q": "Có nghe thử âm thanh báo thức trước được không?",
-      "a": "Chạm nút phát trong danh sách để nghe ngay, trước khi đặt làm báo thức."
-    },
-    {
-      "q": "Có lưu lại những âm thanh mình thích được không?",
-      "a": "Chạm vào ngôi sao để thêm âm thanh vào mục yêu thích, rồi mở thẻ yêu thích để chỉ xem những giọng đã lưu."
+      "q": "Có dùng cho giấc ngủ ngắn được không?",
+      "a": "Với báo thức nhanh, chỉ cần chạm nút +N phút là báo thức được đặt, không cần chọn giờ. Tiện cho giấc ngủ trưa và nghỉ ngắn."
     },
     {
       "q": "Liên hệ với các bạn bằng cách nào?",
       "a": "Gửi email đến zaco.labs@gmail.com. Thư sẽ đến thẳng Zaco Labs, đội ngũ phát triển Waky."
     }
   ],
-  "cta_title": "Sáng mai, thức dậy với một giọng khác",
+  "cta_title": "Sáng mai, hãy thức dậy thật sự",
   "cta_text": "Waky miễn phí trên iOS và Android.",
   "about_link": "Về Zaco Labs",
   "rights": "Bảo lưu mọi quyền."

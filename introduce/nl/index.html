@@ -275,11 +275,12 @@
     .feature-list li:nth-child(4) h3::before { background:var(--ink); }
     .feature-list p { margin-top:8px; font-size:15px; color:var(--muted); }
     .shot { position:relative; }
-    .shot::before { content:""; position:absolute; inset:-6% -10% 12% -10%;
+    /* 폰 전체가 패널 안에 들어오고, 설명은 패널 아래에 놓인다 (위아래 여백 36·39px) */
+    .shot::before { content:""; position:absolute; inset:-36px -10% 44px -10%;
         background:var(--surface-2); border-radius:32px; z-index:0; }
     .shot img { position:relative; z-index:1; width:100%; max-width:300px; margin:0 auto;
         filter:drop-shadow(0 18px 34px rgba(43,43,46,.2)); }
-    .shot figcaption { position:relative; z-index:1; margin-top:18px; text-align:center;
+    .shot figcaption { position:relative; z-index:1; margin-top:62px; text-align:center;
         font-size:13px; color:var(--muted-2); }
 
     /* 사용법 */

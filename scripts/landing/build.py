@@ -15,6 +15,8 @@ import struct
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.normpath(os.path.join(HERE, "..", ".."))
 BASE = "https://zacolabs.github.io/waky-landing"
+# Zaco Labs 회사 소개는 도메인 맨 앞(zacolabs/zacolabs.github.io 저장소)으로 옮겼다
+ABOUT_URL = "https://zacolabs.github.io/"
 ASSETS = os.path.join(ROOT, "introduce", "zacolabs-assets")
 
 # 언어 순서 — hreflang·언어 선택기·사이트맵이 모두 이 순서를 따른다.
@@ -158,7 +160,7 @@ def build(d, langs, css):
         "offers": {"@type": "Offer", "price": "0", "priceCurrency": d["currency"]},
         "downloadUrl": [PLAY, APPLE],
         "publisher": {"@type": "Organization", "name": "Zaco Labs",
-                      "url": f"{BASE}/about/{d.get('about', 'en')}/",
+                      "url": ABOUT_URL,
                       "logo": f"{BASE}/introduce/zacolabs-assets/logo.png",
                       "email": "zaco.labs@gmail.com"},
     }
@@ -299,7 +301,7 @@ def build(d, langs, css):
 
 <footer class="site">
     <div class="wrap">
-        <div class="row"><a href="../../about/{d.get("about", "en")}/">{e(d["about_link"])}</a></div>
+        <div class="row"><a href="{ABOUT_URL}">{e(d["about_link"])}</a></div>
         <div class="row"><a href="mailto:zaco.labs@gmail.com">zaco.labs@gmail.com</a></div>
         <div class="row">© <span id="year">2026</span> Zaco Labs. {e(d["rights"])}</div>
         {langnav(code, langs)}
@@ -404,8 +406,6 @@ def entry_page(prefix, langs):
 """
 
 
-ABOUT = [("kr", "ko"), ("en", "en"), ("jp", "ja")]
-
 
 def sitemap(langs):
     today = datetime.date.today().isoformat()
@@ -420,9 +420,7 @@ def sitemap(langs):
   </url>"""
 
     intro_alts = [(x["hreflang"], url(x["code"])) for x in langs] + [("x-default", url(DEFAULT))]
-    about_alts = [(h, f"{BASE}/about/{c}/") for c, h in ABOUT] + [("x-default", f"{BASE}/about/en/")]
     urls = [block(url(x["code"]), intro_alts, "1.0") for x in langs]
-    urls += [block(f"{BASE}/about/{c}/", about_alts, "0.5") for c, _ in ABOUT]
     return ('<?xml version="1.0" encoding="UTF-8"?>\n'
             '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"\n'
             '        xmlns:xhtml="http://www.w3.org/1999/xhtml">\n'

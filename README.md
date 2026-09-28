@@ -1,7 +1,7 @@
 # waky-landing
 
 **Waky** — 미션을 풀어야 꺼지는 알람, 직접 녹음한 알람음, 아침 습관을 담은 알람 앱의 랜딩 사이트.
-Zaco Labs 소개 페이지도 같은 저장소에서 서비스한다.
+Zaco Labs 회사 소개는 도메인 맨 앞(https://zacolabs.github.io/, `zacolabs/zacolabs.github.io` 저장소)으로 옮겼다.
 
 - 배포: GitHub Pages (`main` 브랜치 루트)
 - URL: https://zacolabs.github.io/waky-landing/
@@ -12,8 +12,7 @@ Zaco Labs 소개 페이지도 같은 저장소에서 서비스한다.
 /                        → introduce/<언어>/ 로 바로 리디렉트
 /introduce/              → 기기 언어에 맞는 랜딩으로 리디렉트 (아래 참고)
 /introduce/<언어>/       → Waky 제품 랜딩 18개 언어 (히어로·기능·사용법·FAQ)
-/about/                  → 브라우저 언어에 따라 kr·en·jp 로 리디렉트
-/about/{kr,en,jp}/       → Zaco Labs 회사 소개
+/about/, /about/{kr,en,jp}/ → https://zacolabs.github.io/ 로 넘긴다 (옛 회사 소개 주소)
 /introduce/zacolabs-assets/
     illustration/        → 랜딩 일러스트 SVG (3개 언어 공용, 글자 없음)
     screenshot/          → 스토어 원본 + 랜딩용으로 자른 app-*.webp

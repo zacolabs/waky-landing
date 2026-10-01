@@ -358,16 +358,16 @@ ENTRY_CSS = """<style>
     .box a:hover { text-decoration: underline; }
 </style>"""
 
-# 공유 미리보기는 기존과 같게 둔다 (주 공유 대상이 한국어).
+# 진입 주소의 공유 미리보기. 어느 언어로 넘어갈지 모르는 주소라 기본 언어(영어) 것을 쓴다.
 ENTRY_OG = """<meta property="og:type" content="website" />
-<meta property="og:site_name" content="Zaco Labs" />
-<meta property="og:title" content="Waky — 확실하게 깨워 주는 미션 알람" />
-<meta property="og:description" content="미션을 풀어야 꺼지는 알람, 직접 녹음한 알람음, 아침 습관까지." />
+<meta property="og:site_name" content="Waky" />
+<meta property="og:title" content="%(title)s" />
+<meta property="og:description" content="%(description)s" />
 <meta property="og:url" content="%(base)s/introduce/" />
-<meta property="og:image" content="%(base)s/introduce/zacolabs-assets/og-image-kr-1200x630.png" />
+<meta property="og:image" content="%(base)s/introduce/zacolabs-assets/og-image-%(image)s-1200x630.png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
-<meta property="og:image:alt" content="Waky — 확실하게 깨워 주는 미션 알람" />
+<meta property="og:image:alt" content="%(title)s" />
 <meta name="twitter:card" content="summary_large_image" />"""
 
 
@@ -380,6 +380,9 @@ def entry_page(prefix, langs):
         f'<a href="{prefix}{x["code"]}/" lang="{x["html_lang"]}" hreflang="{x["hreflang"]}">{e(x["label"])}</a>'
         for x in langs)
     js = REDIRECT_JS % {"codes": json.dumps(ORDER), "default": DEFAULT, "prefix": prefix}
+    d = next(x for x in langs if x["code"] == DEFAULT)
+    og = ENTRY_OG % {"base": BASE, "title": e(d["og_title"]), "description": e(d["og_description"]),
+                     "image": d["og_image"]}
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -389,7 +392,7 @@ def entry_page(prefix, langs):
 {VERIFY_BING}
 <title>Waky</title>
 <meta name="theme-color" content="#FAF5EC" />
-{ENTRY_OG % {"base": BASE}}
+{og}
 {alts}
 {js}
 {ENTRY_CSS}

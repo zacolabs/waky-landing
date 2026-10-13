@@ -372,7 +372,9 @@ ENTRY_OG = """<meta property="og:type" content="website" />
 
 
 def entry_page(prefix, langs):
-    """prefix: 이 페이지 기준 언어 폴더 경로 ('' 또는 'introduce/')."""
+    """prefix: 이 페이지 기준 언어 폴더 경로 ('' 또는 'introduce/').
+
+    검색엔진에는 영어 랜딩이 대표 주소(canonical)라고 알린다 — 없으면 언어를 고르는 이 주소가 따로 색인된다."""
     alts = "\n".join(
         f'<link rel="alternate" hreflang="{x["hreflang"]}" href="{url(x["code"])}" />' for x in langs)
     alts += f'\n<link rel="alternate" hreflang="x-default" href="{url(DEFAULT)}" />'
@@ -391,6 +393,7 @@ def entry_page(prefix, langs):
 {VERIFY[0]}
 {VERIFY_BING}
 <title>Waky</title>
+<link rel="canonical" href="{url(DEFAULT)}" />
 <meta name="theme-color" content="#FAF5EC" />
 {og}
 {alts}

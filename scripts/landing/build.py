@@ -26,6 +26,20 @@ DEFAULT = "en"  # x-default
 
 PLAY = "https://play.google.com/store/apps/details?id=com.waky.android"
 APPLE = "https://apps.apple.com/app/id6797402938"
+# 안드로이드에서 Google Play 버튼이 여는 주소 — 앱이 깔려 있으면 앱(waky://open, 앱만 열고 알람 화면은 띄우지 않는다)을 열고,
+# 없으면 브라우저가 그 패키지의 Play 스토어로 보낸다 (package 를 걸어 이 앱만 열린다). 스토어 브릿지의 앱 실행 주소와 같은 방식이다.
+# 앱이 스킴을 받기 전 버전이면 Play 스토어의 앱 화면(열기 · 업데이트)이 열린다
+APP_LINK = "intent://open#Intent;scheme=waky;package=com.waky.android;end"
+
+# 안드로이드 기기에서만 data-app 이 달린 스토어 버튼의 주소를 앱 실행 주소로 바꾼다. 다른 기기 · 로봇은 스토어 주소 그대로다.
+# 새 탭으로 열면 앱이 열린 뒤 빈 탭이 남아 target 을 뗀다. zacolabs.github.io 의 회사 소개 · Dayline 랜딩과 같은 코드다.
+# 아이폰은 하지 않는다: 앱이 없으면 사파리가 "주소가 유효하지 않음" 창을 띄우는데, 스토어 버튼을 누르는 사람은 대개 앱이 없다
+APP_LINK_SCRIPT = """<script>
+    if (/Android/i.test(navigator.userAgent)) document.querySelectorAll('a[data-app]').forEach(function (a) {
+        a.href = a.getAttribute('data-app');
+        a.removeAttribute('target');
+    });
+</script>"""
 
 VERIFY = [
     '<meta name="google-site-verification" content="3JNaFd6fvPNBA7NMsjDxFkAvM1aAESN3FrJCD46fIfc" />',
@@ -72,7 +86,7 @@ def url(code):
 
 def badges():
     return f'''<div class="stores">
-                <a class="badge" href="{PLAY}" target="_blank" rel="noopener">
+                <a class="badge" href="{PLAY}" data-app="{APP_LINK}" target="_blank" rel="noopener">
                     <svg class="badge-ico" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="{PLAY_PATH}"/></svg>
                     <span class="badge-txt"><small>GET IT ON</small><strong>Google Play</strong></span>
                 </a>
@@ -309,6 +323,7 @@ def build(d, langs, css):
 </footer>
 
 {PAGE_SCRIPT}
+{APP_LINK_SCRIPT}
 </body>
 </html>
 '''

@@ -402,7 +402,7 @@
                 <h1>Fini d&#x27;éteindre le réveil pour se rendormir</h1>
                 <p class="lede">Waky est un réveil qui ne s&#x27;arrête qu&#x27;une fois une mission réussie. Il vous réveille avec un son que vous avez enregistré vous-même, puis vous aide à démarrer la journée en cochant vos habitudes matinales.</p>
                 <div class="stores">
-                <a class="badge" href="https://play.google.com/store/apps/details?id=com.waky.android" target="_blank" rel="noopener">
+                <a class="badge" href="https://play.google.com/store/apps/details?id=com.waky.android" data-app="intent://open#Intent;scheme=waky;package=com.waky.android;end" target="_blank" rel="noopener">
                     <svg class="badge-ico" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M22.018 13.298l-3.919 2.218-3.515-3.493 3.543-3.521 3.891 2.202a1.49 1.49 0 0 1 0 2.594zM1.337.924a1.486 1.486 0 0 0-.112.568v21.017c0 .217.045.419.124.6l11.155-11.087L1.337.924zm12.208 10.065l3.258-3.238L3.45.195a1.466 1.466 0 0 0-.946-.179l11.041 10.973zm0 2.067l-11 10.933c.298.036.612-.016.906-.183l13.324-7.54-3.23-3.21z"/></svg>
                     <span class="badge-txt"><small>GET IT ON</small><strong>Google Play</strong></span>
                 </a>
@@ -524,7 +524,7 @@
             <h2>Demain matin, levez-vous pour de bon</h2>
             <p>Waky est gratuit sur iOS et Android.</p>
             <div class="stores">
-                <a class="badge" href="https://play.google.com/store/apps/details?id=com.waky.android" target="_blank" rel="noopener">
+                <a class="badge" href="https://play.google.com/store/apps/details?id=com.waky.android" data-app="intent://open#Intent;scheme=waky;package=com.waky.android;end" target="_blank" rel="noopener">
                     <svg class="badge-ico" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M22.018 13.298l-3.919 2.218-3.515-3.493 3.543-3.521 3.891 2.202a1.49 1.49 0 0 1 0 2.594zM1.337.924a1.486 1.486 0 0 0-.112.568v21.017c0 .217.045.419.124.6l11.155-11.087L1.337.924zm12.208 10.065l3.258-3.238L3.45.195a1.466 1.466 0 0 0-.946-.179l11.041 10.973zm0 2.067l-11 10.933c.298.036.612-.016.906-.183l13.324-7.54-3.23-3.21z"/></svg>
                     <span class="badge-txt"><small>GET IT ON</small><strong>Google Play</strong></span>
                 </a>
@@ -580,6 +580,12 @@
             if (ev.key === 'Escape') menu.open = false;
         });
     })();
+</script>
+<script>
+    if (/Android/i.test(navigator.userAgent)) document.querySelectorAll('a[data-app]').forEach(function (a) {
+        a.href = a.getAttribute('data-app');
+        a.removeAttribute('target');
+    });
 </script>
 </body>
 </html>

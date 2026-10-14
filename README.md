@@ -83,6 +83,11 @@ Google Play  https://play.google.com/store/apps/details?id=com.waky.android
 App Store    https://apps.apple.com/app/id6797402938
 ```
 
+안드로이드에서는 Google Play 버튼이 앱을 먼저 연다. 버튼의 `data-app`(intent 주소,
+`scripts/landing/build.py` 의 `APP_LINK`)을 페이지 끝의 스크립트(`APP_LINK_SCRIPT`)가 주소로 바꾼다 —
+앱이 있으면 앱(`waky://open`)이 열리고, 없으면 브라우저가 Play 스토어로 보낸다. 아이폰의 App Store 버튼은
+그대로 스토어로 간다 (앱이 없으면 사파리가 "주소가 유효하지 않음" 창을 띄우기 때문이다).
+
 ## 검색엔진 등록 시 주의
 
 `robots.txt` 는 저장소 루트에 있지만, GitHub Pages 프로젝트 사이트라

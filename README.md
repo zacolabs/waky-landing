@@ -87,6 +87,9 @@ App Store    https://apps.apple.com/app/id6797402938
 `scripts/landing/build.py` 의 `APP_LINK`)을 페이지 끝의 스크립트(`APP_LINK_SCRIPT`)가 주소로 바꾼다 —
 앱이 있으면 앱(`waky://open`)이 열리고, 없으면 브라우저가 Play 스토어로 보낸다. 아이폰의 App Store 버튼은
 그대로 스토어로 간다 (앱이 없으면 사파리가 "주소가 유효하지 않음" 창을 띄우기 때문이다).
+대신 랜딩마다 아이폰 사파리의 스마트 앱 배너(`<meta name="apple-itunes-app" content="app-id=6797402938">`)가
+페이지 맨 위에 뜬다 — 앱이 없으면 [보기](App Store), 있으면 [열기](Waky)라 오류 창 없이 앱을 연다.
+사파리에서만 보이고(인앱 브라우저 · 크롬 · 안드로이드는 아니다), 닫으면 한동안 다시 뜨지 않는다.
 
 ## 검색엔진 등록 시 주의
 

@@ -225,6 +225,7 @@ def build(d, langs, css):
 {chr(10).join(verify)}
 <title>{e(d["title"])}</title>
 <meta name="description" content="{e(d["description"])}" />
+<meta name="apple-itunes-app" content="app-id=6797402938" />
 <meta name="theme-color" content="#FAF5EC" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Waky" />

@@ -74,6 +74,10 @@ python3 scripts/landing/build.py
 FAQ·사용법 문구는 페이지 본문과 `FAQPage`·`HowTo` JSON-LD 에 함께 들어가므로
 JSON 한 곳만 고치면 둘 다 반영된다.
 
+문구나 페이지 구성을 바꿨으면 `build.py` 의 `UPDATED` 날짜도 고친다. 푸터의 '최근 업데이트',
+`WebPage` JSON-LD 의 `dateModified`, 사이트맵 `lastmod` 가 모두 이 값을 쓴다 (빌드한 날이 아니다).
+미션을 추가·삭제하면 i18n 의 `missions` 와 `build.py` 의 `MISSIONS`(iOS·Android 지원 여부)를 같은 순서로 맞춘다.
+
 ## 스토어 링크
 
 각 랜딩 페이지 안에 직접 들어 있다.

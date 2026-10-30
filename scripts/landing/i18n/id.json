@@ -17,7 +17,7 @@
   "app_description": "Alarm yang baru berhenti setelah misi, suara yang kamu rekam sendiri, dan kebiasaan pagi.",
   "eyebrow": "Zaco Labs",
   "h1": "Tidak ada lagi mematikan alarm lalu tidur lagi",
-  "lede": "Waky adalah alarm yang baru berhenti setelah kamu menyelesaikan misi. Alarm ini membangunkanmu dengan suara yang kamu rekam sendiri, lalu membantumu memulai hari dengan menyelesaikan kebiasaan pagi.",
+  "lede": "Waky adalah alarm gratis untuk iPhone dan Android dari Zaco Labs yang baru berhenti setelah kamu menyelesaikan misi. Alarm ini membangunkanmu dengan suara yang kamu rekam sendiri, lalu membantumu memulai hari dengan menyelesaikan kebiasaan pagi.",
   "note": "iOS · Android · Unduh gratis",
   "hero_alt": "Ilustrasi seseorang yang terbangun kaget oleh jam weker berbunyi dan duduk di tempat tidur",
   "features_title": "Apa yang membuat Waky berbeda",
@@ -42,6 +42,18 @@
   ],
   "shot_alt": "Layar daftar alarm aplikasi Waky",
   "shot_caption": "Daftar alarm — hari pengulangan dan misi dalam sekejap.",
+  "missions_title": "Misi apa saja yang bisa mematikan alarm?",
+  "missions_lede": "Misi apa pun yang kamu pilih, alarm terus berbunyi sampai misi selesai. Berikut misi yang bisa dipilih di tiap platform.",
+  "mission_col": "Misi",
+  "mission_yes": "Tersedia",
+  "mission_no": "Tidak tersedia",
+  "missions": [
+    "Pindai objek",
+    "Soal matematika",
+    "Cari ubin berwarna beda",
+    "Push-up",
+    "Pola"
+  ],
   "howto_title": "Tiga langkah untuk mengaturnya",
   "howto_lede": "Dari pertama kali dibuka sampai alarm siap, kira-kira hanya satu menit.",
   "steps": [
@@ -104,5 +116,6 @@
   "cta_title": "Besok pagi, benar-benar bangunlah",
   "cta_text": "Waky gratis di iOS dan Android.",
   "about_link": "Tentang Zaco Labs",
+  "updated": "Terakhir diperbarui",
   "rights": "Hak cipta dilindungi undang-undang."
 }

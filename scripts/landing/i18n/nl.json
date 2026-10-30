@@ -17,7 +17,7 @@
   "app_description": "Een wekker die pas stopt na een missie, zelf opgenomen geluiden en ochtendgewoonten.",
   "eyebrow": "Zaco Labs",
   "h1": "Nooit meer uitzetten en doorslapen",
-  "lede": "Waky is een wekker die pas stopt als je een missie hebt voltooid. Hij maakt je wakker met een geluid dat je zelf hebt opgenomen en helpt je daarna de dag te beginnen met je ochtendgewoonten.",
+  "lede": "Waky is een gratis wekker voor iPhone en Android van Zaco Labs die pas stopt als je een missie hebt voltooid. Hij maakt je wakker met een geluid dat je zelf hebt opgenomen en helpt je daarna de dag te beginnen met je ochtendgewoonten.",
   "note": "iOS · Android · Gratis te downloaden",
   "hero_alt": "Illustratie van iemand die schrikt van een piepende wekker en rechtop gaat zitten in bed",
   "features_title": "Wat Waky anders maakt",
@@ -42,6 +42,18 @@
   ],
   "shot_alt": "Wekkerlijst in de Waky-app",
   "shot_caption": "Wekkerlijst — herhaaldagen en missies in één oogopslag.",
+  "missions_title": "Met welke missies zet je het alarm uit?",
+  "missions_lede": "Welke missie je ook kiest, het alarm blijft gaan tot ze klaar is. Dit kun je per platform kiezen.",
+  "mission_col": "Missie",
+  "mission_yes": "Beschikbaar",
+  "mission_no": "Niet beschikbaar",
+  "missions": [
+    "Object Scan",
+    "Rekensommen",
+    "Vakje met afwijkende kleur vinden",
+    "Push-ups",
+    "Patroon"
+  ],
   "howto_title": "In drie stappen ingesteld",
   "howto_lede": "Van de eerste keer openen tot een werkende wekker kost ongeveer een minuut.",
   "steps": [
@@ -53,7 +65,7 @@
     {
       "title": "Kies een missie en een geluid",
       "text": "Kies de missie die je moet oplossen om het alarm uit te zetten en een ingebouwd of zelf opgenomen geluid.",
-      "alt": "Illustratie van iemand die op de bedrand zit en wekstemmen beluistert op de telefoon"
+      "alt": "Illustratie van iemand die op de bedrand zit en wekgeluiden beluistert op de telefoon"
     },
     {
       "title": "Voltooi de missie en sta op",
@@ -104,5 +116,6 @@
   "cta_title": "Sta morgenochtend echt op",
   "cta_text": "Waky is gratis voor iOS en Android.",
   "about_link": "Over Zaco Labs",
+  "updated": "Laatst bijgewerkt",
   "rights": "Alle rechten voorbehouden."
 }

@@ -17,7 +17,7 @@
   "app_description": "Báo thức chỉ dừng khi làm xong nhiệm vụ, âm thanh do bạn tự thu và thói quen buổi sáng.",
   "eyebrow": "Zaco Labs",
   "h1": "Thôi tắt báo thức rồi ngủ tiếp",
-  "lede": "Waky là báo thức chỉ dừng khi bạn hoàn thành nhiệm vụ. Ứng dụng đánh thức bạn bằng âm thanh bạn tự thu, rồi giúp bạn bắt đầu ngày mới bằng cách hoàn thành các thói quen buổi sáng.",
+  "lede": "Waky là ứng dụng báo thức miễn phí cho iPhone và Android của Zaco Labs, chỉ dừng khi bạn hoàn thành nhiệm vụ. Ứng dụng đánh thức bạn bằng âm thanh bạn tự thu, rồi giúp bạn bắt đầu ngày mới bằng cách hoàn thành các thói quen buổi sáng.",
   "note": "iOS · Android · Tải miễn phí",
   "hero_alt": "Hình minh họa một người giật mình tỉnh giấc vì đồng hồ báo thức reo và ngồi dậy trên giường",
   "features_title": "Điều làm Waky khác biệt",
@@ -42,6 +42,18 @@
   ],
   "shot_alt": "Màn hình danh sách báo thức của ứng dụng Waky",
   "shot_caption": "Danh sách báo thức — ngày lặp lại và nhiệm vụ trong nháy mắt.",
+  "missions_title": "Có những nhiệm vụ nào để tắt báo thức?",
+  "missions_lede": "Dù chọn nhiệm vụ nào, chuông vẫn reo cho đến khi bạn hoàn thành. Dưới đây là các nhiệm vụ có trên từng nền tảng.",
+  "mission_col": "Nhiệm vụ",
+  "mission_yes": "Có",
+  "mission_no": "Không có",
+  "missions": [
+    "Quét đồ vật",
+    "Bài toán",
+    "Tìm ô khác màu",
+    "Chống đẩy",
+    "Vẽ hình mẫu"
+  ],
   "howto_title": "Ba bước để cài đặt",
   "howto_lede": "Từ lần mở đầu tiên đến khi báo thức sẵn sàng chỉ mất khoảng một phút.",
   "steps": [
@@ -53,7 +65,7 @@
     {
       "title": "Chọn nhiệm vụ và âm thanh",
       "text": "Chọn nhiệm vụ cần giải để tắt báo thức, rồi chọn âm thanh có sẵn hoặc âm thanh bạn tự thu.",
-      "alt": "Hình minh họa một người ngồi trên giường nghe thử các giọng báo thức trên điện thoại"
+      "alt": "Hình minh họa một người ngồi trên giường nghe thử các âm báo thức trên điện thoại"
     },
     {
       "title": "Hoàn thành nhiệm vụ và thức dậy",
@@ -104,5 +116,6 @@
   "cta_title": "Sáng mai, hãy thức dậy thật sự",
   "cta_text": "Waky miễn phí trên iOS và Android.",
   "about_link": "Về Zaco Labs",
+  "updated": "Cập nhật lần cuối",
   "rights": "Bảo lưu mọi quyền."
 }

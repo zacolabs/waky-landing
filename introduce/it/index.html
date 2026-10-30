@@ -20,8 +20,8 @@
 <meta property="og:image:height" content="630" />
 <meta property="og:image:alt" content="Waky — La sveglia a missioni che ti sveglia davvero" />
 <meta name="twitter:card" content="summary_large_image" />
-<link rel="icon" href="../zacolabs-assets/app_icon.png" />
-<link rel="apple-touch-icon" href="../zacolabs-assets/app_icon.png" />
+<link rel="icon" href="../zacolabs-assets/app_icon-60.png" />
+<link rel="apple-touch-icon" href="../zacolabs-assets/app_icon-180.png" />
 <link rel="canonical" href="https://zacolabs.github.io/waky-landing/introduce/it/" />
 <link rel="alternate" hreflang="ko" href="https://zacolabs.github.io/waky-landing/introduce/kr/" />
 <link rel="alternate" hreflang="en" href="https://zacolabs.github.io/waky-landing/introduce/en/" />
@@ -45,14 +45,45 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://zacolabs.github.io/waky-landing/introduce/it/#webpage",
+  "url": "https://zacolabs.github.io/waky-landing/introduce/it/",
+  "name": "Waky — La sveglia a missioni che ti alza davvero",
+  "description": "La sveglia di Waky si spegne solo dopo una missione. Svegliati con la tua voce registrata e crea abitudini mattutine. Gratis su iOS e Android.",
+  "inLanguage": "it",
+  "dateModified": "2026-10-30",
+  "about": {
+    "@id": "https://zacolabs.github.io/waky-landing/#app"
+  },
+  "publisher": {
+    "@id": "https://zacolabs.github.io/#organization"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
   "@type": "SoftwareApplication",
+  "@id": "https://zacolabs.github.io/waky-landing/#app",
   "name": "Waky",
+  "alternateName": "Waky by Zaco Labs",
   "applicationCategory": "LifestyleApplication",
   "operatingSystem": "Android, iOS",
   "description": "Una sveglia che si spegne completando una missione, suoni registrati da te e abitudini mattutine.",
   "url": "https://zacolabs.github.io/waky-landing/introduce/it/",
   "inLanguage": "it",
   "image": "https://zacolabs.github.io/waky-landing/introduce/zacolabs-assets/app_icon.png",
+  "featureList": [
+    "Una sveglia che devi meritarti",
+    "La tua voce come suoneria",
+    "Abitudini mattutine appena alzato",
+    "Un registro dei risvegli che cresce",
+    "Scansione oggetti",
+    "Problemi di matematica",
+    "Trova la tessera di colore diverso",
+    "Flessioni",
+    "Sequenza"
+  ],
   "offers": {
     "@type": "Offer",
     "price": "0",
@@ -62,8 +93,13 @@
     "https://play.google.com/store/apps/details?id=com.waky.android",
     "https://apps.apple.com/app/id6797402938"
   ],
+  "sameAs": [
+    "https://play.google.com/store/apps/details?id=com.waky.android",
+    "https://apps.apple.com/app/id6797402938"
+  ],
   "publisher": {
     "@type": "Organization",
+    "@id": "https://zacolabs.github.io/#organization",
     "name": "Zaco Labs",
     "url": "https://zacolabs.github.io/",
     "logo": "https://zacolabs.github.io/waky-landing/introduce/zacolabs-assets/logo.png",
@@ -284,6 +320,22 @@
     .shot figcaption { position:relative; z-index:1; margin-top:62px; text-align:center;
         font-size:13px; color:var(--muted-2); }
 
+    /* 미션 표 */
+    .table-wrap { margin-top:34px; overflow-x:auto; }
+    table.missions { width:100%; max-width:640px; border-collapse:separate; border-spacing:0;
+        background:var(--surface); border:1px solid var(--line); border-radius:var(--radius);
+        overflow:hidden; font-size:15px; }
+    .missions th, .missions td { padding:14px 18px; border-bottom:1px solid var(--line); text-align:start; }
+    .missions tbody tr:last-child th, .missions tbody tr:last-child td { border-bottom:none; }
+    .missions thead th { background:var(--surface-2); font-size:13px; font-weight:600; color:var(--muted); }
+    .missions thead th + th, .missions td { width:96px; text-align:center; }
+    .missions tbody th { font-weight:600; }
+    .missions td.yes { color:var(--amber-deep); font-weight:800; }
+    .missions td.no { color:var(--muted-2); }
+    /* 눈에는 ✓ · — 만 보이고, 화면 낭독기는 '지원 · 지원 안 함' 을 읽는다 */
+    .sr { position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0);
+        white-space:nowrap; }
+
     /* 사용법 */
     .steps { list-style:none; counter-reset:step; display:grid;
         grid-template-columns:repeat(3,1fr); gap:26px; margin-top:44px; }
@@ -366,7 +418,7 @@
 <header class="site">
     <div class="wrap">
         <a class="brand" href="./">
-            <img src="../zacolabs-assets/app_icon.png" alt="" width="30" height="30" />
+            <img src="../zacolabs-assets/app_icon-60.png" alt="" width="30" height="30" />
             <span>Waky</span>
         </a>
         <details class="lang-menu">
@@ -401,7 +453,7 @@
             <div class="hero-copy">
                 <p class="eyebrow">Zaco Labs</p>
                 <h1>Basta spegnere la sveglia e riaddormentarsi</h1>
-                <p class="lede">Waky è una sveglia che si spegne solo quando completi una missione. Ti sveglia con un suono registrato da te e poi ti aiuta a iniziare la giornata completando le tue abitudini mattutine.</p>
+                <p class="lede">Waky è una sveglia gratuita per iPhone e Android di Zaco Labs che si spegne solo quando completi una missione. Ti sveglia con un suono registrato da te e poi ti aiuta a iniziare la giornata completando le tue abitudini mattutine.</p>
                 <div class="stores">
                 <a class="badge" href="https://play.google.com/store/apps/details?id=com.waky.android" data-app="intent://open#Intent;scheme=waky;package=com.waky.android;end" target="_blank" rel="noopener">
                     <svg class="badge-ico" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M22.018 13.298l-3.919 2.218-3.515-3.493 3.543-3.521 3.891 2.202a1.49 1.49 0 0 1 0 2.594zM1.337.924a1.486 1.486 0 0 0-.112.568v21.017c0 .217.045.419.124.6l11.155-11.087L1.337.924zm12.208 10.065l3.258-3.238L3.45.195a1.466 1.466 0 0 0-.946-.179l11.041 10.973zm0 2.067l-11 10.933c.298.036.612-.016.906-.183l13.324-7.54-3.23-3.21z"/></svg>
@@ -448,6 +500,23 @@
             </div>
         </section>
 
+        <section id="missions">
+            <h2>Con quali missioni si spegne la sveglia?</h2>
+            <p class="section-lede">Qualunque missione tu scelga, la sveglia suona finché non la completi. Ecco quelle disponibili su ogni piattaforma.</p>
+            <div class="table-wrap">
+                <table class="missions">
+                    <thead><tr><th scope="col">Missione</th><th scope="col">iOS</th><th scope="col">Android</th></tr></thead>
+                    <tbody>
+                    <tr><th scope="row">Scansione oggetti</th><td class="yes"><span aria-hidden="true">✓</span><span class="sr">Disponibile</span></td><td class="yes"><span aria-hidden="true">✓</span><span class="sr">Disponibile</span></td></tr>
+                    <tr><th scope="row">Problemi di matematica</th><td class="yes"><span aria-hidden="true">✓</span><span class="sr">Disponibile</span></td><td class="yes"><span aria-hidden="true">✓</span><span class="sr">Disponibile</span></td></tr>
+                    <tr><th scope="row">Trova la tessera di colore diverso</th><td class="yes"><span aria-hidden="true">✓</span><span class="sr">Disponibile</span></td><td class="yes"><span aria-hidden="true">✓</span><span class="sr">Disponibile</span></td></tr>
+                    <tr><th scope="row">Flessioni</th><td class="yes"><span aria-hidden="true">✓</span><span class="sr">Disponibile</span></td><td class="no"><span aria-hidden="true">—</span><span class="sr">Non disponibile</span></td></tr>
+                    <tr><th scope="row">Sequenza</th><td class="no"><span aria-hidden="true">—</span><span class="sr">Non disponibile</span></td><td class="yes"><span aria-hidden="true">✓</span><span class="sr">Disponibile</span></td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
         <section id="howto">
             <h2>Tre passaggi per impostarla</h2>
             <p class="section-lede">Dalla prima apertura alla sveglia pronta passa circa un minuto.</p>
@@ -460,7 +529,7 @@
                     </div>
                 </li>
                 <li>
-                    <img src="../zacolabs-assets/illustration/step-2.webp" alt="Illustrazione di una persona seduta sul letto che ascolta le voci della sveglia sul telefono" width="800" height="800" loading="lazy" />
+                    <img src="../zacolabs-assets/illustration/step-2.webp" alt="Illustrazione di una persona seduta sul letto che ascolta le suonerie della sveglia sul telefono" width="800" height="800" loading="lazy" />
                     <div class="step-body">
                         <h3>Scegli una missione e un suono</h3>
                         <p>Decidi quale missione risolvere per spegnere la sveglia e scegli un suono integrato o uno registrato da te.</p>
@@ -543,6 +612,7 @@
         <div class="row"><a href="https://zacolabs.github.io/">Informazioni su Zaco Labs</a></div>
         <div class="row"><a href="mailto:zaco.labs@gmail.com">zaco.labs@gmail.com</a></div>
         <div class="row">© <span id="year">2026</span> Zaco Labs. Tutti i diritti riservati.</div>
+        <div class="row">Ultimo aggiornamento <time datetime="2026-10-30">2026-10-30</time></div>
         <nav class="langs" aria-label="Language"><a href="../kr/" lang="ko" hreflang="ko" data-lang="kr">한국어</a>
             <a href="../en/" lang="en" hreflang="en" data-lang="en">English</a>
             <a href="../jp/" lang="ja" hreflang="ja" data-lang="jp">日本語</a>

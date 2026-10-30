@@ -17,7 +17,7 @@
   "app_description": "En alarm, der først stopper efter en mission, lyde du selv optager, og morgenvaner.",
   "eyebrow": "Zaco Labs",
   "h1": "Slut med at slukke og sove videre",
-  "lede": "Waky er en alarm, der først stopper, når du har klaret en mission. Den vækker dig med en lyd, du selv har optaget, og hjælper dig bagefter med at starte dagen med dine morgenvaner.",
+  "lede": "Waky er en gratis alarm til iPhone og Android fra Zaco Labs, der først stopper, når du har klaret en mission. Den vækker dig med en lyd, du selv har optaget, og hjælper dig bagefter med at starte dagen med dine morgenvaner.",
   "note": "iOS · Android · Gratis at hente",
   "hero_alt": "Illustration af en person, der bliver vækket med et sæt af et bippende vækkeur og sætter sig op i sengen",
   "features_title": "Det gør Waky anderledes",
@@ -42,6 +42,18 @@
   ],
   "shot_alt": "Alarmlisten i Waky-appen",
   "shot_caption": "Alarmliste — gentagelsesdage og missioner med ét blik.",
+  "missions_title": "Hvilke missioner kan slukke alarmen?",
+  "missions_lede": "Uanset hvilken mission du vælger, ringer alarmen, til den er klaret. Her er dem, du kan vælge på hver platform.",
+  "mission_col": "Mission",
+  "mission_yes": "Tilgængelig",
+  "mission_no": "Ikke tilgængelig",
+  "missions": [
+    "Genstandsscanning",
+    "Regnestykker",
+    "Find feltet med den afvigende farve",
+    "Armbøjninger",
+    "Mønster"
+  ],
   "howto_title": "Klar i tre trin",
   "howto_lede": "Fra du åbner appen første gang, til alarmen er klar, går der cirka et minut.",
   "steps": [
@@ -53,7 +65,7 @@
     {
       "title": "Vælg en mission og en lyd",
       "text": "Vælg den mission, du skal løse for at slukke alarmen, og en indbygget lyd eller en, du selv har optaget.",
-      "alt": "Illustration af en person, der sidder på sengekanten og lytter til alarmstemmer på telefonen"
+      "alt": "Illustration af en person, der sidder på sengekanten og lytter til alarmlyde på telefonen"
     },
     {
       "title": "Klar missionen og stå op",
@@ -104,5 +116,6 @@
   "cta_title": "Stå rigtigt op i morgen tidlig",
   "cta_text": "Waky er gratis til iOS og Android.",
   "about_link": "Om Zaco Labs",
+  "updated": "Senest opdateret",
   "rights": "Alle rettigheder forbeholdes."
 }

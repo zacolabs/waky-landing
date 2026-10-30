@@ -17,7 +17,7 @@
   "app_description": "Alarm na humihinto lang pagkatapos ng misyon, mga tunog na ikaw mismo ang nag-record, at mga gawi sa umaga.",
   "eyebrow": "Zaco Labs",
   "h1": "Tama na ang pagpatay ng alarm at pagtulog ulit",
-  "lede": "Ang Waky ay alarm na humihinto lang kapag natapos mo ang isang misyon. Ginigising ka nito gamit ang tunog na ikaw mismo ang nag-record, at pagkatapos ay tinutulungan kang simulan ang araw sa pagtapos ng iyong mga gawi sa umaga.",
+  "lede": "Ang Waky ay libreng alarm para sa iPhone at Android mula sa Zaco Labs na humihinto lang kapag natapos mo ang isang misyon. Ginigising ka nito gamit ang tunog na ikaw mismo ang nag-record, at pagkatapos ay tinutulungan kang simulan ang araw sa pagtapos ng iyong mga gawi sa umaga.",
   "note": "iOS · Android · Libreng i-download",
   "hero_alt": "Ilustrasyon ng taong nagulat sa tunog ng alarm clock at napaupo sa kama",
   "features_title": "Ano ang pinagkaiba ng Waky",
@@ -42,6 +42,18 @@
   ],
   "shot_alt": "Screen ng listahan ng alarm sa Waky app",
   "shot_caption": "Listahan ng alarm — mga araw ng pag-ulit at misyon sa isang tingin.",
+  "missions_title": "Anong mga misyon ang pampatay ng alarm?",
+  "missions_lede": "Anumang misyon ang piliin mo, tuloy ang tunog hanggang matapos ito. Ito ang mapipili mo sa bawat platform.",
+  "mission_col": "Misyon",
+  "mission_yes": "Mayroon",
+  "mission_no": "Wala",
+  "missions": [
+    "Pag-scan ng bagay",
+    "Math problems",
+    "Hanapin ang tile na iba ang kulay",
+    "Push-up",
+    "Pattern"
+  ],
   "howto_title": "Tatlong hakbang para i-set up",
   "howto_lede": "Mula sa unang pagbukas hanggang handa na ang alarm, mga isang minuto lang.",
   "steps": [
@@ -53,7 +65,7 @@
     {
       "title": "Pumili ng misyon at tunog",
       "text": "Piliin ang misyong lulutasin mo para patayin ang alarm, at isang built-in na tunog o tunog na ikaw mismo ang nag-record.",
-      "alt": "Ilustrasyon ng taong nakaupo sa kama habang pinapakinggan ang mga boses ng alarm sa phone"
+      "alt": "Ilustrasyon ng taong nakaupo sa kama habang pinapakinggan ang mga tunog ng alarm sa phone"
     },
     {
       "title": "Tapusin ang misyon at bumangon",
@@ -104,5 +116,6 @@
   "cta_title": "Bukas ng umaga, talagang bumangon ka",
   "cta_text": "Libre ang Waky sa iOS at Android.",
   "about_link": "Tungkol sa Zaco Labs",
+  "updated": "Huling na-update",
   "rights": "Nakalaan ang lahat ng karapatan."
 }

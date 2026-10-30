@@ -9,7 +9,6 @@ i18n/<code>.json 의 문구로 introduce/<code>/index.html 을 만든다.
 import html
 import json
 import os
-import datetime
 import struct
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -23,6 +22,17 @@ ASSETS = os.path.join(ROOT, "introduce", "zacolabs-assets")
 ORDER = ["kr", "en", "jp", "zh-hans", "zh-hant", "es", "fr", "de", "it", "pt",
          "nl", "da", "pl", "ru", "ar", "id", "vi", "fil"]
 DEFAULT = "en"  # x-default
+
+# 랜딩 문구를 마지막으로 바꾼 날. 페이지의 '최근 업데이트' · dateModified · 사이트맵 lastmod 가 모두 이 값을 쓴다.
+# 빌드한 날이 아니라 문구가 바뀐 날이어야 하므로, i18n 문구나 페이지 구성을 고칠 때 같이 고친다.
+UPDATED = "2026-10-30"
+
+# 18개 언어 페이지가 같은 앱 · 같은 회사를 가리키도록 고정 @id 를 쓴다. 회사 @id 는 zacolabs.github.io 의 것과 같다.
+APP_ID = f"{BASE}/#app"
+ORG_ID = "https://zacolabs.github.io/#organization"
+
+# 미션 표의 행 — i18n 의 missions 이름과 같은 순서다. (iOS, Android) 지원 여부
+MISSIONS = [(True, True), (True, True), (True, True), (True, False), (False, True)]
 
 PLAY = "https://play.google.com/store/apps/details?id=com.waky.android"
 APPLE = "https://apps.apple.com/app/id6797402938"
@@ -166,17 +176,27 @@ def build(d, langs, css):
         verify.append(VERIFY_KR_LEGACY)
     verify.append(VERIFY_BING)
 
+    # 이름이 비슷한 다른 알람 앱(Waky – Tap to wake, Wak, Wayk 등)과 섞이지 않도록 만든 곳 · 스토어 주소를 함께 적는다
     app_ld = {
-        "@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Waky",
+        "@context": "https://schema.org", "@type": "SoftwareApplication", "@id": APP_ID,
+        "name": "Waky", "alternateName": "Waky by Zaco Labs",
         "applicationCategory": "LifestyleApplication", "operatingSystem": "Android, iOS",
         "description": d["app_description"], "url": canon, "inLanguage": d["html_lang"],
         "image": f"{BASE}/introduce/zacolabs-assets/app_icon.png",
+        "featureList": [f["title"] for f in d["features"]] + d["missions"],
         "offers": {"@type": "Offer", "price": "0", "priceCurrency": d["currency"]},
         "downloadUrl": [PLAY, APPLE],
-        "publisher": {"@type": "Organization", "name": "Zaco Labs",
+        "sameAs": [PLAY, APPLE],
+        "publisher": {"@type": "Organization", "@id": ORG_ID, "name": "Zaco Labs",
                       "url": ABOUT_URL,
                       "logo": f"{BASE}/introduce/zacolabs-assets/logo.png",
                       "email": "zaco.labs@gmail.com"},
+    }
+    page_ld = {
+        "@context": "https://schema.org", "@type": "WebPage", "@id": f"{canon}#webpage",
+        "url": canon, "name": d["title"], "description": d["description"],
+        "inLanguage": d["html_lang"], "dateModified": UPDATED,
+        "about": {"@id": APP_ID}, "publisher": {"@id": ORG_ID},
     }
     howto_ld = {
         "@context": "https://schema.org", "@type": "HowTo", "name": d["howto_title"],
@@ -206,6 +226,14 @@ def build(d, langs, css):
                         <p>{e(s["text"])}</p>
                     </div>
                 </li>''' for i, s in enumerate(d["steps"]))
+
+    def mark(ok):
+        label = d["mission_yes"] if ok else d["mission_no"]
+        return f'<td class="{"yes" if ok else "no"}"><span aria-hidden="true">{"✓" if ok else "—"}</span><span class="sr">{e(label)}</span></td>'
+
+    missions = "\n".join(
+        f'''                    <tr><th scope="row">{e(name)}</th>{mark(ios)}{mark(android)}</tr>'''
+        for name, (ios, android) in zip(d["missions"], MISSIONS))
 
     faqs = "\n".join(
         f'''                <details>
@@ -238,10 +266,11 @@ def build(d, langs, css):
 <meta property="og:image:height" content="630" />
 <meta property="og:image:alt" content="{e(d["og_title"])}" />
 <meta name="twitter:card" content="summary_large_image" />
-<link rel="icon" href="../zacolabs-assets/app_icon.png" />
-<link rel="apple-touch-icon" href="../zacolabs-assets/app_icon.png" />
+<link rel="icon" href="../zacolabs-assets/app_icon-60.png" />
+<link rel="apple-touch-icon" href="../zacolabs-assets/app_icon-180.png" />
 <link rel="canonical" href="{canon}" />
 {alts}
+{ld(page_ld)}
 {ld(app_ld)}
 {ld(howto_ld)}
 {ld(faq_ld)}
@@ -252,7 +281,7 @@ def build(d, langs, css):
 <header class="site">
     <div class="wrap">
         <a class="brand" href="./">
-            <img src="../zacolabs-assets/app_icon.png" alt="" width="30" height="30" />
+            <img src="../zacolabs-assets/app_icon-60.png" alt="" width="30" height="30" />
             <span>Waky</span>
         </a>
         {lang_menu(code, langs)}
@@ -288,6 +317,19 @@ def build(d, langs, css):
             </div>
         </section>
 
+        <section id="missions">
+            <h2>{e(d["missions_title"])}</h2>
+            <p class="section-lede">{e(d["missions_lede"])}</p>
+            <div class="table-wrap">
+                <table class="missions">
+                    <thead><tr><th scope="col">{e(d["mission_col"])}</th><th scope="col">iOS</th><th scope="col">Android</th></tr></thead>
+                    <tbody>
+{missions}
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
         <section id="howto">
             <h2>{e(d["howto_title"])}</h2>
             <p class="section-lede">{e(d["howto_lede"])}</p>
@@ -319,6 +361,7 @@ def build(d, langs, css):
         <div class="row"><a href="{ABOUT_URL}">{e(d["about_link"])}</a></div>
         <div class="row"><a href="mailto:zaco.labs@gmail.com">zaco.labs@gmail.com</a></div>
         <div class="row">© <span id="year">2026</span> Zaco Labs. {e(d["rights"])}</div>
+        <div class="row">{e(d["updated"])} <time datetime="{UPDATED}">{UPDATED}</time></div>
         {langnav(code, langs)}
     </div>
 </footer>
@@ -430,13 +473,11 @@ def entry_page(prefix, langs):
 
 
 def sitemap(langs):
-    today = datetime.date.today().isoformat()
-
     def block(loc, alts, priority):
         lines = "".join(f'\n    <xhtml:link rel="alternate" hreflang="{h}" href="{u}"/>' for h, u in alts)
         return f"""  <url>
     <loc>{loc}</loc>
-    <lastmod>{today}</lastmod>
+    <lastmod>{UPDATED}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>{priority}</priority>{lines}
   </url>"""

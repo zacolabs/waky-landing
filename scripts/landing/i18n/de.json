@@ -17,7 +17,7 @@
   "app_description": "Ein Wecker, der erst nach einer Mission verstummt, selbst aufgenommene Wecktöne und Morgenroutinen.",
   "eyebrow": "Zaco Labs",
   "h1": "Schluss mit Ausschalten und Weiterschlafen",
-  "lede": "Waky ist ein Wecker, der erst verstummt, wenn du eine Mission gelöst hast. Er weckt dich mit einem selbst aufgenommenen Ton und hilft dir danach, den Tag mit deinen Morgenroutinen zu beginnen.",
+  "lede": "Waky ist ein kostenloser Wecker für iPhone und Android von Zaco Labs, der erst verstummt, wenn du eine Mission gelöst hast. Er weckt dich mit einem selbst aufgenommenen Ton und hilft dir danach, den Tag mit deinen Morgenroutinen zu beginnen.",
   "note": "iOS · Android · Kostenlos herunterladen",
   "hero_alt": "Illustration einer Person, die vom piepsenden Wecker aufgeschreckt wird und sich im Bett aufsetzt",
   "features_title": "Was Waky anders macht",
@@ -42,6 +42,18 @@
   ],
   "shot_alt": "Weckerliste in der Waky-App",
   "shot_caption": "Weckerliste – Wiederholungstage und Missionen auf einen Blick.",
+  "missions_title": "Mit welchen Missionen lässt sich der Wecker ausschalten?",
+  "missions_lede": "Egal welche Mission du wählst: Der Wecker klingelt, bis sie erledigt ist. Diese Missionen gibt es je Plattform.",
+  "mission_col": "Mission",
+  "mission_yes": "Verfügbar",
+  "mission_no": "Nicht verfügbar",
+  "missions": [
+    "Objekt-Scan",
+    "Rechenaufgaben",
+    "Andersfarbige Kachel finden",
+    "Liegestütze",
+    "Muster"
+  ],
   "howto_title": "In drei Schritten eingerichtet",
   "howto_lede": "Vom ersten Öffnen bis zum fertigen Wecker dauert es etwa eine Minute.",
   "steps": [
@@ -53,7 +65,7 @@
     {
       "title": "Mission und Weckton wählen",
       "text": "Leg fest, welche Mission du zum Ausschalten lösen musst, und wähle einen integrierten oder selbst aufgenommenen Ton.",
-      "alt": "Illustration einer Person, die auf der Bettkante sitzt und sich Weckstimmen auf dem Handy anhört"
+      "alt": "Illustration einer Person, die auf der Bettkante sitzt und sich Wecktöne auf dem Handy anhört"
     },
     {
       "title": "Mission lösen und aufstehen",
@@ -104,5 +116,6 @@
   "cta_title": "Morgen früh wirklich aufstehen",
   "cta_text": "Waky ist kostenlos für iOS und Android.",
   "about_link": "Über Zaco Labs",
+  "updated": "Zuletzt aktualisiert",
   "rights": "Alle Rechte vorbehalten."
 }

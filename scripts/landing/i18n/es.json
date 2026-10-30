@@ -17,7 +17,7 @@
   "app_description": "Una alarma que se apaga al superar una misión, sonidos grabados por ti y hábitos matutinos.",
   "eyebrow": "Zaco Labs",
   "h1": "Se acabó apagar la alarma y seguir durmiendo",
-  "lede": "Waky es una alarma que solo se apaga cuando superas una misión. Te despierta con un sonido que grabaste tú y luego te ayuda a empezar el día completando tus hábitos matutinos.",
+  "lede": "Waky es una app de alarma gratuita para iPhone y Android de Zaco Labs que solo se apaga cuando superas una misión. Te despierta con un sonido que grabaste tú y luego te ayuda a empezar el día completando tus hábitos matutinos.",
   "note": "iOS · Android · Descarga gratuita",
   "hero_alt": "Ilustración de una persona que se despierta sobresaltada por un despertador y se incorpora en la cama",
   "features_title": "Qué hace diferente a Waky",
@@ -42,6 +42,18 @@
   ],
   "shot_alt": "Pantalla de lista de alarmas de Waky",
   "shot_caption": "Lista de alarmas — días de repetición y misiones de un vistazo.",
+  "missions_title": "¿Con qué misiones se apaga la alarma?",
+  "missions_lede": "Elijas la misión que elijas, la alarma sigue sonando hasta completarla. Estas son las que puedes elegir en cada plataforma.",
+  "mission_col": "Misión",
+  "mission_yes": "Disponible",
+  "mission_no": "No disponible",
+  "missions": [
+    "Escaneo de objetos",
+    "Problemas de matemáticas",
+    "Encontrar la casilla de otro color",
+    "Flexiones",
+    "Patrón"
+  ],
   "howto_title": "Tres pasos para configurarla",
   "howto_lede": "Desde que la abres por primera vez hasta tener la alarma lista pasa más o menos un minuto.",
   "steps": [
@@ -53,7 +65,7 @@
     {
       "title": "Elige una misión y un sonido",
       "text": "Decide qué misión resolverás para apagar la alarma y elige un sonido incluido o uno grabado por ti.",
-      "alt": "Ilustración de una persona sentada en la cama escuchando voces de alarma en el móvil"
+      "alt": "Ilustración de una persona sentada en la cama escuchando sonidos de alarma en el móvil"
     },
     {
       "title": "Supera la misión y levántate",
@@ -104,5 +116,6 @@
   "cta_title": "Mañana, levántate de verdad",
   "cta_text": "Waky es gratis en iOS y Android.",
   "about_link": "Sobre Zaco Labs",
+  "updated": "Última actualización",
   "rights": "Todos los derechos reservados."
 }

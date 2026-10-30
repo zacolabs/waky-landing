@@ -17,7 +17,7 @@
   "app_description": "Una sveglia che si spegne completando una missione, suoni registrati da te e abitudini mattutine.",
   "eyebrow": "Zaco Labs",
   "h1": "Basta spegnere la sveglia e riaddormentarsi",
-  "lede": "Waky è una sveglia che si spegne solo quando completi una missione. Ti sveglia con un suono registrato da te e poi ti aiuta a iniziare la giornata completando le tue abitudini mattutine.",
+  "lede": "Waky è una sveglia gratuita per iPhone e Android di Zaco Labs che si spegne solo quando completi una missione. Ti sveglia con un suono registrato da te e poi ti aiuta a iniziare la giornata completando le tue abitudini mattutine.",
   "note": "iOS · Android · Download gratuito",
   "hero_alt": "Illustrazione di una persona svegliata di soprassalto da una sveglia che suona, seduta sul letto",
   "features_title": "Cosa rende Waky diversa",
@@ -42,6 +42,18 @@
   ],
   "shot_alt": "Schermata dell'elenco sveglie di Waky",
   "shot_caption": "Elenco sveglie — giorni di ripetizione e missioni a colpo d'occhio.",
+  "missions_title": "Con quali missioni si spegne la sveglia?",
+  "missions_lede": "Qualunque missione tu scelga, la sveglia suona finché non la completi. Ecco quelle disponibili su ogni piattaforma.",
+  "mission_col": "Missione",
+  "mission_yes": "Disponibile",
+  "mission_no": "Non disponibile",
+  "missions": [
+    "Scansione oggetti",
+    "Problemi di matematica",
+    "Trova la tessera di colore diverso",
+    "Flessioni",
+    "Sequenza"
+  ],
   "howto_title": "Tre passaggi per impostarla",
   "howto_lede": "Dalla prima apertura alla sveglia pronta passa circa un minuto.",
   "steps": [
@@ -53,7 +65,7 @@
     {
       "title": "Scegli una missione e un suono",
       "text": "Decidi quale missione risolvere per spegnere la sveglia e scegli un suono integrato o uno registrato da te.",
-      "alt": "Illustrazione di una persona seduta sul letto che ascolta le voci della sveglia sul telefono"
+      "alt": "Illustrazione di una persona seduta sul letto che ascolta le suonerie della sveglia sul telefono"
     },
     {
       "title": "Completa la missione e alzati",
@@ -104,5 +116,6 @@
   "cta_title": "Domattina, alzati davvero",
   "cta_text": "Waky è gratis su iOS e Android.",
   "about_link": "Informazioni su Zaco Labs",
+  "updated": "Ultimo aggiornamento",
   "rights": "Tutti i diritti riservati."
 }

@@ -17,7 +17,7 @@
   "app_description": "Un réveil qu'on arrête en réussissant une mission, des sons enregistrés par vous et des habitudes matinales.",
   "eyebrow": "Zaco Labs",
   "h1": "Fini d'éteindre le réveil pour se rendormir",
-  "lede": "Waky est un réveil qui ne s'arrête qu'une fois une mission réussie. Il vous réveille avec un son que vous avez enregistré vous-même, puis vous aide à démarrer la journée en cochant vos habitudes matinales.",
+  "lede": "Waky est un réveil gratuit pour iPhone et Android, conçu par Zaco Labs, qui ne s'arrête qu'une fois une mission réussie. Il vous réveille avec un son que vous avez enregistré vous-même, puis vous aide à démarrer la journée en cochant vos habitudes matinales.",
   "note": "iOS · Android · Téléchargement gratuit",
   "hero_alt": "Illustration d’une personne réveillée en sursaut par un réveil qui sonne, assise dans son lit",
   "features_title": "Ce qui rend Waky différent",
@@ -42,6 +42,18 @@
   ],
   "shot_alt": "Écran de la liste des alarmes de Waky",
   "shot_caption": "Liste des alarmes — jours de répétition et missions d'un coup d'œil.",
+  "missions_title": "Quelles missions permettent d'arrêter l'alarme ?",
+  "missions_lede": "Quelle que soit la mission choisie, l'alarme sonne tant qu'elle n'est pas terminée. Voici celles proposées sur chaque plateforme.",
+  "mission_col": "Mission",
+  "mission_yes": "Disponible",
+  "mission_no": "Non disponible",
+  "missions": [
+    "Scan d'objet",
+    "Calculs",
+    "Trouver la tuile d'une autre couleur",
+    "Pompes",
+    "Schéma"
+  ],
   "howto_title": "Trois étapes pour le configurer",
   "howto_lede": "De la première ouverture à un réveil prêt, comptez environ une minute.",
   "steps": [
@@ -53,7 +65,7 @@
     {
       "title": "Choisissez une mission et un son",
       "text": "Choisissez la mission à réussir pour arrêter l'alarme, puis un son intégré ou un son que vous avez enregistré.",
-      "alt": "Illustration d’une personne assise sur le lit qui écoute des voix de réveil sur son téléphone"
+      "alt": "Illustration d’une personne assise sur le lit qui écoute des sons de réveil sur son téléphone"
     },
     {
       "title": "Réussissez la mission et levez-vous",
@@ -104,5 +116,6 @@
   "cta_title": "Demain matin, levez-vous pour de bon",
   "cta_text": "Waky est gratuit sur iOS et Android.",
   "about_link": "À propos de Zaco Labs",
+  "updated": "Dernière mise à jour",
   "rights": "Tous droits réservés."
 }

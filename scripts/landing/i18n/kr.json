@@ -17,7 +17,7 @@
   "app_description": "미션을 풀어야 꺼지는 알람, 직접 녹음한 알람음, 아침 습관까지.",
   "eyebrow": "Zaco Labs",
   "h1": "끄고 다시 자는 아침은 이제 그만",
-  "lede": "Waky는 미션을 풀어야 꺼지는 알람 앱입니다. 내 목소리로 녹음한 알람음으로 깨우고, 일어난 뒤에는 아침 습관을 하나씩 해내며 하루를 시작하게 합니다.",
+  "lede": "Waky는 Zaco Labs가 만든 iPhone·Android용 무료 알람 앱으로, 미션을 풀어야 알람이 꺼집니다. 내 목소리로 녹음한 알람음으로 깨우고, 일어난 뒤에는 아침 습관을 하나씩 해내며 하루를 시작하게 합니다.",
   "note": "iOS · Android · 무료로 받기",
   "hero_alt": "시끄러운 알람 소리에 놀라 침대에서 일어나 앉은 사람 그림",
   "features_title": "Waky가 여느 알람과 다른 점",
@@ -42,6 +42,18 @@
   ],
   "shot_alt": "Waky 앱의 알람 목록 화면",
   "shot_caption": "알람 목록 — 반복 요일과 미션을 한눈에 봅니다.",
+  "missions_title": "어떤 미션으로 알람을 끌 수 있나요?",
+  "missions_lede": "어떤 미션이든 끝내야 알람이 멈춥니다. 기기마다 고를 수 있는 미션은 아래와 같습니다.",
+  "mission_col": "미션",
+  "mission_yes": "지원",
+  "mission_no": "지원 안 함",
+  "missions": [
+    "사물 스캔",
+    "수학 문제",
+    "색깔이 다른 타일 찾기",
+    "팔굽혀펴기",
+    "패턴 따라 그리기"
+  ],
   "howto_title": "쓰는 법은 세 단계",
   "howto_lede": "처음 켜고 알람을 맞추기까지 1분이면 충분합니다.",
   "steps": [
@@ -104,5 +116,6 @@
   "cta_title": "내일 아침은 확실하게 일어나 보세요",
   "cta_text": "Waky는 iOS와 Android에서 무료로 받을 수 있습니다.",
   "about_link": "Zaco Labs 소개",
+  "updated": "최근 업데이트",
   "rights": "All rights reserved."
 }

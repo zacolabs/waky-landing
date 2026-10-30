@@ -98,6 +98,22 @@
     .shot figcaption { position:relative; z-index:1; margin-top:62px; text-align:center;
         font-size:13px; color:var(--muted-2); }
 
+    /* 미션 표 */
+    .table-wrap { margin-top:34px; overflow-x:auto; }
+    table.missions { width:100%; max-width:640px; border-collapse:separate; border-spacing:0;
+        background:var(--surface); border:1px solid var(--line); border-radius:var(--radius);
+        overflow:hidden; font-size:15px; }
+    .missions th, .missions td { padding:14px 18px; border-bottom:1px solid var(--line); text-align:start; }
+    .missions tbody tr:last-child th, .missions tbody tr:last-child td { border-bottom:none; }
+    .missions thead th { background:var(--surface-2); font-size:13px; font-weight:600; color:var(--muted); }
+    .missions thead th + th, .missions td { width:96px; text-align:center; }
+    .missions tbody th { font-weight:600; }
+    .missions td.yes { color:var(--amber-deep); font-weight:800; }
+    .missions td.no { color:var(--muted-2); }
+    /* 눈에는 ✓ · — 만 보이고, 화면 낭독기는 '지원 · 지원 안 함' 을 읽는다 */
+    .sr { position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0);
+        white-space:nowrap; }
+
     /* 사용법 */
     .steps { list-style:none; counter-reset:step; display:grid;
         grid-template-columns:repeat(3,1fr); gap:26px; margin-top:44px; }

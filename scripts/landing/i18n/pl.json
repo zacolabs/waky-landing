@@ -17,7 +17,7 @@
   "app_description": "Budzik, który milknie dopiero po misji, dźwięki nagrane przez Ciebie i poranne nawyki.",
   "eyebrow": "Zaco Labs",
   "h1": "Koniec z wyłączaniem budzika i spaniem dalej",
-  "lede": "Waky to budzik, który milknie dopiero po wykonaniu misji. Budzi Cię dźwiękiem nagranym przez Ciebie, a potem pomaga zacząć dzień od porannych nawyków.",
+  "lede": "Waky to darmowy budzik na iPhone'a i Androida od Zaco Labs, który milknie dopiero po wykonaniu misji. Budzi Cię dźwiękiem nagranym przez Ciebie, a potem pomaga zacząć dzień od porannych nawyków.",
   "note": "iOS · Android · Pobierz za darmo",
   "hero_alt": "Ilustracja osoby wyrwanej ze snu przez dzwoniący budzik, siadającej na łóżku",
   "features_title": "Czym Waky różni się od innych budzików",
@@ -42,6 +42,18 @@
   ],
   "shot_alt": "Ekran listy alarmów w aplikacji Waky",
   "shot_caption": "Lista alarmów — dni powtórzeń i misje na pierwszy rzut oka.",
+  "missions_title": "Jakimi misjami można wyłączyć budzik?",
+  "missions_lede": "Niezależnie od wybranej misji alarm dzwoni, dopóki jej nie ukończysz. Oto misje dostępne na każdej platformie.",
+  "mission_col": "Misja",
+  "mission_yes": "Dostępna",
+  "mission_no": "Niedostępna",
+  "missions": [
+    "Skanowanie obiektu",
+    "Zadania matematyczne",
+    "Znajdź kafelek w innym kolorze",
+    "Pompki",
+    "Wzór"
+  ],
   "howto_title": "Trzy kroki do ustawienia",
   "howto_lede": "Od pierwszego uruchomienia do gotowego budzika mija mniej więcej minuta.",
   "steps": [
@@ -53,7 +65,7 @@
     {
       "title": "Wybierz misję i dźwięk",
       "text": "Wybierz misję, którą rozwiążesz, żeby wyłączyć alarm, oraz wbudowany dźwięk lub nagrany przez siebie.",
-      "alt": "Ilustracja osoby siedzącej na łóżku i słuchającej głosów budzika w telefonie"
+      "alt": "Ilustracja osoby siedzącej na łóżku i słuchającej dźwięków budzika w telefonie"
     },
     {
       "title": "Wykonaj misję i wstań",
@@ -104,5 +116,6 @@
   "cta_title": "Jutro rano naprawdę wstań",
   "cta_text": "Waky jest darmowa na iOS i Androida.",
   "about_link": "O Zaco Labs",
+  "updated": "Ostatnia aktualizacja",
   "rights": "Wszelkie prawa zastrzeżone."
 }

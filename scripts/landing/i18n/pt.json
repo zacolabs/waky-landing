@@ -17,7 +17,7 @@
   "app_description": "Um alarme que só para com uma missão, sons gravados por você e hábitos matinais.",
   "eyebrow": "Zaco Labs",
   "h1": "Chega de desligar o alarme e voltar a dormir",
-  "lede": "O Waky é um alarme que só para quando você cumpre uma missão. Ele acorda você com um som que você mesmo gravou e depois ajuda a começar o dia completando seus hábitos matinais.",
+  "lede": "O Waky é um alarme gratuito para iPhone e Android da Zaco Labs que só para quando você cumpre uma missão. Ele acorda você com um som que você mesmo gravou e depois ajuda a começar o dia completando seus hábitos matinais.",
   "note": "iOS · Android · Download grátis",
   "hero_alt": "Ilustração de uma pessoa acordando assustada com um despertador tocando e sentando na cama",
   "features_title": "O que faz o Waky ser diferente",
@@ -42,6 +42,18 @@
   ],
   "shot_alt": "Tela da lista de alarmes do Waky",
   "shot_caption": "Lista de alarmes — dias de repetição e missões num relance.",
+  "missions_title": "Quais missões desligam o alarme?",
+  "missions_lede": "Seja qual for a missão, o alarme continua tocando até ela ser concluída. Veja as que você pode escolher em cada plataforma.",
+  "mission_col": "Missão",
+  "mission_yes": "Disponível",
+  "mission_no": "Indisponível",
+  "missions": [
+    "Leitor de objetos",
+    "Contas de matemática",
+    "Achar o bloco de outra cor",
+    "Flexões",
+    "Padrão"
+  ],
   "howto_title": "Três passos para configurar",
   "howto_lede": "Da primeira abertura até o alarme pronto leva mais ou menos um minuto.",
   "steps": [
@@ -53,7 +65,7 @@
     {
       "title": "Escolha uma missão e um som",
       "text": "Defina a missão que você vai resolver para desligar o alarme e escolha um som embutido ou um gravado por você.",
-      "alt": "Ilustração de uma pessoa sentada na cama ouvindo vozes de despertador no celular"
+      "alt": "Ilustração de uma pessoa sentada na cama ouvindo sons de despertador no celular"
     },
     {
       "title": "Cumpra a missão e levante",
@@ -104,5 +116,6 @@
   "cta_title": "Amanhã de manhã, levante de verdade",
   "cta_text": "O Waky é grátis para iOS e Android.",
   "about_link": "Sobre a Zaco Labs",
+  "updated": "Última atualização",
   "rights": "Todos os direitos reservados."
 }

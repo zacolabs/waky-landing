@@ -17,7 +17,7 @@
   "app_description": "An alarm you stop by clearing a mission, sounds you record yourself, and morning habits.",
   "eyebrow": "Zaco Labs",
   "h1": "No more switching it off and going back to sleep",
-  "lede": "Waky is an alarm you can only stop by clearing a mission. It wakes you with a sound you recorded yourself, then helps you start the day by working through your morning habits.",
+  "lede": "Waky is a free alarm app for iPhone and Android from Zaco Labs, and it only stops once you clear a mission. It wakes you with a sound you recorded yourself, then helps you start the day by working through your morning habits.",
   "note": "iOS · Android · Free to download",
   "hero_alt": "Illustration of a person startled awake by a beeping alarm clock, sitting up in bed",
   "features_title": "What makes Waky different",
@@ -42,6 +42,18 @@
   ],
   "shot_alt": "Waky alarm list screen",
   "shot_caption": "Alarm list — repeat days and missions at a glance.",
+  "missions_title": "Which missions can stop the alarm?",
+  "missions_lede": "Whichever mission you pick, the alarm keeps ringing until it's done. Here's what you can choose on each platform.",
+  "mission_col": "Mission",
+  "mission_yes": "Available",
+  "mission_no": "Not available",
+  "missions": [
+    "Object Scan",
+    "Math problems",
+    "Find the odd color tile",
+    "Push-Ups",
+    "Pattern"
+  ],
   "howto_title": "Three steps to set it up",
   "howto_lede": "From first launch to a working alarm takes about a minute.",
   "steps": [
@@ -53,7 +65,7 @@
     {
       "title": "Pick a mission and a sound",
       "text": "Choose the mission you'll solve to stop the alarm, then a built-in sound or one you recorded yourself.",
-      "alt": "Illustration of a person sitting on the bed previewing alarm voices on their phone"
+      "alt": "Illustration of a person sitting on the bed previewing alarm sounds on their phone"
     },
     {
       "title": "Clear the mission and get up",
@@ -104,5 +116,6 @@
   "cta_title": "Actually get up tomorrow morning",
   "cta_text": "Waky is free on iOS and Android.",
   "about_link": "About Zaco Labs",
+  "updated": "Last updated",
   "rights": "All rights reserved."
 }

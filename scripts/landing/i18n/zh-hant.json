@@ -17,7 +17,7 @@
   "app_description": "完成任務才能關掉的鬧鐘、親自錄製的鈴聲，以及晨間習慣。",
   "eyebrow": "Zaco Labs",
   "h1": "關掉鬧鐘又睡回去的早晨，到此為止",
-  "lede": "Waky 是一款必須完成任務才能關掉的鬧鐘 App。它用你親自錄製的聲音叫醒你，起床後再陪你一項項完成晨間習慣，開啟新的一天。",
+  "lede": "Waky 是 Zaco Labs 推出的免費 iPhone 與 Android 鬧鐘 App，必須完成任務才能關掉。它用你親自錄製的聲音叫醒你，起床後再陪你一項項完成晨間習慣，開啟新的一天。",
   "note": "iOS · Android · 免費下載",
   "hero_alt": "插圖：被刺耳的鬧鐘吵醒、從床上坐起來的人",
   "features_title": "Waky 和一般鬧鐘有什麼不同",
@@ -42,6 +42,18 @@
   ],
   "shot_alt": "Waky App 的鬧鐘列表畫面",
   "shot_caption": "鬧鐘列表 — 重複日期與任務一目了然。",
+  "missions_title": "可以用哪些任務關掉鬧鐘？",
+  "missions_lede": "無論選哪個任務，都要完成後鬧鐘才會停。各平台可選的任務如下。",
+  "mission_col": "任務",
+  "mission_yes": "支援",
+  "mission_no": "不支援",
+  "missions": [
+    "物件掃描",
+    "數學題",
+    "找出顏色不同的方塊",
+    "伏地挺身",
+    "圖案描繪"
+  ],
   "howto_title": "三個步驟完成設定",
   "howto_lede": "從第一次打開到設好鬧鐘，大約一分鐘。",
   "steps": [
@@ -104,5 +116,6 @@
   "cta_title": "明天早上，真正起床吧",
   "cta_text": "Waky 在 iOS 和 Android 上免費提供。",
   "about_link": "關於 Zaco Labs",
+  "updated": "最後更新",
   "rights": "保留所有權利。"
 }

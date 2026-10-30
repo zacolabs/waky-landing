@@ -1,0 +1,5 @@
+# GitHub Pages(Jekyll) 배포에서 뺄 경로 — 저장소에는 남고 사이트에서는 404 가 된다.
+# 랜딩 생성기 원본과 저장소 안내는 방문자에게 필요 없다.
+exclude:
+  - scripts/
+  - README.md

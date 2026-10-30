@@ -76,6 +76,7 @@ JSON 한 곳만 고치면 둘 다 반영된다.
 
 문구나 페이지 구성을 바꿨으면 `build.py` 의 `UPDATED` 날짜도 고친다. 푸터의 '최근 업데이트',
 `WebPage` JSON-LD 의 `dateModified`, 사이트맵 `lastmod` 가 모두 이 값을 쓴다 (빌드한 날이 아니다).
+`scripts/` 와 이 README 는 `_config.yml` 의 `exclude` 로 배포에서 빠진다 (사이트에서는 404).
 미션을 추가·삭제하면 i18n 의 `missions` 와 `build.py` 의 `MISSIONS`(iOS·Android 지원 여부)를 같은 순서로 맞춘다.
 
 ## 스토어 링크

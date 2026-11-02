@@ -266,7 +266,7 @@ def build(d, langs, css):
 <meta property="og:image:height" content="630" />
 <meta property="og:image:alt" content="{e(d["og_title"])}" />
 <meta name="twitter:card" content="summary_large_image" />
-<link rel="icon" href="../zacolabs-assets/app_icon-60.png" />
+<link rel="icon" type="image/png" sizes="512x512" href="{BASE}/introduce/zacolabs-assets/app_icon-512.png" />
 <link rel="apple-touch-icon" href="../zacolabs-assets/app_icon-180.png" />
 <link rel="canonical" href="{canon}" />
 {alts}
